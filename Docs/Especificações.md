@@ -20,7 +20,7 @@ O padrão da indústria que se destacou de forma claríssima foi:
 Para ilustrar essa análise, abaixo estão algumas referências dos sites analisados:
 
 <p align="center">
-  <img src="./Imagens/Home_Nike_Computador.png" width="45%" alt="Home da Nike em ambiente Desktop" />
+  <img src="./Imagens/Home_Nike_Tablet.png" width="45%" alt="Home da Nike no Tablet" />
   <img src="./Imagens/Home_Adidas_Tablet.png" width="45%" alt="Home da Adidas no Tablet" />
 </p>
 
@@ -39,6 +39,31 @@ Se aplicarmos um fundo escuro (Dark Mode) ou muito chamativo no site, o visual g
 **Decisão Final:**
 *Eu analisei a UI da Nike, Adidas e Mizuno e notei o padrão absoluto de fundos brancos. Como os tênis de alta performance já são muito coloridos por natureza, optei por seguir esse padrão de UX validado pelo mercado. Isso evita a fadiga visual e direciona o foco e a atenção do usuário 100% para o botão de conversão (Comprar).*
 
+### 1.3. Definição da Paleta de Cores (Maratona)
+
+Para a loja Maratona, a paleta com destaque em **laranja** se encaixa perfeitamente na proposta de "Alta Performance". Ela cria o contraste agressivo desejado, mas mantendo a viabilidade comercial que deixará a loja com o aspecto visual de uma gigante do varejo esportivo.
+
+Abaixo, a estruturação base do CSS para o projeto:
+
+*   **Fundo (Background):** `#FFFFFF`
+*   **Texto Principal/Títulos:** `#000000`
+*   **Textos Secundários/Rodapé:** `#1A1A1A`
+*   **Destaque Primário (Botões de Compra):** `#FF7C00`
+*   **Destaque Secundário (Tags/Hover):** `#FE9A28`
+
+<p align="center">
+  <img src="./Imagens/Paleta_De_Cores.png" width="50%" alt="Paleta de Cores Maratona" />
+</p>
+
+### 1.4. Tipografia (Padrão "Velocidade Pura")
+
+A escolha das fontes foi pensada para transmitir movimento, performance e modernidade. As fontes selecionadas no Google Fonts para o projeto são:
+
+*   **Títulos (Headers/Banners):** `Barlow Condensed`.
+    *   *Justificativa:* Ela possui uma pegada levemente industrial e esportiva. Ao utilizar o peso **800 (ExtraBold) em Itálico**, a fonte visualmente "inclina", passando a sensação literal de que está correndo para a frente. É a identidade visual perfeita para uma marca de tênis de alta performance.
+*   **Corpo (Preços, descrições, botões):** `Inter`.
+    *   *Justificativa:* É reconhecida como uma das fontes mais limpas e legíveis da atualidade para interfaces digitais (UI). Utilizada nos pesos **300 (Light) ou 400 (Regular)**, ela cria um contraste perfeito e equilibrado com a agressividade da fonte Barlow, garantindo conforto visual na leitura técnica dos produtos.
+
 ---
 
 ## 2. Diário de Desenvolvimento
@@ -48,4 +73,5 @@ Aqui serão registradas as tarefas executadas ao longo do projeto.
 ### [26/08/2026] - Planejamento de UI/UX
 - [x] Criação do arquivo de Especificações e Diário de Bordo.
 - [x] Realização de análise de mercado e Benchmarking com grandes players.
-- [x] Definição e documentação da paleta de cores e identidade visual do projeto (Fundo Branco vs. Produto Colorido).
+- [x] Definição da paleta de cores.
+- [x] Definição da tipografia.
