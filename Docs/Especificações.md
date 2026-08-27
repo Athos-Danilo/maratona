@@ -76,8 +76,9 @@ As fontes escolhidas (via Google Fonts) focam em transmitir movimento e garantir
 
 Aqui serão registradas as tarefas executadas ao longo do projeto.
 
-### [26/08/2026] - Planejamento de UI/UX
+### [26/08/2026] - Planejamento de UI/UX + Catálogo 
 - [x] Criação do arquivo de Especificações e Diário de Bordo.
 - [x] Realização de análise de mercado e Benchmarking com grandes players.
 - [x] Definição da paleta de cores.
 - [x] Definição da tipografia.
+- [x] Comecei a fazer o catalogo dos produtos (3 Tênis).

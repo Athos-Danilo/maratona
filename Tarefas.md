@@ -1,9 +1,9 @@
 # Plano de Desenvolvimento - Maratona
 
 ## Fase 1: Design e Planejamento Visual
-- [ ] Analisar 2 a 3 sites de marcas esportivas reais para tirar referências de design (espaçamento, disposição de fotos, fontes).
-- [ ] Definir o nome da loja.
-- [ ] Escolher a paleta de cores (ex: fundo escuro com detalhes em verde-néon ou laranja) e as fontes (Google Fonts).
+- [X] Analisar 2 a 3 sites de marcas esportivas reais para tirar referências de design (espaçamento, disposição de fotos, fontes).
+- [X] Definir o nome da loja.
+- [X] Escolher a paleta de cores (ex: fundo escuro com detalhes em verde-néon ou laranja) e as fontes (Google Fonts).
 - [ ] Desenhar o protótipo no Figma das 3 telas principais:
   - Home (Vitrine, barra de busca, filtros).
   - Tela de Produto (PDP - Fotos grandes, seleção de tamanho, botão de comprar).
