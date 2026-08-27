@@ -1,74 +1,139 @@
 {
-      "id": "6",
-      "nome": "Tênis Adizero Adios Pro Evo 1",
-      "marca": "Adidas",
-      "categoria_principal": "Tênis",
-      "genero": "Unissex",
-      "tipo_corrida": "Corrida 21k",
-      "descricoes": {
-        "vitrine": "Para Maratonas",
-        "detalhada": "Surpreendentemente leve. Descaradamente rápido. Os tênis adidas Adizero Adios Pro Evo 1 são uma nova classe de tênis de corrida, projetados para ajudar os maratonistas ambiciosos a deixar tudo no percurso. São 40% mais leves do que quaisquer outros tênis de corrida que já criamos, pesando apenas 138 g de pura inovação. A espuma Lightstrike Pro é combinada à tecnologia de ponta do solado, malha elástica leve como pluma e um rocker da ponta do pé único que foi testado em laboratório para melhorar a economia de corrida. O Adizero Adios Pro Evo 1 é o futuro da corrida e está pronto para competir.",
-        "especificacoes_tecnicas": [
-          "Drop: 20mm",
-          "Peso: 138g (Tamanho 41)",
-          "Entressola: Lightstrike Pro",
-          "Código do artigo: IH5564"
-        ]
-      },
-      "variacoes": [
+  "id": "6",
+  "ativo": true,
+  "created_at": "2026-08-27T09:10:00Z",
+  "updated_at": "2026-08-27T09:25:00Z",
+  "nome": "Tênis Adizero Adios Pro Evo 1",
+  "marca": "Adidas",
+  "categoria_principal": "Tênis",
+  "genero": "Unissex",
+  "tipo_corrida": "Corrida 21k",
+  "descricoes": {
+    "vitrine": "Para Maratonas",
+    "detalhada": "Surpreendentemente leve. Descaradamente rápido. Os tênis adidas Adizero Adios Pro Evo 1 são uma nova classe de tênis de corrida, projetados para ajudar os maratonistas ambiciosos a deixar tudo no percurso. São 40% mais leves do que quaisquer outros tênis de corrida que já criamos, pesando apenas 138 g de pura inovação. A espuma Lightstrike Pro é combinada à tecnologia de ponta do solado, malha elástica leve como pluma e um rocker da ponta do pé único que foi testado em laboratório para melhorar a economia de corrida. O Adizero Adios Pro Evo 1 é o futuro da corrida e está pronto para competir.",
+    "especificacoes_tecnicas": [
+      "Drop: 20mm",
+      "Peso: 138g (Tamanho 41)",
+      "Entressola: Lightstrike Pro",
+      "Código do artigo: IH5564"
+    ]
+  },
+  "variacoes": [
+    {
+      "sku_base": "AAPE1-BRANCO",
+      "created_at": "2026-08-27T09:10:00Z",
+      "updated_at": "2026-08-27T09:25:00Z",
+      "cor_nome": "White / White / White",
+      "cores": [
         {
-          "sku_base": "AAPE1-BRANCO",
-          "cor_nome": "White / White / White",
-          "cores": [
-            {"nome": "White", "hex": "#FFFFFF"}
-          ],
-          "preco": {
-            "original": 3999.99,
-            "promocional": 3999.99
-          },
-          "thumbnail_cor": "/Produtos/06/Tenis_Adizero_Adios_Pro_Evo_1_Multicores_IH5564_01_standard.avif",
-          "imagens": {
-            "principal_vitrine": "/Produtos/06/Tenis_Adizero_Adios_Pro_Evo_1_Multicores_IH5564_01_standard.avif",
-            "galeria": [
-              "/Produtos/06/Tenis_Adizero_Adios_Pro_Evo_1_Multicores_IH5564_01_standard.avif",
-              "/Produtos/06/Tenis_Adizero_Adios_Pro_Evo_1_Multicores_IH5564_02_standard.avif",
-              "/Produtos/06/Tenis_Adizero_Adios_Pro_Evo_1_Multicores_IH5564_03_standard.avif",
-              "/Produtos/06/Tenis_Adizero_Adios_Pro_Evo_1_Multicores_IH5564_04_standard.avif",
-              "/Produtos/06/Tenis_Adizero_Adios_Pro_Evo_1_Multicores_IH5564_05_standard.avif",
-              "/Produtos/06/Tenis_Adizero_Adios_Pro_Evo_1_Multicores_IH5564_06_standard.avif",
-              "/Produtos/06/Tenis_Adizero_Adios_Pro_Evo_1_Multicores_IH5564_09_standard.avif",
-              "/Produtos/06/Tenis_Adizero_Adios_Pro_Evo_1_Multicores_IH5564_14_hover_standard.avif",
-              "/Produtos/06/Tenis_Adizero_Adios_Pro_Evo_1_Multicores_IH5564_41_detail.avif",
-              "/Produtos/06/Tenis_Adizero_Adios_Pro_Evo_1_Multicores_IH5564_42_detail.avif",
-              "/Produtos/06/Tenis_Adizero_Adios_Pro_Evo_1_Multicores_IH5564_HM2.avif",
-              "/Produtos/06/Tenis_Adizero_Adios_Pro_Evo_1_Multicores_IH5564_HM3.avif",
-              "/Produtos/06/Tenis_Adizero_Adios_Pro_Evo_1_Multicores_IH5564_HM4.avif",
-              "/Produtos/06/Tenis_Adizero_Adios_Pro_Evo_1_Multicores_IH5564_HM5.avif",
-              "/Produtos/06/Tenis_Adizero_Adios_Pro_Evo_1_Multicores_IH5564_HM51.avif"
-            ]
-          },
-          "grade_tamanhos": [
-            { "tamanho": 33.5, "estoque": 50 },
-            { "tamanho": 34, "estoque": 50 },
-            { "tamanho": 35, "estoque": 50 },
-            { "tamanho": 35.5, "estoque": 50 },
-            { "tamanho": 36, "estoque": 50 },
-            { "tamanho": 37, "estoque": 50 },
-            { "tamanho": 38, "estoque": 50 },
-            { "tamanho": 39, "estoque": 50 },
-            { "tamanho": 39.5, "estoque": 50 },
-            { "tamanho": 40, "estoque": 50 },
-            { "tamanho": 40.5, "estoque": 50 },
-            { "tamanho": 41, "estoque": 50 },
-            { "tamanho": 42, "estoque": 50 },
-            { "tamanho": 42.5, "estoque": 50 },
-            { "tamanho": 43, "estoque": 50 },
-            { "tamanho": 44, "estoque": 50 },
-            { "tamanho": 45, "estoque": 50 },
-            { "tamanho": 46, "estoque": 50 },
-            { "tamanho": 47, "estoque": 50 }
-          ]
+          "nome": "White",
+          "hex": "#FFFFFF"
         }
       ],
-      "destaque_home": true
+      "preco": {
+        "original": 3999.99,
+        "promocional": 3999.99
+      },
+      "thumbnail_cor": "/Produtos/06/Tenis_Adizero_Adios_Pro_Evo_1_Multicores_IH5564_01_standard.avif",
+      "imagens": {
+        "principal_vitrine": "/Produtos/06/Tenis_Adizero_Adios_Pro_Evo_1_Multicores_IH5564_01_standard.avif",
+        "galeria": [
+          "/Produtos/06/Tenis_Adizero_Adios_Pro_Evo_1_Multicores_IH5564_01_standard.avif",
+          "/Produtos/06/Tenis_Adizero_Adios_Pro_Evo_1_Multicores_IH5564_02_standard.avif",
+          "/Produtos/06/Tenis_Adizero_Adios_Pro_Evo_1_Multicores_IH5564_03_standard.avif",
+          "/Produtos/06/Tenis_Adizero_Adios_Pro_Evo_1_Multicores_IH5564_04_standard.avif",
+          "/Produtos/06/Tenis_Adizero_Adios_Pro_Evo_1_Multicores_IH5564_05_standard.avif",
+          "/Produtos/06/Tenis_Adizero_Adios_Pro_Evo_1_Multicores_IH5564_06_standard.avif",
+          "/Produtos/06/Tenis_Adizero_Adios_Pro_Evo_1_Multicores_IH5564_09_standard.avif",
+          "/Produtos/06/Tenis_Adizero_Adios_Pro_Evo_1_Multicores_IH5564_14_hover_standard.avif",
+          "/Produtos/06/Tenis_Adizero_Adios_Pro_Evo_1_Multicores_IH5564_41_detail.avif",
+          "/Produtos/06/Tenis_Adizero_Adios_Pro_Evo_1_Multicores_IH5564_42_detail.avif",
+          "/Produtos/06/Tenis_Adizero_Adios_Pro_Evo_1_Multicores_IH5564_HM2.avif",
+          "/Produtos/06/Tenis_Adizero_Adios_Pro_Evo_1_Multicores_IH5564_HM3.avif",
+          "/Produtos/06/Tenis_Adizero_Adios_Pro_Evo_1_Multicores_IH5564_HM4.avif",
+          "/Produtos/06/Tenis_Adizero_Adios_Pro_Evo_1_Multicores_IH5564_HM5.avif",
+          "/Produtos/06/Tenis_Adizero_Adios_Pro_Evo_1_Multicores_IH5564_HM51.avif"
+        ]
+      },
+      "grade_tamanhos": [
+        {
+          "tamanho": 33.5,
+          "estoque": 50
+        },
+        {
+          "tamanho": 34,
+          "estoque": 50
+        },
+        {
+          "tamanho": 35,
+          "estoque": 50
+        },
+        {
+          "tamanho": 35.5,
+          "estoque": 50
+        },
+        {
+          "tamanho": 36,
+          "estoque": 50
+        },
+        {
+          "tamanho": 37,
+          "estoque": 50
+        },
+        {
+          "tamanho": 38,
+          "estoque": 50
+        },
+        {
+          "tamanho": 39,
+          "estoque": 50
+        },
+        {
+          "tamanho": 39.5,
+          "estoque": 50
+        },
+        {
+          "tamanho": 40,
+          "estoque": 50
+        },
+        {
+          "tamanho": 40.5,
+          "estoque": 50
+        },
+        {
+          "tamanho": 41,
+          "estoque": 50
+        },
+        {
+          "tamanho": 42,
+          "estoque": 50
+        },
+        {
+          "tamanho": 42.5,
+          "estoque": 50
+        },
+        {
+          "tamanho": 43,
+          "estoque": 50
+        },
+        {
+          "tamanho": 44,
+          "estoque": 50
+        },
+        {
+          "tamanho": 45,
+          "estoque": 50
+        },
+        {
+          "tamanho": 46,
+          "estoque": 50
+        },
+        {
+          "tamanho": 47,
+          "estoque": 50
+        }
+      ]
     }
+  ],
+  "destaque_home": true
+}

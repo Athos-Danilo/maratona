@@ -1,9 +1,12 @@
 {
   "id": "2",
+  "ativo": true,
+  "created_at": "2026-08-26T20:15:00Z",
+  "updated_at": "2026-08-26T20:30:00Z",
   "nome": "Tênis Supernova 3 Running",
   "marca": "Adidas",
   "categoria_principal": "Tênis",
-  "genero": "Masculino", 
+  "genero": "Masculino",
   "tipo_corrida": "Corrida 5k",
   "descricoes": {
     "vitrine": "Maximo conforto",
@@ -18,11 +21,22 @@
   "variacoes": [
     {
       "sku_base": "IE4368",
+      "created_at": "2026-08-26T20:15:00Z",
+      "updated_at": "2026-08-26T20:30:00Z",
       "cor_nome": "Wonder Silver / Lucid Cyan / Flash Aqua",
       "cores": [
-        {"nome": "Wonder Silver", "hex": "#B8BCC2"},
-        {"nome": "Lucid Cyan", "hex": "#00C7D9"},
-        {"nome": "Flash Aqua","hex": "#00E0D1"}
+        {
+          "nome": "Wonder Silver",
+          "hex": "#B8BCC2"
+        },
+        {
+          "nome": "Lucid Cyan",
+          "hex": "#00C7D9"
+        },
+        {
+          "nome": "Flash Aqua",
+          "hex": "#00E0D1"
+        }
       ],
       "preco": {
         "original": 899.99,
@@ -43,23 +57,74 @@
         ]
       },
       "grade_tamanhos": [
-        { "tamanho": 37, "estoque": 5 },
-        { "tamanho": 38, "estoque": 2 },
-        { "tamanho": 39, "estoque": 7 },
-        { "tamanho": 40, "estoque": 10 },
-        { "tamanho": 41, "estoque": 16 },
-        { "tamanho": 42, "estoque": 12 },
-        { "tamanho": 43, "estoque": 15 },
-        { "tamanho": 44, "estoque": 0 },
-        { "tamanho": 45, "estoque": 4 },
-        { "tamanho": 45.5, "estoque": 22 },
-        { "tamanho": 46, "estoque": 7 },
-        { "tamanho": 46.5, "estoque": 18 },
-        { "tamanho": 47, "estoque": 10 },
-        { "tamanho": 47.5, "estoque": 2 },
-        { "tamanho": 48, "estoque": 0 },
-        { "tamanho": 49, "estoque": 0 },
-        { "tamanho": 50, "estoque": 0 }
+        {
+          "tamanho": 37,
+          "estoque": 5
+        },
+        {
+          "tamanho": 38,
+          "estoque": 2
+        },
+        {
+          "tamanho": 39,
+          "estoque": 7
+        },
+        {
+          "tamanho": 40,
+          "estoque": 10
+        },
+        {
+          "tamanho": 41,
+          "estoque": 16
+        },
+        {
+          "tamanho": 42,
+          "estoque": 12
+        },
+        {
+          "tamanho": 43,
+          "estoque": 15
+        },
+        {
+          "tamanho": 44,
+          "estoque": 0
+        },
+        {
+          "tamanho": 45,
+          "estoque": 4
+        },
+        {
+          "tamanho": 45.5,
+          "estoque": 22
+        },
+        {
+          "tamanho": 46,
+          "estoque": 7
+        },
+        {
+          "tamanho": 46.5,
+          "estoque": 18
+        },
+        {
+          "tamanho": 47,
+          "estoque": 10
+        },
+        {
+          "tamanho": 47.5,
+          "estoque": 2
+        },
+        {
+          "tamanho": 48,
+          "estoque": 0
+        },
+        {
+          "tamanho": 49,
+          "estoque": 0
+        },
+        {
+          "tamanho": 50,
+          "estoque": 0
+        }
       ]
     }
   ],
