@@ -33,14 +33,24 @@
             "principal_vitrine": "/Produtos/04/Cinza/Tenis_Ultraboost_5_Cinza_ID8839_HM1.avif",
             "galeria": [
               "/Produtos/04/Cinza/Tenis_Ultraboost_5_Cinza_ID8839_HM1.avif",
-              "/Produtos/04/Cinza/Tenis_Ultraboost_5_Cinza_ID8839_HM2.avif",
-              "/Produtos/04/Cinza/Tenis_Ultraboost_5_Cinza_ID8839_HM3.avif",
+              "/Produtos/04/Cinza/Tenis_Ultraboost_5_Cinza_ID8839_HM3_hover.avif",
               "/Produtos/04/Cinza/Tenis_Ultraboost_5_Cinza_ID8839_HM4.avif",
-              "/Produtos/04/Cinza/Tenis_Ultraboost_5_Cinza_ID8839_HM5.avif"
+              "/Produtos/04/Cinza/Tenis_Ultraboost_5_Cinza_ID8839_HM5.avif",
+              "/Produtos/04/Cinza/Tenis_Ultraboost_5_Cinza_ID8839_HM6.avif",
+              "/Produtos/04/Cinza/Tenis_Ultraboost_5_Cinza_ID8839_HM7.avif",
+              "/Produtos/04/Cinza/Tenis_Ultraboost_5_Cinza_ID8839_HM8.avif",
+              "/Produtos/04/Cinza/Tenis_Ultraboost_5_Cinza_ID8839_HM9.avif",
+              "/Produtos/04/Cinza/Tenis_Ultraboost_5_Cinza_ID8839_HM10.avif"
             ]
           },
           "grade_tamanhos": [
-            { "tamanho": 38, "estoque": 2 },
+            { "tamanho": 33.5, "estoque": 2 },
+            { "tamanho": 34, "estoque": 2 },
+            { "tamanho": 35, "estoque": 2 },
+            { "tamanho": 35.5, "estoque": 2 },
+            { "tamanho": 36, "estoque": 8 },
+            { "tamanho": 37, "estoque": 8 },
+            { "tamanho": 38, "estoque": 8 },
             { "tamanho": 39, "estoque": 8 },
             { "tamanho": 39.5, "estoque": 4 },
             { "tamanho": 40, "estoque": 15 },
@@ -48,145 +58,185 @@
             { "tamanho": 41, "estoque": 22 },
             { "tamanho": 42, "estoque": 30 },
             { "tamanho": 42.5, "estoque": 5 },
-            { "tamanho": 43, "estoque": 12 },
-            { "tamanho": 44, "estoque": 0 }
+            { "tamanho": 43, "estoque": 12 }
           ]
         },
         {
           "sku_base": "UB5-PRETO",
-          "cor_nome": "Core Black / Core Black / Cloud White",
+          "cor_nome": "Core Black / Core Black / Core Black",
           "cores": [
-            {"nome": "Core Black", "hex": "#111111"},
-            {"nome": "Cloud White", "hex": "#F5F5F3"}
-          ],
-          "preco": {
-            "original": 1099.99,
-            "promocional": 1099.99
-          },
-          "thumbnail_cor": "/Produtos/04/Preto/Tenis_Ultraboost_5_Preto_ID8840_HM1.avif",
-          "imagens": {
-            "principal_vitrine": "/Produtos/04/Preto/Tenis_Ultraboost_5_Preto_ID8840_HM1.avif",
-            "galeria": [
-              "/Produtos/04/Preto/Tenis_Ultraboost_5_Preto_ID8840_HM1.avif",
-              "/Produtos/04/Preto/Tenis_Ultraboost_5_Preto_ID8840_HM2.avif",
-              "/Produtos/04/Preto/Tenis_Ultraboost_5_Preto_ID8840_HM3.avif"
-            ]
-          },
-          "grade_tamanhos": [
-            { "tamanho": 38, "estoque": 5 },
-            { "tamanho": 39, "estoque": 10 },
-            { "tamanho": 39.5, "estoque": 2 },
-            { "tamanho": 40, "estoque": 25 },
-            { "tamanho": 40.5, "estoque": 7 },
-            { "tamanho": 41, "estoque": 40 },
-            { "tamanho": 42, "estoque": 35 },
-            { "tamanho": 42.5, "estoque": 10 },
-            { "tamanho": 43, "estoque": 20 },
-            { "tamanho": 44, "estoque": 8 }
-          ]
-        },
-        {
-          "sku_base": "UB5-VERDE",
-          "cor_nome": "Mint Green / Solar Yellow / Core Black",
-          "cores": [
-            {"nome": "Mint Green", "hex": "#98FF98"},
-            {"nome": "Solar Yellow", "hex": "#DFFF00"},
             {"nome": "Core Black", "hex": "#111111"}
           ],
           "preco": {
             "original": 1099.99,
-            "promocional": 799.99
+            "promocional": 1099.99
           },
-          "thumbnail_cor": "/Produtos/04/Verde/Tenis_Ultraboost_5_Verde_ID8841_HM1.avif",
+          "thumbnail_cor": "/Produtos/04/Preto/Tenis_Ultraboost_5_Preto_ID8847_HM1.avif",
           "imagens": {
-            "principal_vitrine": "/Produtos/04/Verde/Tenis_Ultraboost_5_Verde_ID8841_HM1.avif",
+            "principal_vitrine": "/Produtos/04/Preto/Tenis_Ultraboost_5_Preto_ID8847_HM1.avif",
             "galeria": [
-              "/Produtos/04/Verde/Tenis_Ultraboost_5_Verde_ID8841_HM1.avif",
-              "/Produtos/04/Verde/Tenis_Ultraboost_5_Verde_ID8841_HM2.avif",
-              "/Produtos/04/Verde/Tenis_Ultraboost_5_Verde_ID8841_HM3.avif"
+              "/Produtos/04/Preto/Tenis_Ultraboost_5_Preto_ID8847_HM1.avif",
+              "/Produtos/04/Preto/Tenis_Ultraboost_5_Preto_ID8847_HM3_hover.avif",
+              "/Produtos/04/Preto/Tenis_Ultraboost_5_Preto_ID8847_HM4.avif",
+              "/Produtos/04/Preto/Tenis_Ultraboost_5_Preto_ID8847_HM5.avif",
+              "/Produtos/04/Preto/Tenis_Ultraboost_5_Preto_ID8847_HM6.avif",
+              "/Produtos/04/Preto/Tenis_Ultraboost_5_Preto_ID8847_HM7.avif",
+              "/Produtos/04/Preto/Tenis_Ultraboost_5_Preto_ID8847_HM8.avif",
+              "/Produtos/04/Preto/Tenis_Ultraboost_5_Preto_ID8847_HM9.avif",
+              "/Produtos/04/Preto/Tenis_Ultraboost_5_Preto_ID8847_HM10.avif"
             ]
           },
           "grade_tamanhos": [
+            { "tamanho": 33.5, "estoque": 0 },
+            { "tamanho": 34, "estoque": 8 },
+            { "tamanho": 35, "estoque": 10 },
+            { "tamanho": 35.5, "estoque": 0 },
+            { "tamanho": 36, "estoque": 8 },
+            { "tamanho": 37, "estoque": 2 },
+            { "tamanho": 38, "estoque": 8 },
+            { "tamanho": 39, "estoque": 8 },
+            { "tamanho": 39.5, "estoque": 4 },
+            { "tamanho": 40, "estoque": 0 },
+            { "tamanho": 40.5, "estoque": 0 },
+            { "tamanho": 41, "estoque": 22 },
+            { "tamanho": 42, "estoque": 30 },
+            { "tamanho": 42.5, "estoque": 4 },
+            { "tamanho": 43, "estoque": 12 }
+          ]
+        },
+        {
+          "sku_base": "UB5-AMARELO",
+          "cor_nome": "Spark / Zero Metallic / Spark",
+          "cores": [
+            {"nome": "Spark", "hex": "#FF6A00"},
+            {"nome": "Zero Metallic", "hex": "#D4D6D8"}
+          ],
+          "preco": {
+            "original": 999.99,
+            "promocional": 999.99
+          },
+          "thumbnail_cor": "/Produtos/04/Amarelo/Tenis_Ultraboost_5_Laranja_ID8841_HM1.avif",
+          "imagens": {
+            "principal_vitrine": "/Produtos/04/Amarelo/Tenis_Ultraboost_5_Laranja_ID8841_HM1.avif",
+            "galeria": [
+              "/Produtos/04/Amarelo/Tenis_Ultraboost_5_Laranja_ID8841_HM1.avif",
+              "/Produtos/04/Amarelo/Tenis_Ultraboost_5_Laranja_ID8841_HM3_hover.avif",
+              "/Produtos/04/Amarelo/Tenis_Ultraboost_5_Laranja_ID8841_HM4.avif",
+              "/Produtos/04/Amarelo/Tenis_Ultraboost_5_Laranja_ID8841_HM5.avif",
+              "/Produtos/04/Amarelo/Tenis_Ultraboost_5_Laranja_ID8841_HM6.avif",
+              "/Produtos/04/Amarelo/Tenis_Ultraboost_5_Laranja_ID8841_HM7.avif",
+              "/Produtos/04/Amarelo/Tenis_Ultraboost_5_Laranja_ID8841_HM8.avif",
+              "/Produtos/04/Amarelo/Tenis_Ultraboost_5_Laranja_ID8841_HM9.avif",
+              "/Produtos/04/Amarelo/Tenis_Ultraboost_5_Laranja_ID8841_HM10.avif"
+
+            ]
+          },
+          "grade_tamanhos": [
+            { "tamanho": 33.5, "estoque": 14 },
+            { "tamanho": 34, "estoque": 16 },
+            { "tamanho": 35, "estoque": 9 },
+            { "tamanho": 35.5, "estoque": 8 },
+            { "tamanho": 36, "estoque": 7 },
+            { "tamanho": 37, "estoque": 5 },
+            { "tamanho": 38, "estoque": 2 },
+            { "tamanho": 39, "estoque": 3 },
+            { "tamanho": 39.5, "estoque": 4 },
+            { "tamanho": 40, "estoque": 15 },
+            { "tamanho": 40.5, "estoque": 13 },
+            { "tamanho": 41, "estoque": 22 },
+            { "tamanho": 42, "estoque": 30 },
+            { "tamanho": 42.5, "estoque": 10 },
+            { "tamanho": 43, "estoque": 12 }
+          ]
+        },
+        {
+          "sku_base": "UB5-ROSA",
+          "cor_nome": "Lucid Pink / Lucid Lemon / Pulse Magenta",
+          "cores": [
+            {"nome": "Lucid Pink", "hex": "#F4A6C1"},
+            {"nome": "Lucid Lemon", "hex": "#E6FF00"},
+            {"nome": "Pulse Magenta", "hex": "#D4148E"}
+          ],
+          "preco": {
+            "original": 999.99,
+            "promocional": 999.99
+          },
+          "thumbnail_cor": "/Produtos/04/Rosa/Tenis_Ultraboost_5_Rosa_ID8844_HM1.avif",
+          "imagens": {
+            "principal_vitrine": "/Produtos/04/Rosa/Tenis_Ultraboost_5_Rosa_ID8844_HM1.avif",
+            "galeria": [
+              "/Produtos/04/Rosa/Tenis_Ultraboost_5_Rosa_ID8844_HM1.avif",
+              "/Produtos/04/Rosa/Tenis_Ultraboost_5_Rosa_ID8844_HM3_hover.avif",
+              "/Produtos/04/Rosa/Tenis_Ultraboost_5_Rosa_ID8844_HM4.avif",
+              "/Produtos/04/Rosa/Tenis_Ultraboost_5_Rosa_ID8844_HM5.avif",
+              "/Produtos/04/Rosa/Tenis_Ultraboost_5_Rosa_ID8844_HM6.avif",
+              "/Produtos/04/Rosa/Tenis_Ultraboost_5_Rosa_ID8844_HM7.avif",
+              "/Produtos/04/Rosa/Tenis_Ultraboost_5_Rosa_ID8844_HM8.avif",
+              "/Produtos/04/Rosa/Tenis_Ultraboost_5_Rosa_ID8844_HM9.avif",
+              "/Produtos/04/Rosa/Tenis_Ultraboost_5_Rosa_ID8844_HM10.avif"
+            ]
+          },
+          "grade_tamanhos": [
+            { "tamanho": 33.5, "estoque": 0 },
+            { "tamanho": 34, "estoque": 0 },
+            { "tamanho": 35, "estoque": 0 },
+            { "tamanho": 35.5, "estoque": 0 },
+            { "tamanho": 36, "estoque": 13 },
+            { "tamanho": 37, "estoque": 1 },
             { "tamanho": 38, "estoque": 0 },
             { "tamanho": 39, "estoque": 0 },
             { "tamanho": 39.5, "estoque": 0 },
-            { "tamanho": 40, "estoque": 4 },
+            { "tamanho": 40, "estoque": 0 },
             { "tamanho": 40.5, "estoque": 0 },
-            { "tamanho": 41, "estoque": 12 },
-            { "tamanho": 42, "estoque": 8 },
+            { "tamanho": 41, "estoque": 0 },
+            { "tamanho": 42, "estoque": 0 },
             { "tamanho": 42.5, "estoque": 0 },
-            { "tamanho": 43, "estoque": 3 },
-            { "tamanho": 44, "estoque": 0 }
+            { "tamanho": 43, "estoque": 0 }
           ]
         },
         {
-          "sku_base": "UB5-AZUL",
-          "cor_nome": "Lucid Blue / Cloud White / Solar Red",
+          "sku_base": "UB5-ROSA-CLARO",
+          "cor_nome": "Sandy Pink / Sandy Pink Met. / Zero Metallic",
           "cores": [
-            {"nome": "Lucid Blue", "hex": "#4AA3DF"},
-            {"nome": "Cloud White", "hex": "#F5F5F3"},
-            {"nome": "Solar Red", "hex": "#FF4500"}
-          ],
-          "preco": {
-            "original": 1099.99,
-            "promocional": 899.99
-          },
-          "thumbnail_cor": "/Produtos/04/Azul/Tenis_Ultraboost_5_Azul_ID8842_HM1.avif",
-          "imagens": {
-            "principal_vitrine": "/Produtos/04/Azul/Tenis_Ultraboost_5_Azul_ID8842_HM1.avif",
-            "galeria": [
-              "/Produtos/04/Azul/Tenis_Ultraboost_5_Azul_ID8842_HM1.avif",
-              "/Produtos/04/Azul/Tenis_Ultraboost_5_Azul_ID8842_HM2.avif",
-              "/Produtos/04/Azul/Tenis_Ultraboost_5_Azul_ID8842_HM3.avif",
-              "/Produtos/04/Azul/Tenis_Ultraboost_5_Azul_ID8842_HM4.avif"
-            ]
-          },
-          "grade_tamanhos": [
-            { "tamanho": 38, "estoque": 2 },
-            { "tamanho": 39, "estoque": 5 },
-            { "tamanho": 39.5, "estoque": 0 },
-            { "tamanho": 40, "estoque": 18 },
-            { "tamanho": 40.5, "estoque": 2 },
-            { "tamanho": 41, "estoque": 25 },
-            { "tamanho": 42, "estoque": 14 },
-            { "tamanho": 42.5, "estoque": 0 },
-            { "tamanho": 43, "estoque": 7 },
-            { "tamanho": 44, "estoque": 1 }
-          ]
-        },
-        {
-          "sku_base": "UB5-BRANCO",
-          "cor_nome": "Cloud White / Core Black / Silver Metallic",
-          "cores": [
-            {"nome": "Cloud White", "hex": "#F5F5F3"},
-            {"nome": "Core Black", "hex": "#111111"},
-            {"nome": "Silver Metallic", "hex": "#C0C0C0"}
+            {"nome": "Sandy Pink", "hex": "#D8A0A8"},
+            {"nome": "Sandy Pink Met.", "hex": "#C88F98"},
+            {"nome": "Zero Metallic", "hex": "#D4D6D8"}
           ],
           "preco": {
             "original": 1099.99,
             "promocional": 1099.99
           },
-          "thumbnail_cor": "/Produtos/04/Branco/Tenis_Ultraboost_5_Branco_ID8843_HM1.avif",
+          "thumbnail_cor": "/Produtos/04/Rosa_claro/Tenis_Ultraboost_5_Rosa_ID8845_HM1.avif",
           "imagens": {
-            "principal_vitrine": "/Produtos/04/Branco/Tenis_Ultraboost_5_Branco_ID8843_HM1.avif",
+            "principal_vitrine": "/Produtos/04/Rosa_claro/Tenis_Ultraboost_5_Rosa_ID8845_HM1.avif",
             "galeria": [
-              "/Produtos/04/Branco/Tenis_Ultraboost_5_Branco_ID8843_HM1.avif",
-              "/Produtos/04/Branco/Tenis_Ultraboost_5_Branco_ID8843_HM2.avif",
-              "/Produtos/04/Branco/Tenis_Ultraboost_5_Branco_ID8843_HM3.avif",
-              "/Produtos/04/Branco/Tenis_Ultraboost_5_Branco_ID8843_HM4.avif"
+              "/Produtos/04/Rosa_claro/Tenis_Ultraboost_5_Rosa_ID8845_HM1.avif",
+              "/Produtos/04/Rosa_claro/Tenis_Ultraboost_5_Rosa_ID8845_HM3_hover.avif",
+              "/Produtos/04/Rosa_claro/Tenis_Ultraboost_5_Rosa_ID8845_HM4.avif",
+              "/Produtos/04/Rosa_claro/Tenis_Ultraboost_5_Rosa_ID8845_HM5.avif",
+              "/Produtos/04/Rosa_claro/Tenis_Ultraboost_5_Rosa_ID8845_HM6.avif",
+              "/Produtos/04/Rosa_claro/Tenis_Ultraboost_5_Rosa_ID8845_HM7.avif",
+              "/Produtos/04/Rosa_claro/Tenis_Ultraboost_5_Rosa_ID8845_HM8.avif",
+              "/Produtos/04/Rosa_claro/Tenis_Ultraboost_5_Rosa_ID8845_HM9.avif",
+              "/Produtos/04/Rosa_claro/Tenis_Ultraboost_5_Rosa_ID8845_HM10.avif"
             ]
           },
           "grade_tamanhos": [
-            { "tamanho": 38, "estoque": 1 },
-            { "tamanho": 39, "estoque": 0 },
-            { "tamanho": 39.5, "estoque": 0 },
-            { "tamanho": 40, "estoque": 10 },
-            { "tamanho": 40.5, "estoque": 0 },
-            { "tamanho": 41, "estoque": 15 },
-            { "tamanho": 42, "estoque": 20 },
-            { "tamanho": 42.5, "estoque": 4 },
-            { "tamanho": 43, "estoque": 8 },
-            { "tamanho": 44, "estoque": 2 }
+            { "tamanho": 33.5, "estoque": 14 },
+            { "tamanho": 34, "estoque": 16 },
+            { "tamanho": 35, "estoque": 9 },
+            { "tamanho": 35.5, "estoque": 33 },
+            { "tamanho": 36, "estoque": 77 },
+            { "tamanho": 37, "estoque": 55 },
+            { "tamanho": 38, "estoque": 21 },
+            { "tamanho": 39, "estoque": 32 },
+            { "tamanho": 39.5, "estoque": 4 },
+            { "tamanho": 40, "estoque": 15 },
+            { "tamanho": 40.5, "estoque": 18 },
+            { "tamanho": 41, "estoque": 22 },
+            { "tamanho": 42, "estoque": 30 },
+            { "tamanho": 42.5, "estoque": 17 },
+            { "tamanho": 43, "estoque": 12 }
           ]
         }
       ],
