@@ -17,7 +17,8 @@ Este documento tem como objetivo registrar e justificar todas as decisões técn
 - [3. Engenharia de Dados e Estruturação do Catálogo](#3-engenharia-de-dados-e-estruturação-do-catálogo)
   - [3.1. Processo de Curadoria e Extração Manual](#31-processo-de-curadoria-e-extração-manual)
   - [3.2. Modelagem do Schema JSON (SKUs e Variações)](#32-modelagem-do-schema-json-skus-e-variações)
-  - [3.3. Perspectiva de Migração para Produção (PostgreSQL + Neon)](#33-perspectiva-de-migração-para-produção-postgresql--neon)
+  - [3.3. Modelagem Relacional e Diagrama de Entidade-Relacionamento (MER/DER)](#33-modelagem-relacional-e-diagrama-de-entidade-relacionamento-merder)
+  - [3.4. Perspectiva de Migração para Produção (PostgreSQL + Neon)](#34-perspectiva-de-migração-para-produção-postgresql--neon)
 
 ---
 
@@ -38,6 +39,8 @@ Aqui serão registradas as tarefas executadas ao longo do projeto.
 - [x] Organização da arquitetura de pastas de imagens (adotando `.avif`).
 - [x] Finalização do cadastro dos primeiros 8 produtos (totalizando quase 20 SKUs completos).
 - [x] Documentação da estratégia de migração de dados para o PostgreSQL (Neon).
+- [x] Inclusão das colunas de auditoria (created_at, updated_at) e soft delete (ativo) no Schema JSON.
+- [x] Criação e documentação do Modelo Entidade-Relacionamento (MER/DER).
 
 ---
 
@@ -116,7 +119,18 @@ Essa modelagem de dados "Padrão Ouro" suporta características avançadas de ne
 *   **Precificação Dinâmica:** O sistema permite que cada variação de cor tenha seu próprio preço (refletindo a realidade do mercado onde cores diferentes do mesmo produto podem entrar em promoções de queima de estoque individualmente).
 *   **Estoque por Grade Rigorosa:** O controle de disponibilidade não é geral, mas atrelado especificamente a cada número do pé. Isso possibilita o desenvolvimento de regras de negócio precisas no Frontend (React), como a desabilitação automática do botão de compra quando o estoque de um tamanho específico chega a zero.
 
-### 3.3. Perspectiva de Migração para Produção (PostgreSQL + Neon)
+### 3.3. Modelagem Relacional e Diagrama de Entidade-Relacionamento (MER/DER)
+
+Para garantir uma transição segura entre a estruturação estática (JSON) e o banco de dados em produção (PostgreSQL via Neon), o Modelo Entidade-Relacionamento físico foi documentado antes da implementação do Backend.
+
+*   **Origem da Modelagem:** O esquema foi gerado traduzindo diretamente a estrutura "Padrão Ouro" do nosso arquivo JSON para DBML. Os arrays de dados aninhados foram estritamente normalizados em tabelas relacionais independentes com cardinalidade 1:N.
+*   **Propósito Técnico:** Desenhar as entidades visualmente previne falhas de arquitetura antes da codificação e documenta as restrições físicas do PostgreSQL, assegurando a correta tipagem para dados financeiros (`decimal(10,2)`), injeção de timestamps de auditoria e a implementação de *soft delete*.
+
+<p align="center">
+  <img src="./imagens/Diagrama de Entidade-Relacionamento.png" width="100%" alt="Diagrama de Entidade-Relacionamento do Banco de Dados Maratona" />
+</p>
+
+### 3.4. Perspectiva de Migração para Produção (PostgreSQL + Neon)
 
 Embora a aplicação inicie seu desenvolvimento consumindo o arquivo JSON, essa arquitetura de dados não é definitiva. O JSON atua apenas como um provedor de dados confiável (seeder) para acelerar o desenvolvimento e os testes de interface.
 
