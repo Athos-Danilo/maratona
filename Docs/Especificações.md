@@ -8,18 +8,42 @@ Este documento tem como objetivo registrar e justificar todas as decisões técn
 ---
 
 ## Sumário
-- [1. Identidade Visual e UI/UX](#1-identidade-visual-e-uiux)
-  - [1.1. Benchmarking: Padrão da Indústria](#11-benchmarking-padrão-da-indústria)
-  - [1.2. Justificativa da Paleta de Cores (White Theme)](#12-justificativa-da-paleta-de-cores-white-theme)
-  - [1.3. Definição da Paleta de Cores](#13-definição-da-paleta-de-cores)
-  - [1.4. Tipografia](#14-tipografia)
-- [2. Diário de Desenvolvimento](#2-diário-de-desenvolvimento)
+- [1. Diário de Desenvolvimento](#1-diário-de-desenvolvimento)
+- [2. Identidade Visual e UI/UX](#2-identidade-visual-e-uiux)
+  - [2.1. Benchmarking: Padrão da Indústria](#21-benchmarking-padrão-da-indústria)
+  - [2.2. Justificativa da Paleta de Cores (White Theme)](#22-justificativa-da-paleta-de-cores-white-theme)
+  - [2.3. Definição da Paleta de Cores](#23-definição-da-paleta-de-cores)
+  - [2.4. Tipografia](#24-tipografia)
+- [3. Engenharia de Dados e Estruturação do Catálogo](#3-engenharia-de-dados-e-estruturação-do-catálogo)
+  - [3.1. Processo de Curadoria e Extração Manual](#31-processo-de-curadoria-e-extração-manual)
+  - [3.2. Modelagem do Schema JSON (SKUs e Variações)](#32-modelagem-do-schema-json-skus-e-variações)
+  - [3.3. Perspectiva de Migração para Produção (PostgreSQL + Neon)](#33-perspectiva-de-migração-para-produção-postgresql--neon)
 
 ---
 
-## 1. Identidade Visual e UI/UX
+## 1. Diário de Desenvolvimento
 
-### 1.1. Benchmarking: Padrão da Indústria
+Aqui serão registradas as tarefas executadas ao longo do projeto.
+
+### [26/08/2026] - Planejamento de UI/UX + Catálogo 
+- [x] Criação do arquivo de Especificações e Diário de Bordo.
+- [x] Realização de análise de mercado e Benchmarking com grandes players.
+- [x] Definição da paleta de cores.
+- [x] Definição da tipografia.
+- [x] Início da construção do catálogo de produtos em JSON.
+
+### [27/08/2026] - Engenharia de Dados e Refinamento do Schema
+- [x] Evolução do Schema JSON para suportar gestão de SKUs, múltiplas variações de cores e controle de estoque individual por tamanho.
+- [x] Extração e curadoria manual de dados reais de tênis de alta performance.
+- [x] Organização da arquitetura de pastas de imagens (adotando `.avif`).
+- [x] Finalização do cadastro dos primeiros 8 produtos (totalizando quase 20 SKUs completos).
+- [x] Documentação da estratégia de migração de dados para o PostgreSQL (Neon).
+
+---
+
+## 2. Identidade Visual e UI/UX
+
+### 2.1. Benchmarking: Padrão da Indústria
 
 Para definir a identidade visual e a paleta de cores do e-commerce, foi realizada uma análise detalhada da Interface de Usuário (UI)  de algumas das principais marcas de artigos esportivos do mercado: **Nike, Adidas, Reebok, Fila, Puma e Mizuno**. 
 
@@ -31,7 +55,7 @@ Para ilustrar essa análise, abaixo estão algumas referências dos sites analis
   <img src="./Imagens/Exemplos.jpg" width="100%" alt="Varios exemplos de desing de sites de e-commerce de artigos esportivos" />
 </p>
 
-### 1.2. Justificativa da Paleta de Cores (White Theme)
+### 2.2. Justificativa da Paleta de Cores (White Theme)
 
 > *"Por que todas as gigantes do mercado esportivo adotam esse padrão minimalista?"*
 
@@ -43,7 +67,7 @@ Se aplicarmos um fundo escuro (Dark Mode) ou muito chamativo no site, o visual g
 2.  Passa uma sensação de ambiente limpo, organizado e seguro (fatores essenciais para transmitir confiança na hora de passar o cartão de crédito).
 3.  Melhora absurdamente a legibilidade dos textos descritivos e dos preços.
 
-### 1.3. Definição da Paleta de Cores
+### 2.3. Definição da Paleta de Cores
 
 Para a loja **Maratona**, a paleta com destaque em **laranja** se encaixa perfeitamente na proposta de "Alta Performance". Ela cria o contraste agressivo desejado, mas mantendo a viabilidade comercial que deixará a loja com o aspecto visual de uma gigante do varejo esportivo.
 
@@ -59,7 +83,7 @@ Abaixo, a estruturação base do projeto:
   <img src="./Imagens/Paleta_De_Cores.png" width="100%" alt="Paleta de Cores Maratona" />
 </p>
 
-### 1.4. Tipografia
+### 2.4. Tipografia
 
 As fontes escolhidas (via Google Fonts) focam em transmitir movimento e garantir legibilidade:
 
@@ -72,13 +96,33 @@ As fontes escolhidas (via Google Fonts) focam em transmitir movimento e garantir
 
 ---
 
-## 2. Diário de Desenvolvimento
+## 3. Engenharia de Dados e Estruturação do Catálogo
 
-Aqui serão registradas as tarefas executadas ao longo do projeto.
+### 3.1. Processo de Curadoria e Extração Manual
 
-### [26/08/2026] - Planejamento de UI/UX + Catálogo 
-- [x] Criação do arquivo de Especificações e Diário de Bordo.
-- [x] Realização de análise de mercado e Benchmarking com grandes players.
-- [x] Definição da paleta de cores.
-- [x] Definição da tipografia.
-- [x] Comecei a fazer o catalogo dos produtos (3 Tênis).
+Para garantir um nível de excelência e realismo no e-commerce, optou-se por não utilizar geradores automáticos de dados genéricos. O catálogo da **Maratona** foi construído através de um meticuloso trabalho manual de engenharia de dados.
+
+O processo consistiu em mapear produtos reais em grandes e-commerces do segmento esportivo (como a loja oficial da Adidas) e realizar a extração minuciosa de:
+*   Descrições otimizadas para vendas (textos de vitrine) e especificações técnicas reais (drop, peso, materiais da entressola).
+*   Catálogo de imagens em alta definição, realizando o download e a conversão/manutenção para o formato web moderno `.avif`, que oferece performance superior de carregamento.
+*   Organização hierárquica severa das pastas no projeto (ex: `/Produtos/04/Cinza/...`), separando os assets por ID e por cor.
+
+### 3.2. Modelagem do Schema JSON (SKUs e Variações)
+
+A estrutura do `produtos_mock.json` foi desenhada para emular a arquitetura complexa de sistemas corporativos de varejo. O schema abandonou a ideia de tratar um calçado como um item global, adotando o conceito de **SKU (Stock Keeping Unit)**.
+
+Essa modelagem de dados "Padrão Ouro" suporta características avançadas de negócio:
+*   **Variações Independentes:** Um mesmo modelo de tênis engloba múltiplos objetos para cada cor disponível.
+*   **Precificação Dinâmica:** O sistema permite que cada variação de cor tenha seu próprio preço (refletindo a realidade do mercado onde cores diferentes do mesmo produto podem entrar em promoções de queima de estoque individualmente).
+*   **Estoque por Grade Rigorosa:** O controle de disponibilidade não é geral, mas atrelado especificamente a cada número do pé. Isso possibilita o desenvolvimento de regras de negócio precisas no Frontend (React), como a desabilitação automática do botão de compra quando o estoque de um tamanho específico chega a zero.
+
+### 3.3. Perspectiva de Migração para Produção (PostgreSQL + Neon)
+
+Embora a aplicação inicie seu desenvolvimento consumindo o arquivo JSON, essa arquitetura de dados não é definitiva. O JSON atua apenas como um provedor de dados confiável (seeder) para acelerar o desenvolvimento e os testes de interface.
+
+Toda a modelagem hierárquica foi construída visando uma **transição direta e normalizada para um banco de dados relacional**. Em fases posteriores do projeto, todos esses dados serão migrados para um banco **PostgreSQL**, que será hospedado em nuvem utilizando a plataforma **Neon**. 
+
+A estrutura em JSON mapeia perfeitamente para as futuras tabelas do banco de dados (ex: `Produtos`, `SKUs_Variacoes`, `Grades_Tamanhos` e `Galeria_Imagens`), garantindo que o Backend possa ser integrado sem a necessidade de refatorar a lógica de dados construída nesta etapa.
+
+---
+
