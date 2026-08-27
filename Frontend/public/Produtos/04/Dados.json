@@ -1,0 +1,517 @@
+{
+  "id": "4",
+  "ativo": true,
+  "created_at": "2026-08-27T09:10:00Z",
+  "updated_at": "2026-08-27T09:25:00Z",
+  "nome": "Tênis Ultraboost 5",
+  "marca": "Adidas",
+  "categoria_principal": "Tênis",
+  "genero": "Feminino",
+  "tipo_corrida": "Corrida 10k",
+  "descricoes": {
+    "vitrine": "Alta performance",
+    "detalhada": "Inovado para oferecer mais amortecimento, maior conforto e menor peso, o Ultraboost 5 chegou para transformar sua experiência de corrida, aproveitando ao máximo a sua energia. A entressola deste tênis é feita com o Light BOOST V2, nosso sistema de amortecimento com maior retorno de energia. O Ultraboost 5 também apresenta suporte externo moldado no calcanhar para fornecer suporte otimizado onde é necessário. O cabedal PRIMEKNIT cria o ajuste perfeito, enquanto o Torsion System oferece controle de outro nível durante toda a sua marcha. Por fim, a aderência de primeira do solado Continental™ permite a tração e transição perfeitas. Este produto contém pelo menos 20% de materiais reciclados. Ao escolher o reciclado, podemos reutilizar materiais já criados, o que ajuda a reduzir o desperdício e a nossa dependência de recursos finitos, além de reduzir a pegada dos produtos que fabricamos.",
+    "especificacoes_tecnicas": [
+      "Drop: 15mm",
+      "Peso: 244g (Tamanho 36)",
+      "Entressola: Light BOOST",
+      "Código do artigo: ID8839"
+    ]
+  },
+  "variacoes": [
+    {
+      "sku_base": "UB5-CINZA",
+      "created_at": "2026-08-27T09:10:00Z",
+      "updated_at": "2026-08-27T09:25:00Z",
+      "cor_nome": "Grey Four / Silver Metallic / Grey Two",
+      "cores": [
+        {
+          "nome": "Grey Four",
+          "hex": "#8A8D91"
+        },
+        {
+          "nome": "Silver Metallic",
+          "hex": "#C0C0C0"
+        },
+        {
+          "nome": "Grey Two",
+          "hex": "#D8D8D8"
+        }
+      ],
+      "preco": {
+        "original": 999.99,
+        "promocional": 999.99
+      },
+      "thumbnail_cor": "/Produtos/04/Cinza/Tenis_Ultraboost_5_Cinza_ID8839_HM1.avif",
+      "imagens": {
+        "principal_vitrine": "/Produtos/04/Cinza/Tenis_Ultraboost_5_Cinza_ID8839_HM1.avif",
+        "galeria": [
+          "/Produtos/04/Cinza/Tenis_Ultraboost_5_Cinza_ID8839_HM1.avif",
+          "/Produtos/04/Cinza/Tenis_Ultraboost_5_Cinza_ID8839_HM3_hover.avif",
+          "/Produtos/04/Cinza/Tenis_Ultraboost_5_Cinza_ID8839_HM4.avif",
+          "/Produtos/04/Cinza/Tenis_Ultraboost_5_Cinza_ID8839_HM5.avif",
+          "/Produtos/04/Cinza/Tenis_Ultraboost_5_Cinza_ID8839_HM6.avif",
+          "/Produtos/04/Cinza/Tenis_Ultraboost_5_Cinza_ID8839_HM7.avif",
+          "/Produtos/04/Cinza/Tenis_Ultraboost_5_Cinza_ID8839_HM8.avif",
+          "/Produtos/04/Cinza/Tenis_Ultraboost_5_Cinza_ID8839_HM9.avif",
+          "/Produtos/04/Cinza/Tenis_Ultraboost_5_Cinza_ID8839_HM10.avif"
+        ]
+      },
+      "grade_tamanhos": [
+        {
+          "tamanho": 33.5,
+          "estoque": 2
+        },
+        {
+          "tamanho": 34,
+          "estoque": 2
+        },
+        {
+          "tamanho": 35,
+          "estoque": 2
+        },
+        {
+          "tamanho": 35.5,
+          "estoque": 2
+        },
+        {
+          "tamanho": 36,
+          "estoque": 8
+        },
+        {
+          "tamanho": 37,
+          "estoque": 8
+        },
+        {
+          "tamanho": 38,
+          "estoque": 8
+        },
+        {
+          "tamanho": 39,
+          "estoque": 8
+        },
+        {
+          "tamanho": 39.5,
+          "estoque": 4
+        },
+        {
+          "tamanho": 40,
+          "estoque": 15
+        },
+        {
+          "tamanho": 40.5,
+          "estoque": 0
+        },
+        {
+          "tamanho": 41,
+          "estoque": 22
+        },
+        {
+          "tamanho": 42,
+          "estoque": 30
+        },
+        {
+          "tamanho": 42.5,
+          "estoque": 5
+        },
+        {
+          "tamanho": 43,
+          "estoque": 12
+        }
+      ]
+    },
+    {
+      "sku_base": "UB5-PRETO",
+      "created_at": "2026-08-27T09:10:00Z",
+      "updated_at": "2026-08-27T09:25:00Z",
+      "cor_nome": "Core Black / Core Black / Core Black",
+      "cores": [
+        {
+          "nome": "Core Black",
+          "hex": "#111111"
+        }
+      ],
+      "preco": {
+        "original": 1099.99,
+        "promocional": 1099.99
+      },
+      "thumbnail_cor": "/Produtos/04/Preto/Tenis_Ultraboost_5_Preto_ID8847_HM1.avif",
+      "imagens": {
+        "principal_vitrine": "/Produtos/04/Preto/Tenis_Ultraboost_5_Preto_ID8847_HM1.avif",
+        "galeria": [
+          "/Produtos/04/Preto/Tenis_Ultraboost_5_Preto_ID8847_HM1.avif",
+          "/Produtos/04/Preto/Tenis_Ultraboost_5_Preto_ID8847_HM3_hover.avif",
+          "/Produtos/04/Preto/Tenis_Ultraboost_5_Preto_ID8847_HM4.avif",
+          "/Produtos/04/Preto/Tenis_Ultraboost_5_Preto_ID8847_HM5.avif",
+          "/Produtos/04/Preto/Tenis_Ultraboost_5_Preto_ID8847_HM6.avif",
+          "/Produtos/04/Preto/Tenis_Ultraboost_5_Preto_ID8847_HM7.avif",
+          "/Produtos/04/Preto/Tenis_Ultraboost_5_Preto_ID8847_HM8.avif",
+          "/Produtos/04/Preto/Tenis_Ultraboost_5_Preto_ID8847_HM9.avif",
+          "/Produtos/04/Preto/Tenis_Ultraboost_5_Preto_ID8847_HM10.avif"
+        ]
+      },
+      "grade_tamanhos": [
+        {
+          "tamanho": 33.5,
+          "estoque": 0
+        },
+        {
+          "tamanho": 34,
+          "estoque": 8
+        },
+        {
+          "tamanho": 35,
+          "estoque": 10
+        },
+        {
+          "tamanho": 35.5,
+          "estoque": 0
+        },
+        {
+          "tamanho": 36,
+          "estoque": 8
+        },
+        {
+          "tamanho": 37,
+          "estoque": 2
+        },
+        {
+          "tamanho": 38,
+          "estoque": 8
+        },
+        {
+          "tamanho": 39,
+          "estoque": 8
+        },
+        {
+          "tamanho": 39.5,
+          "estoque": 4
+        },
+        {
+          "tamanho": 40,
+          "estoque": 0
+        },
+        {
+          "tamanho": 40.5,
+          "estoque": 0
+        },
+        {
+          "tamanho": 41,
+          "estoque": 22
+        },
+        {
+          "tamanho": 42,
+          "estoque": 30
+        },
+        {
+          "tamanho": 42.5,
+          "estoque": 4
+        },
+        {
+          "tamanho": 43,
+          "estoque": 12
+        }
+      ]
+    },
+    {
+      "sku_base": "UB5-AMARELO",
+      "created_at": "2026-08-27T09:10:00Z",
+      "updated_at": "2026-08-27T09:25:00Z",
+      "cor_nome": "Spark / Zero Metallic / Spark",
+      "cores": [
+        {
+          "nome": "Spark",
+          "hex": "#FF6A00"
+        },
+        {
+          "nome": "Zero Metallic",
+          "hex": "#D4D6D8"
+        }
+      ],
+      "preco": {
+        "original": 999.99,
+        "promocional": 999.99
+      },
+      "thumbnail_cor": "/Produtos/04/Amarelo/Tenis_Ultraboost_5_Laranja_ID8841_HM1.avif",
+      "imagens": {
+        "principal_vitrine": "/Produtos/04/Amarelo/Tenis_Ultraboost_5_Laranja_ID8841_HM1.avif",
+        "galeria": [
+          "/Produtos/04/Amarelo/Tenis_Ultraboost_5_Laranja_ID8841_HM1.avif",
+          "/Produtos/04/Amarelo/Tenis_Ultraboost_5_Laranja_ID8841_HM3_hover.avif",
+          "/Produtos/04/Amarelo/Tenis_Ultraboost_5_Laranja_ID8841_HM4.avif",
+          "/Produtos/04/Amarelo/Tenis_Ultraboost_5_Laranja_ID8841_HM5.avif",
+          "/Produtos/04/Amarelo/Tenis_Ultraboost_5_Laranja_ID8841_HM6.avif",
+          "/Produtos/04/Amarelo/Tenis_Ultraboost_5_Laranja_ID8841_HM7.avif",
+          "/Produtos/04/Amarelo/Tenis_Ultraboost_5_Laranja_ID8841_HM8.avif",
+          "/Produtos/04/Amarelo/Tenis_Ultraboost_5_Laranja_ID8841_HM9.avif",
+          "/Produtos/04/Amarelo/Tenis_Ultraboost_5_Laranja_ID8841_HM10.avif"
+        ]
+      },
+      "grade_tamanhos": [
+        {
+          "tamanho": 33.5,
+          "estoque": 14
+        },
+        {
+          "tamanho": 34,
+          "estoque": 16
+        },
+        {
+          "tamanho": 35,
+          "estoque": 9
+        },
+        {
+          "tamanho": 35.5,
+          "estoque": 8
+        },
+        {
+          "tamanho": 36,
+          "estoque": 7
+        },
+        {
+          "tamanho": 37,
+          "estoque": 5
+        },
+        {
+          "tamanho": 38,
+          "estoque": 2
+        },
+        {
+          "tamanho": 39,
+          "estoque": 3
+        },
+        {
+          "tamanho": 39.5,
+          "estoque": 4
+        },
+        {
+          "tamanho": 40,
+          "estoque": 15
+        },
+        {
+          "tamanho": 40.5,
+          "estoque": 13
+        },
+        {
+          "tamanho": 41,
+          "estoque": 22
+        },
+        {
+          "tamanho": 42,
+          "estoque": 30
+        },
+        {
+          "tamanho": 42.5,
+          "estoque": 10
+        },
+        {
+          "tamanho": 43,
+          "estoque": 12
+        }
+      ]
+    },
+    {
+      "sku_base": "UB5-ROSA",
+      "created_at": "2026-08-27T09:10:00Z",
+      "updated_at": "2026-08-27T09:25:00Z",
+      "cor_nome": "Lucid Pink / Lucid Lemon / Pulse Magenta",
+      "cores": [
+        {
+          "nome": "Lucid Pink",
+          "hex": "#F4A6C1"
+        },
+        {
+          "nome": "Lucid Lemon",
+          "hex": "#E6FF00"
+        },
+        {
+          "nome": "Pulse Magenta",
+          "hex": "#D4148E"
+        }
+      ],
+      "preco": {
+        "original": 999.99,
+        "promocional": 999.99
+      },
+      "thumbnail_cor": "/Produtos/04/Rosa/Tenis_Ultraboost_5_Rosa_ID8844_HM1.avif",
+      "imagens": {
+        "principal_vitrine": "/Produtos/04/Rosa/Tenis_Ultraboost_5_Rosa_ID8844_HM1.avif",
+        "galeria": [
+          "/Produtos/04/Rosa/Tenis_Ultraboost_5_Rosa_ID8844_HM1.avif",
+          "/Produtos/04/Rosa/Tenis_Ultraboost_5_Rosa_ID8844_HM3_hover.avif",
+          "/Produtos/04/Rosa/Tenis_Ultraboost_5_Rosa_ID8844_HM4.avif",
+          "/Produtos/04/Rosa/Tenis_Ultraboost_5_Rosa_ID8844_HM5.avif",
+          "/Produtos/04/Rosa/Tenis_Ultraboost_5_Rosa_ID8844_HM6.avif",
+          "/Produtos/04/Rosa/Tenis_Ultraboost_5_Rosa_ID8844_HM7.avif",
+          "/Produtos/04/Rosa/Tenis_Ultraboost_5_Rosa_ID8844_HM8.avif",
+          "/Produtos/04/Rosa/Tenis_Ultraboost_5_Rosa_ID8844_HM9.avif",
+          "/Produtos/04/Rosa/Tenis_Ultraboost_5_Rosa_ID8844_HM10.avif"
+        ]
+      },
+      "grade_tamanhos": [
+        {
+          "tamanho": 33.5,
+          "estoque": 0
+        },
+        {
+          "tamanho": 34,
+          "estoque": 0
+        },
+        {
+          "tamanho": 35,
+          "estoque": 0
+        },
+        {
+          "tamanho": 35.5,
+          "estoque": 0
+        },
+        {
+          "tamanho": 36,
+          "estoque": 13
+        },
+        {
+          "tamanho": 37,
+          "estoque": 1
+        },
+        {
+          "tamanho": 38,
+          "estoque": 0
+        },
+        {
+          "tamanho": 39,
+          "estoque": 0
+        },
+        {
+          "tamanho": 39.5,
+          "estoque": 0
+        },
+        {
+          "tamanho": 40,
+          "estoque": 0
+        },
+        {
+          "tamanho": 40.5,
+          "estoque": 0
+        },
+        {
+          "tamanho": 41,
+          "estoque": 0
+        },
+        {
+          "tamanho": 42,
+          "estoque": 0
+        },
+        {
+          "tamanho": 42.5,
+          "estoque": 0
+        },
+        {
+          "tamanho": 43,
+          "estoque": 0
+        }
+      ]
+    },
+    {
+      "sku_base": "UB5-ROSA-CLARO",
+      "created_at": "2026-08-27T09:10:00Z",
+      "updated_at": "2026-08-27T09:25:00Z",
+      "cor_nome": "Sandy Pink / Sandy Pink Met. / Zero Metallic",
+      "cores": [
+        {
+          "nome": "Sandy Pink",
+          "hex": "#D8A0A8"
+        },
+        {
+          "nome": "Sandy Pink Met.",
+          "hex": "#C88F98"
+        },
+        {
+          "nome": "Zero Metallic",
+          "hex": "#D4D6D8"
+        }
+      ],
+      "preco": {
+        "original": 1099.99,
+        "promocional": 1099.99
+      },
+      "thumbnail_cor": "/Produtos/04/Rosa_claro/Tenis_Ultraboost_5_Rosa_ID8845_HM1.avif",
+      "imagens": {
+        "principal_vitrine": "/Produtos/04/Rosa_claro/Tenis_Ultraboost_5_Rosa_ID8845_HM1.avif",
+        "galeria": [
+          "/Produtos/04/Rosa_claro/Tenis_Ultraboost_5_Rosa_ID8845_HM1.avif",
+          "/Produtos/04/Rosa_claro/Tenis_Ultraboost_5_Rosa_ID8845_HM3_hover.avif",
+          "/Produtos/04/Rosa_claro/Tenis_Ultraboost_5_Rosa_ID8845_HM4.avif",
+          "/Produtos/04/Rosa_claro/Tenis_Ultraboost_5_Rosa_ID8845_HM5.avif",
+          "/Produtos/04/Rosa_claro/Tenis_Ultraboost_5_Rosa_ID8845_HM6.avif",
+          "/Produtos/04/Rosa_claro/Tenis_Ultraboost_5_Rosa_ID8845_HM7.avif",
+          "/Produtos/04/Rosa_claro/Tenis_Ultraboost_5_Rosa_ID8845_HM8.avif",
+          "/Produtos/04/Rosa_claro/Tenis_Ultraboost_5_Rosa_ID8845_HM9.avif",
+          "/Produtos/04/Rosa_claro/Tenis_Ultraboost_5_Rosa_ID8845_HM10.avif"
+        ]
+      },
+      "grade_tamanhos": [
+        {
+          "tamanho": 33.5,
+          "estoque": 14
+        },
+        {
+          "tamanho": 34,
+          "estoque": 16
+        },
+        {
+          "tamanho": 35,
+          "estoque": 9
+        },
+        {
+          "tamanho": 35.5,
+          "estoque": 33
+        },
+        {
+          "tamanho": 36,
+          "estoque": 77
+        },
+        {
+          "tamanho": 37,
+          "estoque": 55
+        },
+        {
+          "tamanho": 38,
+          "estoque": 21
+        },
+        {
+          "tamanho": 39,
+          "estoque": 32
+        },
+        {
+          "tamanho": 39.5,
+          "estoque": 4
+        },
+        {
+          "tamanho": 40,
+          "estoque": 15
+        },
+        {
+          "tamanho": 40.5,
+          "estoque": 18
+        },
+        {
+          "tamanho": 41,
+          "estoque": 22
+        },
+        {
+          "tamanho": 42,
+          "estoque": 30
+        },
+        {
+          "tamanho": 42.5,
+          "estoque": 17
+        },
+        {
+          "tamanho": 43,
+          "estoque": 12
+        }
+      ]
+    }
+  ],
+  "destaque_home": true
+}

@@ -1,0 +1,3886 @@
+[
+  {
+    "id": "1",
+    "ativo": true,
+    "created_at": "2026-08-26T20:15:00Z",
+    "updated_at": "2026-08-26T20:30:00Z",
+    "nome": "Tênis Ultraboost Light",
+    "marca": "Adidas",
+    "categoria_principal": "Tênis",
+    "genero": "Feminino",
+    "tipo_corrida": "Corrida 5k",
+    "descricoes": {
+      "vitrine": "Versatilidade e energia",
+      "detalhada": "Desperte o seu melhor desempenho com este tênis de corrida adidas, projetado para energizar suas passadas, seja qual for a velocidade ou distância. O amortecimento adidas Light BOOST na entressola é o mais leve adidas BOOST de sempre, com ainda mais retorno de energia a cada arrancada. O cabedal PRIMEKNIT+FORGED segue o contorno dos pés para um ajuste preciso e suporte no mediopé. O sistema adidas Linear Energy Push proporciona uma explosão extra de responsividade para você ir mais longe e mais rápido. Este produto contém pelo menos 20% de materiais reciclados. Ao reutilizar materiais que já foram criados, ajudamos a diminuir o desperdício e a nossa dependência de recursos não renováveis, além de reduzir a pegada dos produtos que fabricamos.",
+      "especificacoes_tecnicas": [
+        "Drop: 10mm",
+        "Peso: 260g (Tamanho 36)",
+        "Entressola: Boost",
+        "Código do artigo: ID3316"
+      ]
+    },
+    "variacoes": [
+      {
+        "sku_base": "ID3316",
+        "created_at": "2026-08-26T20:15:00Z",
+        "updated_at": "2026-08-26T20:30:00Z",
+        "cor_nome": "Bliss Lilac / Preloved Ink / Lucid Blue",
+        "cores": [
+          {
+            "nome": "Bliss Lilac",
+            "hex": "#C9A8E8"
+          },
+          {
+            "nome": "Preloved Ink",
+            "hex": "#1E2A44"
+          },
+          {
+            "nome": "Lucid Blue",
+            "hex": "#4AA3DF"
+          }
+        ],
+        "preco": {
+          "original": 999.99,
+          "promocional": 999.99
+        },
+        "thumbnail_cor": "Tenis_Ultraboost_Light_Roxo_ID3316_HM1.avif",
+        "imagens": {
+          "principal_vitrine": "Tenis_Ultraboost_Light_Roxo_ID3316_HM1.avif",
+          "galeria": [
+            "Tenis_Ultraboost_Light_Roxo_ID3316_HM1.avif",
+            "Tenis_Ultraboost_Light_Roxo_ID3316_HM3.avif",
+            "Tenis_Ultraboost_Light_Roxo_ID3316_HM4.avif",
+            "Tenis_Ultraboost_Light_Roxo_ID3316_HM5.avif",
+            "Tenis_Ultraboost_Light_Roxo_ID3316_HM6.avif",
+            "Tenis_Ultraboost_Light_Roxo_ID3316_HM7.avif",
+            "Tenis_Ultraboost_Light_Roxo_ID3316_HM8.avif",
+            "Tenis_Ultraboost_Light_Roxo_ID3316_HM9.avif",
+            "Tenis_Ultraboost_Light_Roxo_ID3316_HM10.avif"
+          ]
+        },
+        "grade_tamanhos": [
+          {
+            "tamanho": 33.5,
+            "estoque": 2
+          },
+          {
+            "tamanho": 34,
+            "estoque": 5
+          },
+          {
+            "tamanho": 35,
+            "estoque": 0
+          },
+          {
+            "tamanho": 35.5,
+            "estoque": 3
+          },
+          {
+            "tamanho": 36,
+            "estoque": 8
+          },
+          {
+            "tamanho": 37,
+            "estoque": 12
+          },
+          {
+            "tamanho": 38,
+            "estoque": 15
+          },
+          {
+            "tamanho": 39,
+            "estoque": 0
+          },
+          {
+            "tamanho": 39.5,
+            "estoque": 4
+          },
+          {
+            "tamanho": 40,
+            "estoque": 22
+          },
+          {
+            "tamanho": 40.5,
+            "estoque": 7
+          },
+          {
+            "tamanho": 41,
+            "estoque": 18
+          },
+          {
+            "tamanho": 42,
+            "estoque": 10
+          },
+          {
+            "tamanho": 42.5,
+            "estoque": 2
+          },
+          {
+            "tamanho": 43,
+            "estoque": 5
+          }
+        ]
+      }
+    ],
+    "destaque_home": false
+  },
+  {
+    "id": "2",
+    "ativo": true,
+    "created_at": "2026-08-26T20:15:00Z",
+    "updated_at": "2026-08-26T20:30:00Z",
+    "nome": "Tênis Supernova 3 Running",
+    "marca": "Adidas",
+    "categoria_principal": "Tênis",
+    "genero": "Masculino",
+    "tipo_corrida": "Corrida 5k",
+    "descricoes": {
+      "vitrine": "Maximo conforto",
+      "detalhada": "Seja você um corredor de curtas ou longas distâncias, rápido ou devagar, o tênis adidas Supernova 3 ajuda você a correr com conforto. Ele proporciona uma sensação suave desde o primeiro passo, com cabedal em malha elástica respirável e acolchoamento na língua e no calcanhar. Uma combinação cuidadosamente equilibrada de Bounce e amortecimento BOOST oferece conforto e energia para que você aproveite cada passo em direção às suas metas pessoais de corrida. FEITO COM UMA PEGADA REDUZIDA. Esse produto foi projetado para ter uma pegada de carbono mais baixa comparado à versão anterior. Da extração da matéria-prima, processamento, embalagem, até o fim da vida útil do produto, calculamos sua pegada de carbono em conformidade com um padrão reconhecido internacionalmente: ISO 14067. Esse produto tem um impacto total de 7,2 Kg C02e / par e uma porcentagem média de redução em relação à versão anterior de -19%.",
+      "especificacoes_tecnicas": [
+        "Drop: 9mm",
+        "Peso: 283g (Tamanho 40)",
+        "Entressola: Bounce",
+        "Código do artigo: IE4368"
+      ]
+    },
+    "variacoes": [
+      {
+        "sku_base": "IE4368",
+        "created_at": "2026-08-26T20:15:00Z",
+        "updated_at": "2026-08-26T20:30:00Z",
+        "cor_nome": "Wonder Silver / Lucid Cyan / Flash Aqua",
+        "cores": [
+          {
+            "nome": "Wonder Silver",
+            "hex": "#B8BCC2"
+          },
+          {
+            "nome": "Lucid Cyan",
+            "hex": "#00C7D9"
+          },
+          {
+            "nome": "Flash Aqua",
+            "hex": "#00E0D1"
+          }
+        ],
+        "preco": {
+          "original": 899.99,
+          "promocional": 699.99
+        },
+        "thumbnail_cor": "Tenis_Supernova_3_Running_Cinza_IE4368_HM1.avif",
+        "imagens": {
+          "principal_vitrine": "Tenis_Supernova_3_Running_Cinza_IE4368_HM1.avif",
+          "galeria": [
+            "Tenis_Supernova_3_Running_Cinza_IE4368_HM1.avif",
+            "Tenis_Supernova_3_Running_Cinza_IE4368_HM3.avif",
+            "Tenis_Supernova_3_Running_Cinza_IE4368_HM4.avif",
+            "Tenis_Supernova_3_Running_Cinza_IE4368_HM5.avif",
+            "Tenis_Supernova_3_Running_Cinza_IE4368_HM6.avif",
+            "Tenis_Supernova_3_Running_Cinza_IE4368_HM7.avif",
+            "Tenis_Supernova_3_Running_Cinza_IE4368_HM8.avif",
+            "Tenis_Supernova_3_Running_Cinza_IE4368_HM9.avif"
+          ]
+        },
+        "grade_tamanhos": [
+          {
+            "tamanho": 37,
+            "estoque": 5
+          },
+          {
+            "tamanho": 38,
+            "estoque": 2
+          },
+          {
+            "tamanho": 39,
+            "estoque": 7
+          },
+          {
+            "tamanho": 40,
+            "estoque": 10
+          },
+          {
+            "tamanho": 41,
+            "estoque": 16
+          },
+          {
+            "tamanho": 42,
+            "estoque": 12
+          },
+          {
+            "tamanho": 43,
+            "estoque": 15
+          },
+          {
+            "tamanho": 44,
+            "estoque": 0
+          },
+          {
+            "tamanho": 45,
+            "estoque": 4
+          },
+          {
+            "tamanho": 45.5,
+            "estoque": 22
+          },
+          {
+            "tamanho": 46,
+            "estoque": 7
+          },
+          {
+            "tamanho": 46.5,
+            "estoque": 18
+          },
+          {
+            "tamanho": 47,
+            "estoque": 10
+          },
+          {
+            "tamanho": 47.5,
+            "estoque": 2
+          },
+          {
+            "tamanho": 48,
+            "estoque": 0
+          },
+          {
+            "tamanho": 49,
+            "estoque": 0
+          },
+          {
+            "tamanho": 50,
+            "estoque": 0
+          }
+        ]
+      }
+    ],
+    "destaque_home": false
+  },
+  {
+    "id": "3",
+    "ativo": true,
+    "created_at": "2026-08-27T09:10:00Z",
+    "updated_at": "2026-08-27T09:25:00Z",
+    "nome": "Tênis Ultraboost 5",
+    "marca": "Adidas",
+    "categoria_principal": "Tênis",
+    "genero": "Masculino",
+    "tipo_corrida": "Corrida 10k",
+    "descricoes": {
+      "vitrine": "Alta performance",
+      "detalhada": "Inovado para oferecer mais amortecimento, maior conforto e menor peso, o Ultraboost 5 chegou para transformar sua experiência de corrida, aproveitando ao máximo a sua energia. A entressola deste tênis é feita com o Light BOOST V2, nosso sistema de amortecimento com maior retorno de energia. O Ultraboost 5 também apresenta suporte externo moldado no calcanhar para fornecer suporte otimizado onde é necessário. O cabedal PRIMEKNIT cria o ajuste perfeito, enquanto o Torsion System oferece controle de outro nível durante toda a sua marcha. Por fim, a aderência de primeira do solado Continental™ permite a tração e transição perfeitas. Este produto contém pelo menos 20% de materiais reciclados. Ao escolher o reciclado, podemos reutilizar materiais já criados, o que ajuda a reduzir o desperdício e a nossa dependência de recursos finitos, além de reduzir a pegada dos produtos que fabricamos.",
+      "especificacoes_tecnicas": [
+        "Drop: 15mm",
+        "Peso: 292g (Tamanho 40)",
+        "Entressola: Light BOOST",
+        "Código do artigo: ID8810"
+      ]
+    },
+    "variacoes": [
+      {
+        "sku_base": "UB5-BRANCO",
+        "created_at": "2026-08-27T09:10:00Z",
+        "updated_at": "2026-08-27T09:25:00Z",
+        "cor_nome": "Cloud White / Glory Grey / Lucid Pink",
+        "cores": [
+          {
+            "nome": "Cloud White",
+            "hex": "#F5F5F3"
+          },
+          {
+            "nome": "Glory Grey",
+            "hex": "#A6A8AA"
+          },
+          {
+            "nome": "Lucid Pink",
+            "hex": "#F4A6C1"
+          }
+        ],
+        "preco": {
+          "original": 1299.99,
+          "promocional": 799.99
+        },
+        "thumbnail_cor": "/Produtos/03/Branco/Tenis_Ultraboost_5_Branco_ID8810_HM1.avif",
+        "imagens": {
+          "principal_vitrine": "/Produtos/03/Branco/Tenis_Ultraboost_5_Branco_ID8810_HM1.avif",
+          "galeria": [
+            "/Produtos/03/Branco/Tenis_Ultraboost_5_Branco_ID8810_HM1.avif",
+            "/Produtos/03/Branco/Tenis_Ultraboost_5_Branco_ID8810_HM3.avif",
+            "/Produtos/03/Branco/Tenis_Ultraboost_5_Branco_ID8810_HM4.avif",
+            "/Produtos/03/Branco/Tenis_Ultraboost_5_Branco_ID8810_HM5.avif",
+            "/Produtos/03/Branco/Tenis_Ultraboost_5_Branco_ID8810_HM6.avif",
+            "/Produtos/03/Branco/Tenis_Ultraboost_5_Branco_ID8810_HM7.avif",
+            "/Produtos/03/Branco/Tenis_Ultraboost_5_Branco_ID8810_HM8.avif",
+            "/Produtos/03/Branco/Tenis_Ultraboost_5_Branco_ID8810_HM9.avif",
+            "/Produtos/03/Branco/Tenis_Ultraboost_5_Branco_ID8810_HM10.avif",
+            "/Produtos/03/Branco/Tenis_Ultraboost_5_Branco_ID8810_HM51.avif",
+            "/Produtos/03/Branco/Tenis_Ultraboost_5_Branco_ID8810_HM52.avif",
+            "/Produtos/03/Branco/Tenis_Ultraboost_5_Branco_ID8810_HM53.avif",
+            "/Produtos/03/Branco/Tenis_Ultraboost_5_Branco_ID8810_HM54.avif"
+          ]
+        },
+        "grade_tamanhos": [
+          {
+            "tamanho": 33.5,
+            "estoque": 0
+          },
+          {
+            "tamanho": 34,
+            "estoque": 0
+          },
+          {
+            "tamanho": 35,
+            "estoque": 0
+          },
+          {
+            "tamanho": 35.5,
+            "estoque": 0
+          },
+          {
+            "tamanho": 36,
+            "estoque": 0
+          },
+          {
+            "tamanho": 37,
+            "estoque": 0
+          },
+          {
+            "tamanho": 38,
+            "estoque": 0
+          },
+          {
+            "tamanho": 39,
+            "estoque": 0
+          },
+          {
+            "tamanho": 39.5,
+            "estoque": 0
+          },
+          {
+            "tamanho": 40,
+            "estoque": 0
+          },
+          {
+            "tamanho": 40.5,
+            "estoque": 0
+          },
+          {
+            "tamanho": 41,
+            "estoque": 0
+          },
+          {
+            "tamanho": 42,
+            "estoque": 25
+          },
+          {
+            "tamanho": 42.5,
+            "estoque": 0
+          },
+          {
+            "tamanho": 43,
+            "estoque": 0
+          },
+          {
+            "tamanho": 43.5,
+            "estoque": 0
+          },
+          {
+            "tamanho": 44,
+            "estoque": 0
+          },
+          {
+            "tamanho": 45,
+            "estoque": 0
+          },
+          {
+            "tamanho": 46,
+            "estoque": 0
+          },
+          {
+            "tamanho": 47,
+            "estoque": 0
+          },
+          {
+            "tamanho": 48,
+            "estoque": 0
+          },
+          {
+            "tamanho": 49,
+            "estoque": 0
+          },
+          {
+            "tamanho": 50,
+            "estoque": 0
+          }
+        ]
+      },
+      {
+        "sku_base": "UB5-PRETO",
+        "created_at": "2026-08-27T09:10:00Z",
+        "updated_at": "2026-08-27T09:25:00Z",
+        "cor_nome": "Core Black / Core Black / Core Black",
+        "cores": [
+          {
+            "nome": "Core Black",
+            "hex": "#111111"
+          }
+        ],
+        "preco": {
+          "original": 1099.99,
+          "promocional": 799.99
+        },
+        "thumbnail_cor": "/Produtos/03/Preto/Tenis_Ultraboost_5_Preto_ID8812_HM1.avif",
+        "imagens": {
+          "principal_vitrine": "/Produtos/03/Preto/Tenis_Ultraboost_5_Preto_ID8812_HM1.avif",
+          "galeria": [
+            "/Produtos/03/Preto/Tenis_Ultraboost_5_Preto_ID8812_HM1.avif",
+            "/Produtos/03/Preto/Tenis_Ultraboost_5_Preto_ID8812_HM3_hover.avif",
+            "/Produtos/03/Preto/Tenis_Ultraboost_5_Preto_ID8812_HM4.avif",
+            "/Produtos/03/Preto/Tenis_Ultraboost_5_Preto_ID8812_HM5.avif",
+            "/Produtos/03/Preto/Tenis_Ultraboost_5_Preto_ID8812_HM6.avif",
+            "/Produtos/03/Preto/Tenis_Ultraboost_5_Preto_ID8812_HM7.avif",
+            "/Produtos/03/Preto/Tenis_Ultraboost_5_Preto_ID8812_HM8.avif",
+            "/Produtos/03/Preto/Tenis_Ultraboost_5_Preto_ID8812_HM9.avif",
+            "/Produtos/03/Preto/Tenis_Ultraboost_5_Preto_ID8812_HM10.avif"
+          ]
+        },
+        "grade_tamanhos": [
+          {
+            "tamanho": 33.5,
+            "estoque": 0
+          },
+          {
+            "tamanho": 34,
+            "estoque": 0
+          },
+          {
+            "tamanho": 35,
+            "estoque": 0
+          },
+          {
+            "tamanho": 35.5,
+            "estoque": 0
+          },
+          {
+            "tamanho": 36,
+            "estoque": 0
+          },
+          {
+            "tamanho": 37,
+            "estoque": 30
+          },
+          {
+            "tamanho": 38,
+            "estoque": 20
+          },
+          {
+            "tamanho": 39,
+            "estoque": 25
+          },
+          {
+            "tamanho": 39.5,
+            "estoque": 0
+          },
+          {
+            "tamanho": 40,
+            "estoque": 0
+          },
+          {
+            "tamanho": 40.5,
+            "estoque": 0
+          },
+          {
+            "tamanho": 41,
+            "estoque": 0
+          },
+          {
+            "tamanho": 42,
+            "estoque": 0
+          },
+          {
+            "tamanho": 42.5,
+            "estoque": 0
+          },
+          {
+            "tamanho": 43,
+            "estoque": 0
+          },
+          {
+            "tamanho": 43.5,
+            "estoque": 0
+          },
+          {
+            "tamanho": 44,
+            "estoque": 5
+          },
+          {
+            "tamanho": 45,
+            "estoque": 0
+          },
+          {
+            "tamanho": 46,
+            "estoque": 0
+          },
+          {
+            "tamanho": 47,
+            "estoque": 0
+          },
+          {
+            "tamanho": 48,
+            "estoque": 0
+          },
+          {
+            "tamanho": 49,
+            "estoque": 0
+          },
+          {
+            "tamanho": 50,
+            "estoque": 0
+          }
+        ]
+      },
+      {
+        "sku_base": "UB5-ROSA",
+        "created_at": "2026-08-27T09:10:00Z",
+        "updated_at": "2026-08-27T09:25:00Z",
+        "cor_nome": "Lucid Red / Lucid Red / Gold Metallic",
+        "cores": [
+          {
+            "nome": "Lucid Red",
+            "hex": "#E63946"
+          },
+          {
+            "nome": "Gold Metallic",
+            "hex": "#C9A227"
+          }
+        ],
+        "preco": {
+          "original": 999.99,
+          "promocional": 999.99
+        },
+        "thumbnail_cor": "/Produtos/03/Rosa/Tenis_Ultraboost_5_Vermelho_IE1111_HM1.avif",
+        "imagens": {
+          "principal_vitrine": "/Produtos/03/Rosa/Tenis_Ultraboost_5_Vermelho_IE1111_HM1.avif",
+          "galeria": [
+            "/Produtos/03/Rosa/Tenis_Ultraboost_5_Vermelho_IE1111_HM1.avif",
+            "/Produtos/03/Rosa/Tenis_Ultraboost_5_Vermelho_IE1111_HM3_hover.avif",
+            "/Produtos/03/Rosa/Tenis_Ultraboost_5_Vermelho_IE1111_HM4.avif",
+            "/Produtos/03/Rosa/Tenis_Ultraboost_5_Vermelho_IE1111_HM5.avif",
+            "/Produtos/03/Rosa/Tenis_Ultraboost_5_Vermelho_IE1111_HM6.avif",
+            "/Produtos/03/Rosa/Tenis_Ultraboost_5_Vermelho_IE1111_HM7.avif",
+            "/Produtos/03/Rosa/Tenis_Ultraboost_5_Vermelho_IE1111_HM8.avif",
+            "/Produtos/03/Rosa/Tenis_Ultraboost_5_Vermelho_IE1111_HM9.avif",
+            "/Produtos/03/Rosa/Tenis_Ultraboost_5_Vermelho_IE1111_HM10.avif"
+          ]
+        },
+        "grade_tamanhos": [
+          {
+            "tamanho": 33.5,
+            "estoque": 0
+          },
+          {
+            "tamanho": 34,
+            "estoque": 0
+          },
+          {
+            "tamanho": 35,
+            "estoque": 0
+          },
+          {
+            "tamanho": 35.5,
+            "estoque": 0
+          },
+          {
+            "tamanho": 36,
+            "estoque": 0
+          },
+          {
+            "tamanho": 37,
+            "estoque": 0
+          },
+          {
+            "tamanho": 38,
+            "estoque": 0
+          },
+          {
+            "tamanho": 39,
+            "estoque": 0
+          },
+          {
+            "tamanho": 39.5,
+            "estoque": 0
+          },
+          {
+            "tamanho": 40,
+            "estoque": 0
+          },
+          {
+            "tamanho": 40.5,
+            "estoque": 0
+          },
+          {
+            "tamanho": 41,
+            "estoque": 0
+          },
+          {
+            "tamanho": 42,
+            "estoque": 0
+          },
+          {
+            "tamanho": 42.5,
+            "estoque": 0
+          },
+          {
+            "tamanho": 43,
+            "estoque": 0
+          },
+          {
+            "tamanho": 43.5,
+            "estoque": 0
+          },
+          {
+            "tamanho": 44,
+            "estoque": 0
+          },
+          {
+            "tamanho": 45,
+            "estoque": 0
+          },
+          {
+            "tamanho": 46,
+            "estoque": 0
+          },
+          {
+            "tamanho": 47,
+            "estoque": 0
+          },
+          {
+            "tamanho": 48,
+            "estoque": 0
+          },
+          {
+            "tamanho": 49,
+            "estoque": 0
+          },
+          {
+            "tamanho": 50,
+            "estoque": 0
+          }
+        ]
+      },
+      {
+        "sku_base": "UB5-AZUL",
+        "created_at": "2026-08-27T09:10:00Z",
+        "updated_at": "2026-08-27T09:25:00Z",
+        "cor_nome": "Lucid Blue / Zero Metallic / Flash Aqua",
+        "cores": [
+          {
+            "nome": "Lucid Blue",
+            "hex": "#4AA3DF"
+          },
+          {
+            "nome": "Zero Metallic",
+            "hex": "#D4D6D8"
+          },
+          {
+            "nome": "Flash Aqua",
+            "hex": "#00E0D1"
+          }
+        ],
+        "preco": {
+          "original": 999.99,
+          "promocional": 999.99
+        },
+        "thumbnail_cor": "/Produtos/03/Azul/Tenis_Ultraboost_5_Azul_IF1482_HM1.avif",
+        "imagens": {
+          "principal_vitrine": "/Produtos/03/Azul/Tenis_Ultraboost_5_Azul_IF1482_HM1.avif",
+          "galeria": [
+            "/Produtos/03/Azul/Tenis_Ultraboost_5_Azul_IF1482_HM1.avif",
+            "/Produtos/03/Azul/Tenis_Ultraboost_5_Azul_IF1482_HM3_hover.avif",
+            "/Produtos/03/Azul/Tenis_Ultraboost_5_Azul_IF1482_HM4.avif",
+            "/Produtos/03/Azul/Tenis_Ultraboost_5_Azul_IF1482_HM5.avif",
+            "/Produtos/03/Azul/Tenis_Ultraboost_5_Azul_IF1482_HM6.avif",
+            "/Produtos/03/Azul/Tenis_Ultraboost_5_Azul_IF1482_HM7.avif",
+            "/Produtos/03/Azul/Tenis_Ultraboost_5_Azul_IF1482_HM8.avif",
+            "/Produtos/03/Azul/Tenis_Ultraboost_5_Azul_IF1482_HM9.avif",
+            "/Produtos/03/Azul/Tenis_Ultraboost_5_Azul_IF1482_HM10.avif"
+          ]
+        },
+        "grade_tamanhos": [
+          {
+            "tamanho": 33.5,
+            "estoque": 0
+          },
+          {
+            "tamanho": 34,
+            "estoque": 0
+          },
+          {
+            "tamanho": 35,
+            "estoque": 10
+          },
+          {
+            "tamanho": 35.5,
+            "estoque": 5
+          },
+          {
+            "tamanho": 36,
+            "estoque": 0
+          },
+          {
+            "tamanho": 37,
+            "estoque": 40
+          },
+          {
+            "tamanho": 38,
+            "estoque": 0
+          },
+          {
+            "tamanho": 39,
+            "estoque": 0
+          },
+          {
+            "tamanho": 39.5,
+            "estoque": 0
+          },
+          {
+            "tamanho": 40,
+            "estoque": 0
+          },
+          {
+            "tamanho": 40.5,
+            "estoque": 0
+          },
+          {
+            "tamanho": 41,
+            "estoque": 0
+          },
+          {
+            "tamanho": 42,
+            "estoque": 0
+          },
+          {
+            "tamanho": 42.5,
+            "estoque": 0
+          },
+          {
+            "tamanho": 43,
+            "estoque": 0
+          },
+          {
+            "tamanho": 43.5,
+            "estoque": 7
+          },
+          {
+            "tamanho": 44,
+            "estoque": 0
+          },
+          {
+            "tamanho": 45,
+            "estoque": 0
+          },
+          {
+            "tamanho": 46,
+            "estoque": 0
+          },
+          {
+            "tamanho": 47,
+            "estoque": 0
+          },
+          {
+            "tamanho": 48,
+            "estoque": 0
+          },
+          {
+            "tamanho": 49,
+            "estoque": 0
+          },
+          {
+            "tamanho": 50,
+            "estoque": 0
+          }
+        ]
+      }
+    ],
+    "destaque_home": true
+  },
+  {
+    "id": "4",
+    "ativo": true,
+    "created_at": "2026-08-27T09:10:00Z",
+    "updated_at": "2026-08-27T09:25:00Z",
+    "nome": "Tênis Ultraboost 5",
+    "marca": "Adidas",
+    "categoria_principal": "Tênis",
+    "genero": "Feminino",
+    "tipo_corrida": "Corrida 10k",
+    "descricoes": {
+      "vitrine": "Alta performance",
+      "detalhada": "Inovado para oferecer mais amortecimento, maior conforto e menor peso, o Ultraboost 5 chegou para transformar sua experiência de corrida, aproveitando ao máximo a sua energia. A entressola deste tênis é feita com o Light BOOST V2, nosso sistema de amortecimento com maior retorno de energia. O Ultraboost 5 também apresenta suporte externo moldado no calcanhar para fornecer suporte otimizado onde é necessário. O cabedal PRIMEKNIT cria o ajuste perfeito, enquanto o Torsion System oferece controle de outro nível durante toda a sua marcha. Por fim, a aderência de primeira do solado Continental™ permite a tração e transição perfeitas. Este produto contém pelo menos 20% de materiais reciclados. Ao escolher o reciclado, podemos reutilizar materiais já criados, o que ajuda a reduzir o desperdício e a nossa dependência de recursos finitos, além de reduzir a pegada dos produtos que fabricamos.",
+      "especificacoes_tecnicas": [
+        "Drop: 15mm",
+        "Peso: 244g (Tamanho 36)",
+        "Entressola: Light BOOST",
+        "Código do artigo: ID8839"
+      ]
+    },
+    "variacoes": [
+      {
+        "sku_base": "UB5-CINZA",
+        "created_at": "2026-08-27T09:10:00Z",
+        "updated_at": "2026-08-27T09:25:00Z",
+        "cor_nome": "Grey Four / Silver Metallic / Grey Two",
+        "cores": [
+          {
+            "nome": "Grey Four",
+            "hex": "#8A8D91"
+          },
+          {
+            "nome": "Silver Metallic",
+            "hex": "#C0C0C0"
+          },
+          {
+            "nome": "Grey Two",
+            "hex": "#D8D8D8"
+          }
+        ],
+        "preco": {
+          "original": 999.99,
+          "promocional": 999.99
+        },
+        "thumbnail_cor": "/Produtos/04/Cinza/Tenis_Ultraboost_5_Cinza_ID8839_HM1.avif",
+        "imagens": {
+          "principal_vitrine": "/Produtos/04/Cinza/Tenis_Ultraboost_5_Cinza_ID8839_HM1.avif",
+          "galeria": [
+            "/Produtos/04/Cinza/Tenis_Ultraboost_5_Cinza_ID8839_HM1.avif",
+            "/Produtos/04/Cinza/Tenis_Ultraboost_5_Cinza_ID8839_HM3_hover.avif",
+            "/Produtos/04/Cinza/Tenis_Ultraboost_5_Cinza_ID8839_HM4.avif",
+            "/Produtos/04/Cinza/Tenis_Ultraboost_5_Cinza_ID8839_HM5.avif",
+            "/Produtos/04/Cinza/Tenis_Ultraboost_5_Cinza_ID8839_HM6.avif",
+            "/Produtos/04/Cinza/Tenis_Ultraboost_5_Cinza_ID8839_HM7.avif",
+            "/Produtos/04/Cinza/Tenis_Ultraboost_5_Cinza_ID8839_HM8.avif",
+            "/Produtos/04/Cinza/Tenis_Ultraboost_5_Cinza_ID8839_HM9.avif",
+            "/Produtos/04/Cinza/Tenis_Ultraboost_5_Cinza_ID8839_HM10.avif"
+          ]
+        },
+        "grade_tamanhos": [
+          {
+            "tamanho": 33.5,
+            "estoque": 2
+          },
+          {
+            "tamanho": 34,
+            "estoque": 2
+          },
+          {
+            "tamanho": 35,
+            "estoque": 2
+          },
+          {
+            "tamanho": 35.5,
+            "estoque": 2
+          },
+          {
+            "tamanho": 36,
+            "estoque": 8
+          },
+          {
+            "tamanho": 37,
+            "estoque": 8
+          },
+          {
+            "tamanho": 38,
+            "estoque": 8
+          },
+          {
+            "tamanho": 39,
+            "estoque": 8
+          },
+          {
+            "tamanho": 39.5,
+            "estoque": 4
+          },
+          {
+            "tamanho": 40,
+            "estoque": 15
+          },
+          {
+            "tamanho": 40.5,
+            "estoque": 0
+          },
+          {
+            "tamanho": 41,
+            "estoque": 22
+          },
+          {
+            "tamanho": 42,
+            "estoque": 30
+          },
+          {
+            "tamanho": 42.5,
+            "estoque": 5
+          },
+          {
+            "tamanho": 43,
+            "estoque": 12
+          }
+        ]
+      },
+      {
+        "sku_base": "UB5-PRETO",
+        "created_at": "2026-08-27T09:10:00Z",
+        "updated_at": "2026-08-27T09:25:00Z",
+        "cor_nome": "Core Black / Core Black / Core Black",
+        "cores": [
+          {
+            "nome": "Core Black",
+            "hex": "#111111"
+          }
+        ],
+        "preco": {
+          "original": 1099.99,
+          "promocional": 1099.99
+        },
+        "thumbnail_cor": "/Produtos/04/Preto/Tenis_Ultraboost_5_Preto_ID8847_HM1.avif",
+        "imagens": {
+          "principal_vitrine": "/Produtos/04/Preto/Tenis_Ultraboost_5_Preto_ID8847_HM1.avif",
+          "galeria": [
+            "/Produtos/04/Preto/Tenis_Ultraboost_5_Preto_ID8847_HM1.avif",
+            "/Produtos/04/Preto/Tenis_Ultraboost_5_Preto_ID8847_HM3_hover.avif",
+            "/Produtos/04/Preto/Tenis_Ultraboost_5_Preto_ID8847_HM4.avif",
+            "/Produtos/04/Preto/Tenis_Ultraboost_5_Preto_ID8847_HM5.avif",
+            "/Produtos/04/Preto/Tenis_Ultraboost_5_Preto_ID8847_HM6.avif",
+            "/Produtos/04/Preto/Tenis_Ultraboost_5_Preto_ID8847_HM7.avif",
+            "/Produtos/04/Preto/Tenis_Ultraboost_5_Preto_ID8847_HM8.avif",
+            "/Produtos/04/Preto/Tenis_Ultraboost_5_Preto_ID8847_HM9.avif",
+            "/Produtos/04/Preto/Tenis_Ultraboost_5_Preto_ID8847_HM10.avif"
+          ]
+        },
+        "grade_tamanhos": [
+          {
+            "tamanho": 33.5,
+            "estoque": 0
+          },
+          {
+            "tamanho": 34,
+            "estoque": 8
+          },
+          {
+            "tamanho": 35,
+            "estoque": 10
+          },
+          {
+            "tamanho": 35.5,
+            "estoque": 0
+          },
+          {
+            "tamanho": 36,
+            "estoque": 8
+          },
+          {
+            "tamanho": 37,
+            "estoque": 2
+          },
+          {
+            "tamanho": 38,
+            "estoque": 8
+          },
+          {
+            "tamanho": 39,
+            "estoque": 8
+          },
+          {
+            "tamanho": 39.5,
+            "estoque": 4
+          },
+          {
+            "tamanho": 40,
+            "estoque": 0
+          },
+          {
+            "tamanho": 40.5,
+            "estoque": 0
+          },
+          {
+            "tamanho": 41,
+            "estoque": 22
+          },
+          {
+            "tamanho": 42,
+            "estoque": 30
+          },
+          {
+            "tamanho": 42.5,
+            "estoque": 4
+          },
+          {
+            "tamanho": 43,
+            "estoque": 12
+          }
+        ]
+      },
+      {
+        "sku_base": "UB5-AMARELO",
+        "created_at": "2026-08-27T09:10:00Z",
+        "updated_at": "2026-08-27T09:25:00Z",
+        "cor_nome": "Spark / Zero Metallic / Spark",
+        "cores": [
+          {
+            "nome": "Spark",
+            "hex": "#FF6A00"
+          },
+          {
+            "nome": "Zero Metallic",
+            "hex": "#D4D6D8"
+          }
+        ],
+        "preco": {
+          "original": 999.99,
+          "promocional": 999.99
+        },
+        "thumbnail_cor": "/Produtos/04/Amarelo/Tenis_Ultraboost_5_Laranja_ID8841_HM1.avif",
+        "imagens": {
+          "principal_vitrine": "/Produtos/04/Amarelo/Tenis_Ultraboost_5_Laranja_ID8841_HM1.avif",
+          "galeria": [
+            "/Produtos/04/Amarelo/Tenis_Ultraboost_5_Laranja_ID8841_HM1.avif",
+            "/Produtos/04/Amarelo/Tenis_Ultraboost_5_Laranja_ID8841_HM3_hover.avif",
+            "/Produtos/04/Amarelo/Tenis_Ultraboost_5_Laranja_ID8841_HM4.avif",
+            "/Produtos/04/Amarelo/Tenis_Ultraboost_5_Laranja_ID8841_HM5.avif",
+            "/Produtos/04/Amarelo/Tenis_Ultraboost_5_Laranja_ID8841_HM6.avif",
+            "/Produtos/04/Amarelo/Tenis_Ultraboost_5_Laranja_ID8841_HM7.avif",
+            "/Produtos/04/Amarelo/Tenis_Ultraboost_5_Laranja_ID8841_HM8.avif",
+            "/Produtos/04/Amarelo/Tenis_Ultraboost_5_Laranja_ID8841_HM9.avif",
+            "/Produtos/04/Amarelo/Tenis_Ultraboost_5_Laranja_ID8841_HM10.avif"
+          ]
+        },
+        "grade_tamanhos": [
+          {
+            "tamanho": 33.5,
+            "estoque": 14
+          },
+          {
+            "tamanho": 34,
+            "estoque": 16
+          },
+          {
+            "tamanho": 35,
+            "estoque": 9
+          },
+          {
+            "tamanho": 35.5,
+            "estoque": 8
+          },
+          {
+            "tamanho": 36,
+            "estoque": 7
+          },
+          {
+            "tamanho": 37,
+            "estoque": 5
+          },
+          {
+            "tamanho": 38,
+            "estoque": 2
+          },
+          {
+            "tamanho": 39,
+            "estoque": 3
+          },
+          {
+            "tamanho": 39.5,
+            "estoque": 4
+          },
+          {
+            "tamanho": 40,
+            "estoque": 15
+          },
+          {
+            "tamanho": 40.5,
+            "estoque": 13
+          },
+          {
+            "tamanho": 41,
+            "estoque": 22
+          },
+          {
+            "tamanho": 42,
+            "estoque": 30
+          },
+          {
+            "tamanho": 42.5,
+            "estoque": 10
+          },
+          {
+            "tamanho": 43,
+            "estoque": 12
+          }
+        ]
+      },
+      {
+        "sku_base": "UB5-ROSA",
+        "created_at": "2026-08-27T09:10:00Z",
+        "updated_at": "2026-08-27T09:25:00Z",
+        "cor_nome": "Lucid Pink / Lucid Lemon / Pulse Magenta",
+        "cores": [
+          {
+            "nome": "Lucid Pink",
+            "hex": "#F4A6C1"
+          },
+          {
+            "nome": "Lucid Lemon",
+            "hex": "#E6FF00"
+          },
+          {
+            "nome": "Pulse Magenta",
+            "hex": "#D4148E"
+          }
+        ],
+        "preco": {
+          "original": 999.99,
+          "promocional": 999.99
+        },
+        "thumbnail_cor": "/Produtos/04/Rosa/Tenis_Ultraboost_5_Rosa_ID8844_HM1.avif",
+        "imagens": {
+          "principal_vitrine": "/Produtos/04/Rosa/Tenis_Ultraboost_5_Rosa_ID8844_HM1.avif",
+          "galeria": [
+            "/Produtos/04/Rosa/Tenis_Ultraboost_5_Rosa_ID8844_HM1.avif",
+            "/Produtos/04/Rosa/Tenis_Ultraboost_5_Rosa_ID8844_HM3_hover.avif",
+            "/Produtos/04/Rosa/Tenis_Ultraboost_5_Rosa_ID8844_HM4.avif",
+            "/Produtos/04/Rosa/Tenis_Ultraboost_5_Rosa_ID8844_HM5.avif",
+            "/Produtos/04/Rosa/Tenis_Ultraboost_5_Rosa_ID8844_HM6.avif",
+            "/Produtos/04/Rosa/Tenis_Ultraboost_5_Rosa_ID8844_HM7.avif",
+            "/Produtos/04/Rosa/Tenis_Ultraboost_5_Rosa_ID8844_HM8.avif",
+            "/Produtos/04/Rosa/Tenis_Ultraboost_5_Rosa_ID8844_HM9.avif",
+            "/Produtos/04/Rosa/Tenis_Ultraboost_5_Rosa_ID8844_HM10.avif"
+          ]
+        },
+        "grade_tamanhos": [
+          {
+            "tamanho": 33.5,
+            "estoque": 0
+          },
+          {
+            "tamanho": 34,
+            "estoque": 0
+          },
+          {
+            "tamanho": 35,
+            "estoque": 0
+          },
+          {
+            "tamanho": 35.5,
+            "estoque": 0
+          },
+          {
+            "tamanho": 36,
+            "estoque": 13
+          },
+          {
+            "tamanho": 37,
+            "estoque": 1
+          },
+          {
+            "tamanho": 38,
+            "estoque": 0
+          },
+          {
+            "tamanho": 39,
+            "estoque": 0
+          },
+          {
+            "tamanho": 39.5,
+            "estoque": 0
+          },
+          {
+            "tamanho": 40,
+            "estoque": 0
+          },
+          {
+            "tamanho": 40.5,
+            "estoque": 0
+          },
+          {
+            "tamanho": 41,
+            "estoque": 0
+          },
+          {
+            "tamanho": 42,
+            "estoque": 0
+          },
+          {
+            "tamanho": 42.5,
+            "estoque": 0
+          },
+          {
+            "tamanho": 43,
+            "estoque": 0
+          }
+        ]
+      },
+      {
+        "sku_base": "UB5-ROSA-CLARO",
+        "created_at": "2026-08-27T09:10:00Z",
+        "updated_at": "2026-08-27T09:25:00Z",
+        "cor_nome": "Sandy Pink / Sandy Pink Met. / Zero Metallic",
+        "cores": [
+          {
+            "nome": "Sandy Pink",
+            "hex": "#D8A0A8"
+          },
+          {
+            "nome": "Sandy Pink Met.",
+            "hex": "#C88F98"
+          },
+          {
+            "nome": "Zero Metallic",
+            "hex": "#D4D6D8"
+          }
+        ],
+        "preco": {
+          "original": 1099.99,
+          "promocional": 1099.99
+        },
+        "thumbnail_cor": "/Produtos/04/Rosa_claro/Tenis_Ultraboost_5_Rosa_ID8845_HM1.avif",
+        "imagens": {
+          "principal_vitrine": "/Produtos/04/Rosa_claro/Tenis_Ultraboost_5_Rosa_ID8845_HM1.avif",
+          "galeria": [
+            "/Produtos/04/Rosa_claro/Tenis_Ultraboost_5_Rosa_ID8845_HM1.avif",
+            "/Produtos/04/Rosa_claro/Tenis_Ultraboost_5_Rosa_ID8845_HM3_hover.avif",
+            "/Produtos/04/Rosa_claro/Tenis_Ultraboost_5_Rosa_ID8845_HM4.avif",
+            "/Produtos/04/Rosa_claro/Tenis_Ultraboost_5_Rosa_ID8845_HM5.avif",
+            "/Produtos/04/Rosa_claro/Tenis_Ultraboost_5_Rosa_ID8845_HM6.avif",
+            "/Produtos/04/Rosa_claro/Tenis_Ultraboost_5_Rosa_ID8845_HM7.avif",
+            "/Produtos/04/Rosa_claro/Tenis_Ultraboost_5_Rosa_ID8845_HM8.avif",
+            "/Produtos/04/Rosa_claro/Tenis_Ultraboost_5_Rosa_ID8845_HM9.avif",
+            "/Produtos/04/Rosa_claro/Tenis_Ultraboost_5_Rosa_ID8845_HM10.avif"
+          ]
+        },
+        "grade_tamanhos": [
+          {
+            "tamanho": 33.5,
+            "estoque": 14
+          },
+          {
+            "tamanho": 34,
+            "estoque": 16
+          },
+          {
+            "tamanho": 35,
+            "estoque": 9
+          },
+          {
+            "tamanho": 35.5,
+            "estoque": 33
+          },
+          {
+            "tamanho": 36,
+            "estoque": 77
+          },
+          {
+            "tamanho": 37,
+            "estoque": 55
+          },
+          {
+            "tamanho": 38,
+            "estoque": 21
+          },
+          {
+            "tamanho": 39,
+            "estoque": 32
+          },
+          {
+            "tamanho": 39.5,
+            "estoque": 4
+          },
+          {
+            "tamanho": 40,
+            "estoque": 15
+          },
+          {
+            "tamanho": 40.5,
+            "estoque": 18
+          },
+          {
+            "tamanho": 41,
+            "estoque": 22
+          },
+          {
+            "tamanho": 42,
+            "estoque": 30
+          },
+          {
+            "tamanho": 42.5,
+            "estoque": 17
+          },
+          {
+            "tamanho": 43,
+            "estoque": 12
+          }
+        ]
+      }
+    ],
+    "destaque_home": true
+  },
+  {
+    "id": "5",
+    "ativo": true,
+    "created_at": "2026-08-27T09:10:00Z",
+    "updated_at": "2026-08-27T09:25:00Z",
+    "nome": "Tênis Adizero Boston 12",
+    "marca": "Adidas",
+    "categoria_principal": "Tênis",
+    "genero": "Feminino",
+    "tipo_corrida": "Corrida 21k",
+    "descricoes": {
+      "vitrine": "Para competições e treinos rápidos",
+      "detalhada": "A Maratona de Boston é uma corrida. Mas também é uma meta, um plano de treino e todos os dias em que você fica pensando nisso antes do grande evento. Os tênis Adizero Boston 12 foram desenvolvidos para corridas de média e longa distância. Eles trazem uma sensação de dia de corrida para o treinamento com uma sensação de propulsão que vem dos ENERGYRODS 2.0 infundidos com fibra de vidro, que limitam a perda de energia sob os pés. Eles são rápidos, mas isso não significa que a durabilidade seja prejudicada - a entressola combina o amortecimento ultraleve LIGHTSTRIKE PRO com uma nova versão do LIGHTSTRIKE 2.0 EVA durável.",
+      "especificacoes_tecnicas": [
+        "Drop: 18mm",
+        "Peso: 218g (Tamanho 37)",
+        "Entressola: Lightstrike Pro",
+        "Código do artigo: ID6898"
+      ]
+    },
+    "variacoes": [
+      {
+        "sku_base": "AB12-CINZA",
+        "created_at": "2026-08-27T09:10:00Z",
+        "updated_at": "2026-08-27T09:25:00Z",
+        "cor_nome": "Arctic Night / Lucid Lemon / Carbon",
+        "cores": [
+          {
+            "nome": "Arctic Night",
+            "hex": "#1F2A44"
+          },
+          {
+            "nome": "Lucid Lemon",
+            "hex": "#E6FF00"
+          },
+          {
+            "nome": "Carbon",
+            "hex": "#3B3B3B"
+          }
+        ],
+        "preco": {
+          "original": 1299.99,
+          "promocional": 1299.99
+        },
+        "thumbnail_cor": "/Produtos/05/Cinza/Tenis_Adizero_Boston_12_Turquesa_ID6898_HM1.avif",
+        "imagens": {
+          "principal_vitrine": "/Produtos/05/Cinza/Tenis_Adizero_Boston_12_Turquesa_ID6898_HM1.avif",
+          "galeria": [
+            "/Produtos/05/Cinza/Tenis_Adizero_Boston_12_Turquesa_ID6898_HM1.avif",
+            "/Produtos/05/Cinza/Tenis_Adizero_Boston_12_Turquesa_ID6898_HM3_hover.avif",
+            "/Produtos/05/Cinza/Tenis_Adizero_Boston_12_Turquesa_ID6898_HM4.avif",
+            "/Produtos/05/Cinza/Tenis_Adizero_Boston_12_Turquesa_ID6898_HM5.avif",
+            "/Produtos/05/Cinza/Tenis_Adizero_Boston_12_Turquesa_ID6898_HM6.avif",
+            "/Produtos/05/Cinza/Tenis_Adizero_Boston_12_Turquesa_ID6898_HM7.avif",
+            "/Produtos/05/Cinza/Tenis_Adizero_Boston_12_Turquesa_ID6898_HM8.avif",
+            "/Produtos/05/Cinza/Tenis_Adizero_Boston_12_Turquesa_ID6898_HM9.avif"
+          ]
+        },
+        "grade_tamanhos": [
+          {
+            "tamanho": 33.5,
+            "estoque": 0
+          },
+          {
+            "tamanho": 34,
+            "estoque": 0
+          },
+          {
+            "tamanho": 35,
+            "estoque": 0
+          },
+          {
+            "tamanho": 35.5,
+            "estoque": 0
+          },
+          {
+            "tamanho": 36,
+            "estoque": 0
+          },
+          {
+            "tamanho": 37,
+            "estoque": 0
+          },
+          {
+            "tamanho": 38,
+            "estoque": 0
+          },
+          {
+            "tamanho": 39,
+            "estoque": 10
+          },
+          {
+            "tamanho": 39.5,
+            "estoque": 0
+          },
+          {
+            "tamanho": 40,
+            "estoque": 0
+          },
+          {
+            "tamanho": 40.5,
+            "estoque": 0
+          },
+          {
+            "tamanho": 41,
+            "estoque": 0
+          },
+          {
+            "tamanho": 42,
+            "estoque": 0
+          },
+          {
+            "tamanho": 42.5,
+            "estoque": 0
+          },
+          {
+            "tamanho": 43,
+            "estoque": 0
+          }
+        ]
+      },
+      {
+        "sku_base": "AB12-AZUL-CLARO",
+        "created_at": "2026-08-27T09:10:00Z",
+        "updated_at": "2026-08-27T09:25:00Z",
+        "cor_nome": "Flash Aqua / Silver Metallic / Light Aqua",
+        "cores": [
+          {
+            "nome": "Flash Aqua",
+            "hex": "#00E0D1"
+          },
+          {
+            "nome": "Silver Metallic",
+            "hex": "#C0C0C0"
+          },
+          {
+            "nome": "Light Aqua",
+            "hex": "#8DE5DF"
+          }
+        ],
+        "preco": {
+          "original": 1299.99,
+          "promocional": 1299.99
+        },
+        "thumbnail_cor": "/Produtos/05/Azul_claro/Tenis_Adizero_Boston_12_Turquesa_ID6901_HM1.avif",
+        "imagens": {
+          "principal_vitrine": "/Produtos/05/Azul_claro/Tenis_Adizero_Boston_12_Turquesa_ID6901_HM1.avif",
+          "galeria": [
+            "/Produtos/05/Azul_claro/Tenis_Adizero_Boston_12_Turquesa_ID6901_HM1.avif",
+            "/Produtos/05/Azul_claro/Tenis_Adizero_Boston_12_Turquesa_ID6901_HM3_hover.avif",
+            "/Produtos/05/Azul_claro/Tenis_Adizero_Boston_12_Turquesa_ID6901_HM4.avif",
+            "/Produtos/05/Azul_claro/Tenis_Adizero_Boston_12_Turquesa_ID6901_HM5.avif",
+            "/Produtos/05/Azul_claro/Tenis_Adizero_Boston_12_Turquesa_ID6901_HM6.avif",
+            "/Produtos/05/Azul_claro/Tenis_Adizero_Boston_12_Turquesa_ID6901_HM7.avif",
+            "/Produtos/05/Azul_claro/Tenis_Adizero_Boston_12_Turquesa_ID6901_HM8.avif",
+            "/Produtos/05/Azul_claro/Tenis_Adizero_Boston_12_Turquesa_ID6901_HM1 (1).avif",
+            "/Produtos/05/Azul_claro/Tenis_Adizero_Boston_12_Turquesa_ID6901_HM2.avif",
+            "/Produtos/05/Azul_claro/Tenis_Adizero_Boston_12_Turquesa_ID6901_HM3.avif",
+            "/Produtos/05/Azul_claro/Tenis_Adizero_Boston_12_Turquesa_ID6901_HM4 (1).avif",
+            "/Produtos/05/Azul_claro/Tenis_Adizero_Boston_12_Turquesa_ID6901_DM1.avif"
+          ]
+        },
+        "grade_tamanhos": [
+          {
+            "tamanho": 33.5,
+            "estoque": 0
+          },
+          {
+            "tamanho": 34,
+            "estoque": 0
+          },
+          {
+            "tamanho": 35,
+            "estoque": 0
+          },
+          {
+            "tamanho": 35.5,
+            "estoque": 0
+          },
+          {
+            "tamanho": 36,
+            "estoque": 0
+          },
+          {
+            "tamanho": 37,
+            "estoque": 0
+          },
+          {
+            "tamanho": 38,
+            "estoque": 0
+          },
+          {
+            "tamanho": 39,
+            "estoque": 0
+          },
+          {
+            "tamanho": 39.5,
+            "estoque": 0
+          },
+          {
+            "tamanho": 40,
+            "estoque": 3
+          },
+          {
+            "tamanho": 40.5,
+            "estoque": 0
+          },
+          {
+            "tamanho": 41,
+            "estoque": 0
+          },
+          {
+            "tamanho": 42,
+            "estoque": 0
+          },
+          {
+            "tamanho": 42.5,
+            "estoque": 0
+          },
+          {
+            "tamanho": 43,
+            "estoque": 0
+          }
+        ]
+      },
+      {
+        "sku_base": "AB12-LILAS",
+        "created_at": "2026-08-27T09:10:00Z",
+        "updated_at": "2026-08-27T09:25:00Z",
+        "cor_nome": "Blue Spark / Zero Metallic / Cobalt Blue",
+        "cores": [
+          {
+            "nome": "Blue Spark",
+            "hex": "#007BFF"
+          },
+          {
+            "nome": "Zero Metallic",
+            "hex": "#D4D6D8"
+          },
+          {
+            "nome": "Cobalt Blue",
+            "hex": "#0047AB"
+          }
+        ],
+        "preco": {
+          "original": 1299.99,
+          "promocional": 1299.99
+        },
+        "thumbnail_cor": "/Produtos/05/Lilas/Tenis_Adizero_Boston_12_Azul_IF9220_HM1.avif",
+        "imagens": {
+          "principal_vitrine": "/Produtos/05/Lilas/Tenis_Adizero_Boston_12_Azul_IF9220_HM1.avif",
+          "galeria": [
+            "/Produtos/05/Lilas/Tenis_Adizero_Boston_12_Azul_IF9220_HM1.avif",
+            "/Produtos/05/Lilas/Tenis_Adizero_Boston_12_Azul_IF9220_HM3_hover.avif",
+            "/Produtos/05/Lilas/Tenis_Adizero_Boston_12_Azul_IF9220_HM4.avif",
+            "/Produtos/05/Lilas/Tenis_Adizero_Boston_12_Azul_IF9220_HM5.avif",
+            "/Produtos/05/Lilas/Tenis_Adizero_Boston_12_Azul_IF9220_HM6.avif",
+            "/Produtos/05/Lilas/Tenis_Adizero_Boston_12_Azul_IF9220_HM7.avif",
+            "/Produtos/05/Lilas/Tenis_Adizero_Boston_12_Azul_IF9220_HM8.avif",
+            "/Produtos/05/Lilas/Tenis_Adizero_Boston_12_Azul_IF9220_HM9.avif",
+            "/Produtos/05/Lilas/Tenis_Adizero_Boston_12_Azul_IF9220_HM10.avif"
+          ]
+        },
+        "grade_tamanhos": [
+          {
+            "tamanho": 33.5,
+            "estoque": 14
+          },
+          {
+            "tamanho": 34,
+            "estoque": 16
+          },
+          {
+            "tamanho": 35,
+            "estoque": 9
+          },
+          {
+            "tamanho": 35.5,
+            "estoque": 10
+          },
+          {
+            "tamanho": 36,
+            "estoque": 9
+          },
+          {
+            "tamanho": 37,
+            "estoque": 6
+          },
+          {
+            "tamanho": 38,
+            "estoque": 7
+          },
+          {
+            "tamanho": 39,
+            "estoque": 6
+          },
+          {
+            "tamanho": 39.5,
+            "estoque": 4
+          },
+          {
+            "tamanho": 40,
+            "estoque": 15
+          },
+          {
+            "tamanho": 40.5,
+            "estoque": 13
+          },
+          {
+            "tamanho": 41,
+            "estoque": 22
+          },
+          {
+            "tamanho": 42,
+            "estoque": 14
+          },
+          {
+            "tamanho": 42.5,
+            "estoque": 10
+          },
+          {
+            "tamanho": 43,
+            "estoque": 12
+          }
+        ]
+      },
+      {
+        "sku_base": "AB12-CINZA-CLARO",
+        "created_at": "2026-08-27T09:10:00Z",
+        "updated_at": "2026-08-27T09:25:00Z",
+        "cor_nome": "Dash Grey / Lucid Red / Lucid Lemon",
+        "cores": [
+          {
+            "nome": "Dash Grey",
+            "hex": "#8E9397"
+          },
+          {
+            "nome": "Lucid Red",
+            "hex": "#E63946"
+          },
+          {
+            "nome": "Lucid Lemon",
+            "hex": "#E6FF00"
+          }
+        ],
+        "preco": {
+          "original": 1299.99,
+          "promocional": 1099.99
+        },
+        "thumbnail_cor": "/Produtos/05/Cinza_claro/Tenis_Adizero_Boston_12_Cinza_JI4473_HM1.avif",
+        "imagens": {
+          "principal_vitrine": "/Produtos/05/Cinza_claro/Tenis_Adizero_Boston_12_Cinza_JI4473_HM1.avif",
+          "galeria": [
+            "/Produtos/05/Cinza_claro/Tenis_Adizero_Boston_12_Cinza_JI4473_HM1.avif",
+            "/Produtos/05/Cinza_claro/Tenis_Adizero_Boston_12_Cinza_JI4473_HM3_hover.avif",
+            "/Produtos/05/Cinza_claro/Tenis_Adizero_Boston_12_Cinza_JI4473_HM4.avif",
+            "/Produtos/05/Cinza_claro/Tenis_Adizero_Boston_12_Cinza_JI4473_HM5.avif",
+            "/Produtos/05/Cinza_claro/Tenis_Adizero_Boston_12_Cinza_JI4473_HM6.avif",
+            "/Produtos/05/Cinza_claro/Tenis_Adizero_Boston_12_Cinza_JI4473_HM7.avif",
+            "/Produtos/05/Cinza_claro/Tenis_Adizero_Boston_12_Cinza_JI4473_HM8.avif",
+            "/Produtos/05/Cinza_claro/Tenis_Adizero_Boston_12_Cinza_JI4473_HM9.avif",
+            "/Produtos/05/Cinza_claro/Tenis_Adizero_Boston_12_Cinza_JI4473_HM10.avif"
+          ]
+        },
+        "grade_tamanhos": [
+          {
+            "tamanho": 33.5,
+            "estoque": 12
+          },
+          {
+            "tamanho": 34,
+            "estoque": 11
+          },
+          {
+            "tamanho": 35,
+            "estoque": 9
+          },
+          {
+            "tamanho": 35.5,
+            "estoque": 10
+          },
+          {
+            "tamanho": 36,
+            "estoque": 9
+          },
+          {
+            "tamanho": 37,
+            "estoque": 6
+          },
+          {
+            "tamanho": 38,
+            "estoque": 7
+          },
+          {
+            "tamanho": 39,
+            "estoque": 6
+          },
+          {
+            "tamanho": 39.5,
+            "estoque": 4
+          },
+          {
+            "tamanho": 40,
+            "estoque": 11
+          },
+          {
+            "tamanho": 40.5,
+            "estoque": 13
+          },
+          {
+            "tamanho": 41,
+            "estoque": 22
+          },
+          {
+            "tamanho": 42,
+            "estoque": 14
+          },
+          {
+            "tamanho": 42.5,
+            "estoque": 10
+          },
+          {
+            "tamanho": 43,
+            "estoque": 8
+          }
+        ]
+      }
+    ],
+    "destaque_home": true
+  },
+  {
+    "id": "6",
+    "ativo": true,
+    "created_at": "2026-08-27T09:10:00Z",
+    "updated_at": "2026-08-27T09:25:00Z",
+    "nome": "Tênis Adizero Adios Pro Evo 1",
+    "marca": "Adidas",
+    "categoria_principal": "Tênis",
+    "genero": "Unissex",
+    "tipo_corrida": "Corrida 21k",
+    "descricoes": {
+      "vitrine": "Para Maratonas",
+      "detalhada": "Surpreendentemente leve. Descaradamente rápido. Os tênis adidas Adizero Adios Pro Evo 1 são uma nova classe de tênis de corrida, projetados para ajudar os maratonistas ambiciosos a deixar tudo no percurso. São 40% mais leves do que quaisquer outros tênis de corrida que já criamos, pesando apenas 138 g de pura inovação. A espuma Lightstrike Pro é combinada à tecnologia de ponta do solado, malha elástica leve como pluma e um rocker da ponta do pé único que foi testado em laboratório para melhorar a economia de corrida. O Adizero Adios Pro Evo 1 é o futuro da corrida e está pronto para competir.",
+      "especificacoes_tecnicas": [
+        "Drop: 20mm",
+        "Peso: 138g (Tamanho 41)",
+        "Entressola: Lightstrike Pro",
+        "Código do artigo: IH5564"
+      ]
+    },
+    "variacoes": [
+      {
+        "sku_base": "AAPE1-BRANCO",
+        "created_at": "2026-08-27T09:10:00Z",
+        "updated_at": "2026-08-27T09:25:00Z",
+        "cor_nome": "White / White / White",
+        "cores": [
+          {
+            "nome": "White",
+            "hex": "#FFFFFF"
+          }
+        ],
+        "preco": {
+          "original": 3999.99,
+          "promocional": 3999.99
+        },
+        "thumbnail_cor": "/Produtos/06/Tenis_Adizero_Adios_Pro_Evo_1_Multicores_IH5564_01_standard.avif",
+        "imagens": {
+          "principal_vitrine": "/Produtos/06/Tenis_Adizero_Adios_Pro_Evo_1_Multicores_IH5564_01_standard.avif",
+          "galeria": [
+            "/Produtos/06/Tenis_Adizero_Adios_Pro_Evo_1_Multicores_IH5564_01_standard.avif",
+            "/Produtos/06/Tenis_Adizero_Adios_Pro_Evo_1_Multicores_IH5564_02_standard.avif",
+            "/Produtos/06/Tenis_Adizero_Adios_Pro_Evo_1_Multicores_IH5564_03_standard.avif",
+            "/Produtos/06/Tenis_Adizero_Adios_Pro_Evo_1_Multicores_IH5564_04_standard.avif",
+            "/Produtos/06/Tenis_Adizero_Adios_Pro_Evo_1_Multicores_IH5564_05_standard.avif",
+            "/Produtos/06/Tenis_Adizero_Adios_Pro_Evo_1_Multicores_IH5564_06_standard.avif",
+            "/Produtos/06/Tenis_Adizero_Adios_Pro_Evo_1_Multicores_IH5564_09_standard.avif",
+            "/Produtos/06/Tenis_Adizero_Adios_Pro_Evo_1_Multicores_IH5564_14_hover_standard.avif",
+            "/Produtos/06/Tenis_Adizero_Adios_Pro_Evo_1_Multicores_IH5564_41_detail.avif",
+            "/Produtos/06/Tenis_Adizero_Adios_Pro_Evo_1_Multicores_IH5564_42_detail.avif",
+            "/Produtos/06/Tenis_Adizero_Adios_Pro_Evo_1_Multicores_IH5564_HM2.avif",
+            "/Produtos/06/Tenis_Adizero_Adios_Pro_Evo_1_Multicores_IH5564_HM3.avif",
+            "/Produtos/06/Tenis_Adizero_Adios_Pro_Evo_1_Multicores_IH5564_HM4.avif",
+            "/Produtos/06/Tenis_Adizero_Adios_Pro_Evo_1_Multicores_IH5564_HM5.avif",
+            "/Produtos/06/Tenis_Adizero_Adios_Pro_Evo_1_Multicores_IH5564_HM51.avif"
+          ]
+        },
+        "grade_tamanhos": [
+          {
+            "tamanho": 33.5,
+            "estoque": 50
+          },
+          {
+            "tamanho": 34,
+            "estoque": 50
+          },
+          {
+            "tamanho": 35,
+            "estoque": 50
+          },
+          {
+            "tamanho": 35.5,
+            "estoque": 50
+          },
+          {
+            "tamanho": 36,
+            "estoque": 50
+          },
+          {
+            "tamanho": 37,
+            "estoque": 50
+          },
+          {
+            "tamanho": 38,
+            "estoque": 50
+          },
+          {
+            "tamanho": 39,
+            "estoque": 50
+          },
+          {
+            "tamanho": 39.5,
+            "estoque": 50
+          },
+          {
+            "tamanho": 40,
+            "estoque": 50
+          },
+          {
+            "tamanho": 40.5,
+            "estoque": 50
+          },
+          {
+            "tamanho": 41,
+            "estoque": 50
+          },
+          {
+            "tamanho": 42,
+            "estoque": 50
+          },
+          {
+            "tamanho": 42.5,
+            "estoque": 50
+          },
+          {
+            "tamanho": 43,
+            "estoque": 50
+          },
+          {
+            "tamanho": 44,
+            "estoque": 50
+          },
+          {
+            "tamanho": 45,
+            "estoque": 50
+          },
+          {
+            "tamanho": 46,
+            "estoque": 50
+          },
+          {
+            "tamanho": 47,
+            "estoque": 50
+          }
+        ]
+      }
+    ],
+    "destaque_home": true
+  },
+  {
+    "id": "7",
+    "ativo": true,
+    "created_at": "2026-08-27T09:10:00Z",
+    "updated_at": "2026-08-27T09:25:00Z",
+    "nome": "Adizero Boston 13",
+    "marca": "Adidas",
+    "categoria_principal": "Tênis",
+    "genero": "Masculino",
+    "tipo_corrida": "Corrida 42k",
+    "descricoes": {
+      "vitrine": "Longas distâncias",
+      "detalhada": "Os tênis Adizero Boston 13 foram habilidosamente confeccionados pela adidas para acompanhar cada passo que você dá. Projetado para ajudar você a superar seus limites, este tênis ajuda a proporcionar uma experiência de corrida intuitiva e responsiva. A tecnologia inovadora, como a entressola LightstrikePro, oferece um amortecimento super leve, além de retorno de energia para uma velocidade de próximo nível. Uma malha elástica leve no cabedal proporciona ventilação e ajuda você a sentir-se fresco mesmo durante as corridas mais intensas. Não importa o desafio, se você está correndo contra o relógio ou simplesmente curtindo o ritmo da estrada, estes tênis de corrida são seus parceiros perfeitos no desempenho",
+      "especificacoes_tecnicas": [
+        "Drop: 14mm",
+        "Peso: 260g (Tamanho 39)",
+        "Entressola: LIGHTSTRIKEPRO",
+        "Código do artigo: JQ1669"
+      ]
+    },
+    "variacoes": [
+      {
+        "sku_base": "AB13-AZUL",
+        "created_at": "2026-08-27T09:10:00Z",
+        "updated_at": "2026-08-27T09:25:00Z",
+        "cor_nome": "Blue / Gold Metallic / Blue Burst",
+        "cores": [
+          {
+            "nome": "Blue",
+            "hex": "#0066CC"
+          },
+          {
+            "nome": "Gold Metallic",
+            "hex": "#C9A227"
+          },
+          {
+            "nome": "Blue Burst",
+            "hex": "#008FD5"
+          }
+        ],
+        "preco": {
+          "original": 1399.99,
+          "promocional": 1399.99
+        },
+        "thumbnail_cor": "/Produtos/07/Azul/Adizero_Boston_13_Azul_JQ1669_01_00_standard.avif",
+        "imagens": {
+          "principal_vitrine": "/Produtos/07/Azul/Adizero_Boston_13_Azul_JQ1669_01_00_standard.avif",
+          "galeria": [
+            "/Produtos/07/Azul/Adizero_Boston_13_Azul_JQ1669_01_00_standard.avif",
+            "/Produtos/07/Azul/Adizero_Boston_13_Azul_JQ1669_01_02_standard.avif",
+            "/Produtos/07/Azul/Adizero_Boston_13_Azul_JQ1669_01_03_standard.avif",
+            "/Produtos/07/Azul/Adizero_Boston_13_Azul_JQ1669_01_04_standard.avif",
+            "/Produtos/07/Azul/Adizero_Boston_13_Azul_JQ1669_01_05_standard.avif",
+            "/Produtos/07/Azul/Adizero_Boston_13_Azul_JQ1669_01_06_standard.avif",
+            "/Produtos/07/Azul/Adizero_Boston_13_Azul_JQ1669_41_detail.avif",
+            "/Produtos/07/Azul/Adizero_Boston_13_Azul_JQ1669_HM53.avif",
+            "/Produtos/07/Azul/Adizero_Boston_13_Azul_JQ1669_HM54.avif",
+            "/Produtos/07/Azul/Adizero_Boston_13_Azul_JQ1669_42_detail.avif"
+          ]
+        },
+        "grade_tamanhos": [
+          {
+            "tamanho": 33.5,
+            "estoque": 0
+          },
+          {
+            "tamanho": 34,
+            "estoque": 0
+          },
+          {
+            "tamanho": 35,
+            "estoque": 10
+          },
+          {
+            "tamanho": 35.5,
+            "estoque": 5
+          },
+          {
+            "tamanho": 36,
+            "estoque": 6
+          },
+          {
+            "tamanho": 37,
+            "estoque": 23
+          },
+          {
+            "tamanho": 38,
+            "estoque": 3
+          },
+          {
+            "tamanho": 39,
+            "estoque": 5
+          },
+          {
+            "tamanho": 39.5,
+            "estoque": 0
+          },
+          {
+            "tamanho": 40,
+            "estoque": 6
+          },
+          {
+            "tamanho": 40.5,
+            "estoque": 8
+          },
+          {
+            "tamanho": 41,
+            "estoque": 7
+          },
+          {
+            "tamanho": 42,
+            "estoque": 0
+          },
+          {
+            "tamanho": 42.5,
+            "estoque": 10
+          },
+          {
+            "tamanho": 43,
+            "estoque": 11
+          },
+          {
+            "tamanho": 43.5,
+            "estoque": 7
+          },
+          {
+            "tamanho": 44,
+            "estoque": 0
+          },
+          {
+            "tamanho": 45,
+            "estoque": 12
+          },
+          {
+            "tamanho": 46,
+            "estoque": 3
+          },
+          {
+            "tamanho": 47,
+            "estoque": 13
+          },
+          {
+            "tamanho": 47.5,
+            "estoque": 2
+          }
+        ]
+      },
+      {
+        "sku_base": "AB13-BRANCO-VERDE",
+        "created_at": "2026-08-27T09:10:00Z",
+        "updated_at": "2026-08-27T09:25:00Z",
+        "cor_nome": "Cloud White / Pure Teal / Grey",
+        "cores": [
+          {
+            "nome": "Cloud White",
+            "hex": "#F5F5F3"
+          },
+          {
+            "nome": "Pure Teal",
+            "hex": "#008C8C"
+          },
+          {
+            "nome": "Grey",
+            "hex": "#808080"
+          }
+        ],
+        "preco": {
+          "original": 1499.99,
+          "promocional": 1499.99
+        },
+        "thumbnail_cor": "/Produtos/07/Branco_verde/Tenis_Adizero_Boston_13_EQT_Branco_JR4791_01_00_standard.avif",
+        "imagens": {
+          "principal_vitrine": "/Produtos/07/Branco_verde/Tenis_Adizero_Boston_13_EQT_Branco_JR4791_01_00_standard.avif",
+          "galeria": [
+            "/Produtos/07/Branco_verde/Tenis_Adizero_Boston_13_EQT_Branco_JR4791_01_00_standard.avif",
+            "/Produtos/07/Branco_verde/Tenis_Adizero_Boston_13_EQT_Branco_JR4791_02_standard_hover.avif",
+            "/Produtos/07/Branco_verde/Tenis_Adizero_Boston_13_EQT_Branco_JR4791_03_standard.avif",
+            "/Produtos/07/Branco_verde/Tenis_Adizero_Boston_13_EQT_Branco_JR4791_04_standard.avif",
+            "/Produtos/07/Branco_verde/Tenis_Adizero_Boston_13_EQT_Branco_JR4791_05_standard.avif",
+            "/Produtos/07/Branco_verde/Tenis_Adizero_Boston_13_EQT_Branco_JR4791_06_standard.avif",
+            "/Produtos/07/Branco_verde/Tenis_Adizero_Boston_13_EQT_Branco_JR4791_09_standard.avif",
+            "/Produtos/07/Branco_verde/Tenis_Adizero_Boston_13_EQT_Branco_JR4791_41_detail.avif",
+            "/Produtos/07/Branco_verde/Tenis_Adizero_Boston_13_EQT_Branco_JR4791_42_detail.avif",
+            "/Produtos/07/Branco_verde/Tenis_Adizero_Boston_13_EQT_Branco_JR4791_HM51.avif",
+            "/Produtos/07/Branco_verde/Tenis_Adizero_Boston_13_EQT_Branco_JR4791_HM53.avif",
+            "/Produtos/07/Branco_verde/Tenis_Adizero_Boston_13_EQT_Branco_JR4791_HM54.avif"
+          ]
+        },
+        "grade_tamanhos": [
+          {
+            "tamanho": 33.5,
+            "estoque": 3
+          },
+          {
+            "tamanho": 34,
+            "estoque": 5
+          },
+          {
+            "tamanho": 35,
+            "estoque": 10
+          },
+          {
+            "tamanho": 35.5,
+            "estoque": 5
+          },
+          {
+            "tamanho": 36,
+            "estoque": 6
+          },
+          {
+            "tamanho": 37,
+            "estoque": 0
+          },
+          {
+            "tamanho": 38,
+            "estoque": 3
+          },
+          {
+            "tamanho": 39,
+            "estoque": 0
+          },
+          {
+            "tamanho": 39.5,
+            "estoque": 3
+          },
+          {
+            "tamanho": 40,
+            "estoque": 6
+          },
+          {
+            "tamanho": 40.5,
+            "estoque": 8
+          },
+          {
+            "tamanho": 41,
+            "estoque": 7
+          },
+          {
+            "tamanho": 42,
+            "estoque": 15
+          },
+          {
+            "tamanho": 42.5,
+            "estoque": 10
+          },
+          {
+            "tamanho": 43,
+            "estoque": 11
+          },
+          {
+            "tamanho": 43.5,
+            "estoque": 7
+          },
+          {
+            "tamanho": 44,
+            "estoque": 0
+          },
+          {
+            "tamanho": 45,
+            "estoque": 12
+          },
+          {
+            "tamanho": 46,
+            "estoque": 3
+          },
+          {
+            "tamanho": 47,
+            "estoque": 13
+          },
+          {
+            "tamanho": 47.5,
+            "estoque": 2
+          }
+        ]
+      },
+      {
+        "sku_base": "AB13-AMARELO",
+        "created_at": "2026-08-27T09:10:00Z",
+        "updated_at": "2026-08-27T09:25:00Z",
+        "cor_nome": "Green / Aurora Plum / Powder Plum",
+        "cores": [
+          {
+            "nome": "Green",
+            "hex": "#00843D"
+          },
+          {
+            "nome": "Aurora Plum",
+            "hex": "#5B315F"
+          },
+          {
+            "nome": "Powder Plum",
+            "hex": "#B58AAE"
+          }
+        ],
+        "preco": {
+          "original": 1399.99,
+          "promocional": 1399.99
+        },
+        "thumbnail_cor": "/Produtos/07/Amarelo/Tenis_Adizero_Boston_13_Verde_JP9251_HM1.avif",
+        "imagens": {
+          "principal_vitrine": "/Produtos/07/Amarelo/Tenis_Adizero_Boston_13_Verde_JP9251_HM1.avif",
+          "galeria": [
+            "/Produtos/07/Amarelo/Tenis_Adizero_Boston_13_Verde_JP9251_HM1.avif",
+            "/Produtos/07/Amarelo/Tenis_Adizero_Boston_13_Verde_JP9251_HM3_hover.avif",
+            "/Produtos/07/Amarelo/Tenis_Adizero_Boston_13_Verde_JP9251_HM4.avif",
+            "/Produtos/07/Amarelo/Tenis_Adizero_Boston_13_Verde_JP9251_HM5.avif",
+            "/Produtos/07/Amarelo/Tenis_Adizero_Boston_13_Verde_JP9251_HM6.avif",
+            "/Produtos/07/Amarelo/Tenis_Adizero_Boston_13_Verde_JP9251_HM7.avif",
+            "/Produtos/07/Amarelo/Tenis_Adizero_Boston_13_Verde_JP9251_HM8.avif",
+            "/Produtos/07/Amarelo/Tenis_Adizero_Boston_13_Verde_JP9251_HM9.avif",
+            "/Produtos/07/Amarelo/Tenis_Adizero_Boston_13_Verde_JP9251_HM10.avif",
+            "/Produtos/07/Amarelo/Tenis_Adizero_Boston_13_Verde_JP9251_HM11.avif",
+            "/Produtos/07/Amarelo/Tenis_Adizero_Boston_13_Verde_JP9251_HM53.avif",
+            "/Produtos/07/Amarelo/Tenis_Adizero_Boston_13_Verde_JP9251_HM54.avif",
+            "/Produtos/07/Amarelo/Tenis_Adizero_Boston_13_Verde_JP9251_HM55.avif"
+          ]
+        },
+        "grade_tamanhos": [
+          {
+            "tamanho": 33.5,
+            "estoque": 3
+          },
+          {
+            "tamanho": 34,
+            "estoque": 5
+          },
+          {
+            "tamanho": 35,
+            "estoque": 10
+          },
+          {
+            "tamanho": 35.5,
+            "estoque": 5
+          },
+          {
+            "tamanho": 36,
+            "estoque": 6
+          },
+          {
+            "tamanho": 37,
+            "estoque": 1
+          },
+          {
+            "tamanho": 38,
+            "estoque": 3
+          },
+          {
+            "tamanho": 39,
+            "estoque": 2
+          },
+          {
+            "tamanho": 39.5,
+            "estoque": 3
+          },
+          {
+            "tamanho": 40,
+            "estoque": 6
+          },
+          {
+            "tamanho": 40.5,
+            "estoque": 8
+          },
+          {
+            "tamanho": 41,
+            "estoque": 7
+          },
+          {
+            "tamanho": 42,
+            "estoque": 15
+          },
+          {
+            "tamanho": 42.5,
+            "estoque": 10
+          },
+          {
+            "tamanho": 43,
+            "estoque": 11
+          },
+          {
+            "tamanho": 43.5,
+            "estoque": 7
+          },
+          {
+            "tamanho": 44,
+            "estoque": 3
+          },
+          {
+            "tamanho": 45,
+            "estoque": 12
+          },
+          {
+            "tamanho": 46,
+            "estoque": 3
+          },
+          {
+            "tamanho": 47,
+            "estoque": 13
+          },
+          {
+            "tamanho": 47.5,
+            "estoque": 2
+          }
+        ]
+      },
+      {
+        "sku_base": "AB13-BRANCO-LARANJA",
+        "created_at": "2026-08-27T09:10:00Z",
+        "updated_at": "2026-08-27T09:25:00Z",
+        "cor_nome": "Off White / Lucid Orange / Grey",
+        "cores": [
+          {
+            "nome": "Off White",
+            "hex": "#F5F3ED"
+          },
+          {
+            "nome": "Lucid Orange",
+            "hex": "#FF6B00"
+          },
+          {
+            "nome": "Grey",
+            "hex": "#808080"
+          }
+        ],
+        "preco": {
+          "original": 1399.99,
+          "promocional": 1299.99
+        },
+        "thumbnail_cor": "/Produtos/07/Branco_laranja/Tenis_Adizero_Boston_13_Branco_JP9252_HM1.avif",
+        "imagens": {
+          "principal_vitrine": "/Produtos/07/Branco_laranja/Tenis_Adizero_Boston_13_Branco_JP9252_HM1.avif",
+          "galeria": [
+            "/Produtos/07/Branco_laranja/Tenis_Adizero_Boston_13_Branco_JP9252_HM1.avif",
+            "/Produtos/07/Branco_laranja/Tenis_Adizero_Boston_13_Branco_JP9252_HM3_hover.avif",
+            "/Produtos/07/Branco_laranja/Tenis_Adizero_Boston_13_Branco_JP9252_HM4.avif",
+            "/Produtos/07/Branco_laranja/Tenis_Adizero_Boston_13_Branco_JP9252_HM5.avif",
+            "/Produtos/07/Branco_laranja/Tenis_Adizero_Boston_13_Branco_JP9252_HM6.avif",
+            "/Produtos/07/Branco_laranja/Tenis_Adizero_Boston_13_Branco_JP9252_HM7.avif",
+            "/Produtos/07/Branco_laranja/Tenis_Adizero_Boston_13_Branco_JP9252_HM8.avif",
+            "/Produtos/07/Branco_laranja/Tenis_Adizero_Boston_13_Branco_JP9252_HM9.avif",
+            "/Produtos/07/Branco_laranja/Tenis_Adizero_Boston_13_Branco_JP9252_HM10.avif",
+            "/Produtos/07/Branco_laranja/Tenis_Adizero_Boston_13_Branco_JP9252_HM11.avif"
+          ]
+        },
+        "grade_tamanhos": [
+          {
+            "tamanho": 33.5,
+            "estoque": 2
+          },
+          {
+            "tamanho": 34,
+            "estoque": 0
+          },
+          {
+            "tamanho": 35,
+            "estoque": 10
+          },
+          {
+            "tamanho": 35.5,
+            "estoque": 0
+          },
+          {
+            "tamanho": 36,
+            "estoque": 0
+          },
+          {
+            "tamanho": 37,
+            "estoque": 5
+          },
+          {
+            "tamanho": 38,
+            "estoque": 7
+          },
+          {
+            "tamanho": 39,
+            "estoque": 6
+          },
+          {
+            "tamanho": 39.5,
+            "estoque": 8
+          },
+          {
+            "tamanho": 40,
+            "estoque": 6
+          },
+          {
+            "tamanho": 40.5,
+            "estoque": 8
+          },
+          {
+            "tamanho": 41,
+            "estoque": 7
+          },
+          {
+            "tamanho": 42,
+            "estoque": 15
+          },
+          {
+            "tamanho": 42.5,
+            "estoque": 10
+          },
+          {
+            "tamanho": 43,
+            "estoque": 11
+          },
+          {
+            "tamanho": 43.5,
+            "estoque": 7
+          },
+          {
+            "tamanho": 44,
+            "estoque": 3
+          },
+          {
+            "tamanho": 45,
+            "estoque": 15
+          },
+          {
+            "tamanho": 46,
+            "estoque": 15
+          },
+          {
+            "tamanho": 47,
+            "estoque": 11
+          },
+          {
+            "tamanho": 47.5,
+            "estoque": 15
+          }
+        ]
+      }
+    ],
+    "destaque_home": true
+  },
+  {
+    "id": "8",
+    "ativo": true,
+    "created_at": "2026-08-27T09:10:00Z",
+    "updated_at": "2026-08-27T09:25:00Z",
+    "nome": "Tênis Adizero Boston 13",
+    "marca": "Adidas",
+    "categoria_principal": "Tênis",
+    "genero": "Feminino",
+    "tipo_corrida": "Corrida 42k",
+    "descricoes": {
+      "vitrine": "Longas distâncias",
+      "detalhada": "Os tênis Adizero Boston 13 foram habilidosamente confeccionados pela adidas para acompanhar cada passo que você dá. Projetado para ajudar você a superar seus limites, este tênis ajuda a proporcionar uma experiência de corrida intuitiva e responsiva. A tecnologia inovadora, como a entressola LightstrikePro, oferece um amortecimento super leve, além de retorno de energia para uma velocidade de próximo nível. Uma malha elástica leve no cabedal proporciona ventilação e ajuda você a sentir-se fresco mesmo durante as corridas mais intensas. Não importa o desafio, se você está correndo contra o relógio ou simplesmente curtindo o ritmo da estrada, estes tênis de corrida são seus parceiros perfeitos no desempenho",
+      "especificacoes_tecnicas": [
+        "Drop: 14mm",
+        "Peso: 219g (Tamanho 35)",
+        "Entressola: LIGHTSTRIKEPRO",
+        "Código do artigo: JP9247"
+      ]
+    },
+    "variacoes": [
+      {
+        "sku_base": "AB13-PRETO-ROSA",
+        "created_at": "2026-08-27T09:10:00Z",
+        "updated_at": "2026-08-27T09:25:00Z",
+        "cor_nome": "Core Black / Lucid Pink / Cobalt Blue",
+        "cores": [
+          {
+            "nome": "Core Black",
+            "hex": "#111111"
+          },
+          {
+            "nome": "Lucid Pink",
+            "hex": "#F4A6C1"
+          },
+          {
+            "nome": "Cobalt Blue",
+            "hex": "#0047AB"
+          }
+        ],
+        "preco": {
+          "original": 1399.99,
+          "promocional": 1299.99
+        },
+        "thumbnail_cor": "/Produtos/08/Preto_rosa/Tenis_Adizero_Boston_13_Preto_JP9247_HM1.avif",
+        "imagens": {
+          "principal_vitrine": "/Produtos/08/Preto_rosa/Tenis_Adizero_Boston_13_Preto_JP9247_HM1.avif",
+          "galeria": [
+            "/Produtos/08/Preto_rosa/Tenis_Adizero_Boston_13_Preto_JP9247_HM1.avif",
+            "/Produtos/08/Preto_rosa/Tenis_Adizero_Boston_13_Preto_JP9247_HM3_hover.avif",
+            "/Produtos/08/Preto_rosa/Tenis_Adizero_Boston_13_Preto_JP9247_HM4.avif",
+            "/Produtos/08/Preto_rosa/Tenis_Adizero_Boston_13_Preto_JP9247_HM5.avif",
+            "/Produtos/08/Preto_rosa/Tenis_Adizero_Boston_13_Preto_JP9247_HM6.avif",
+            "/Produtos/08/Preto_rosa/Tenis_Adizero_Boston_13_Preto_JP9247_HM7.avif",
+            "/Produtos/08/Preto_rosa/Tenis_Adizero_Boston_13_Preto_JP9247_HM8.avif",
+            "/Produtos/08/Preto_rosa/Tenis_Adizero_Boston_13_Preto_JP9247_HM9.avif",
+            "/Produtos/08/Preto_rosa/Tenis_Adizero_Boston_13_Preto_JP9247_HM10.avif",
+            "/Produtos/08/Preto_rosa/Tenis_Adizero_Boston_13_Preto_JP9247_HM11.avif"
+          ]
+        },
+        "grade_tamanhos": [
+          {
+            "tamanho": 33.5,
+            "estoque": 2
+          },
+          {
+            "tamanho": 34,
+            "estoque": 2
+          },
+          {
+            "tamanho": 35,
+            "estoque": 2
+          },
+          {
+            "tamanho": 35.5,
+            "estoque": 2
+          },
+          {
+            "tamanho": 36,
+            "estoque": 8
+          },
+          {
+            "tamanho": 37,
+            "estoque": 5
+          },
+          {
+            "tamanho": 38,
+            "estoque": 8
+          },
+          {
+            "tamanho": 39,
+            "estoque": 8
+          },
+          {
+            "tamanho": 39.5,
+            "estoque": 4
+          },
+          {
+            "tamanho": 40,
+            "estoque": 15
+          },
+          {
+            "tamanho": 40.5,
+            "estoque": 0
+          },
+          {
+            "tamanho": 41,
+            "estoque": 22
+          },
+          {
+            "tamanho": 42,
+            "estoque": 30
+          },
+          {
+            "tamanho": 42.5,
+            "estoque": 5
+          },
+          {
+            "tamanho": 43,
+            "estoque": 12
+          }
+        ]
+      },
+      {
+        "sku_base": "AB13-LARANJA",
+        "created_at": "2026-08-27T09:10:00Z",
+        "updated_at": "2026-08-27T09:25:00Z",
+        "cor_nome": "Semi Coral / Flash Aqua / Flash Orange",
+        "cores": [
+          {
+            "nome": "Semi Coral",
+            "hex": "#FF6F61"
+          },
+          {
+            "nome": "Flash Aqua",
+            "hex": "#00E0D1"
+          },
+          {
+            "nome": "Flash Orange",
+            "hex": "#FF5A00"
+          }
+        ],
+        "preco": {
+          "original": 1299.99,
+          "promocional": 1299.99
+        },
+        "thumbnail_cor": "/Produtos/08/Laranja/Tenis_adizero_Boston_13_Laranja_JS4954_HM1.avif",
+        "imagens": {
+          "principal_vitrine": "/Produtos/08/Laranja/Tenis_adizero_Boston_13_Laranja_JS4954_HM1.avif",
+          "galeria": [
+            "/Produtos/08/Laranja/Tenis_adizero_Boston_13_Laranja_JS4954_HM1.avif",
+            "/Produtos/08/Laranja/Tenis_adizero_Boston_13_Laranja_JS4954_HM3_hover.avif",
+            "/Produtos/08/Laranja/Tenis_adizero_Boston_13_Laranja_JS4954_HM4.avif",
+            "/Produtos/08/Laranja/Tenis_adizero_Boston_13_Laranja_JS4954_HM5.avif",
+            "/Produtos/08/Laranja/Tenis_adizero_Boston_13_Laranja_JS4954_HM6.avif",
+            "/Produtos/08/Laranja/Tenis_adizero_Boston_13_Laranja_JS4954_HM7.avif",
+            "/Produtos/08/Laranja/Tenis_adizero_Boston_13_Laranja_JS4954_HM8.avif",
+            "/Produtos/08/Laranja/Tenis_adizero_Boston_13_Laranja_JS4954_HM9.avif",
+            "/Produtos/08/Laranja/Tenis_adizero_Boston_13_Laranja_JS4954_HM10.avif"
+          ]
+        },
+        "grade_tamanhos": [
+          {
+            "tamanho": 33.5,
+            "estoque": 0
+          },
+          {
+            "tamanho": 34,
+            "estoque": 8
+          },
+          {
+            "tamanho": 35,
+            "estoque": 10
+          },
+          {
+            "tamanho": 35.5,
+            "estoque": 0
+          },
+          {
+            "tamanho": 36,
+            "estoque": 8
+          },
+          {
+            "tamanho": 37,
+            "estoque": 2
+          },
+          {
+            "tamanho": 38,
+            "estoque": 8
+          },
+          {
+            "tamanho": 39,
+            "estoque": 8
+          },
+          {
+            "tamanho": 39.5,
+            "estoque": 4
+          },
+          {
+            "tamanho": 40,
+            "estoque": 0
+          },
+          {
+            "tamanho": 40.5,
+            "estoque": 0
+          },
+          {
+            "tamanho": 41,
+            "estoque": 22
+          },
+          {
+            "tamanho": 42,
+            "estoque": 30
+          },
+          {
+            "tamanho": 42.5,
+            "estoque": 4
+          },
+          {
+            "tamanho": 43,
+            "estoque": 12
+          }
+        ]
+      },
+      {
+        "sku_base": "AB13-ROXO",
+        "created_at": "2026-08-27T09:10:00Z",
+        "updated_at": "2026-08-27T09:25:00Z",
+        "cor_nome": "Purple Tint / Solar Purple / Green Spark",
+        "cores": [
+          {
+            "nome": "Purple Tint",
+            "hex": "#C9B6D9"
+          },
+          {
+            "nome": "Solar Purple",
+            "hex": "#7B2CBF"
+          },
+          {
+            "nome": "Green Spark",
+            "hex": "#39FF88"
+          }
+        ],
+        "preco": {
+          "original": 1399.99,
+          "promocional": 1399.99
+        },
+        "thumbnail_cor": "/Produtos/08/Roxo/Tenis_Adizero_Boston_13_Roxo_KI3148_HM1.avif",
+        "imagens": {
+          "principal_vitrine": "/Produtos/08/Roxo/Tenis_Adizero_Boston_13_Roxo_KI3148_HM1.avif",
+          "galeria": [
+            "/Produtos/08/Roxo/Tenis_Adizero_Boston_13_Roxo_KI3148_HM1.avif",
+            "/Produtos/08/Roxo/Tenis_Adizero_Boston_13_Roxo_KI3148_HM3_hover.avif",
+            "/Produtos/08/Roxo/Tenis_Adizero_Boston_13_Roxo_KI3148_HM4.avif",
+            "/Produtos/08/Roxo/Tenis_Adizero_Boston_13_Roxo_KI3148_HM5.avif",
+            "/Produtos/08/Roxo/Tenis_Adizero_Boston_13_Roxo_KI3148_HM6.avif",
+            "/Produtos/08/Roxo/Tenis_Adizero_Boston_13_Roxo_KI3148_HM7.avif",
+            "/Produtos/08/Roxo/Tenis_Adizero_Boston_13_Roxo_KI3148_HM8.avif",
+            "/Produtos/08/Roxo/Tenis_Adizero_Boston_13_Roxo_KI3148_HM9.avif",
+            "/Produtos/08/Roxo/Tenis_Adizero_Boston_13_Roxo_KI3148_HM10.avif",
+            "/Produtos/08/Roxo/Tenis_Adizero_Boston_13_Roxo_KI3148_HM11.avif"
+          ]
+        },
+        "grade_tamanhos": [
+          {
+            "tamanho": 33.5,
+            "estoque": 14
+          },
+          {
+            "tamanho": 34,
+            "estoque": 0
+          },
+          {
+            "tamanho": 35,
+            "estoque": 9
+          },
+          {
+            "tamanho": 35.5,
+            "estoque": 8
+          },
+          {
+            "tamanho": 36,
+            "estoque": 7
+          },
+          {
+            "tamanho": 37,
+            "estoque": 5
+          },
+          {
+            "tamanho": 38,
+            "estoque": 2
+          },
+          {
+            "tamanho": 39,
+            "estoque": 3
+          },
+          {
+            "tamanho": 39.5,
+            "estoque": 4
+          },
+          {
+            "tamanho": 40,
+            "estoque": 15
+          },
+          {
+            "tamanho": 40.5,
+            "estoque": 13
+          },
+          {
+            "tamanho": 41,
+            "estoque": 22
+          },
+          {
+            "tamanho": 42,
+            "estoque": 30
+          },
+          {
+            "tamanho": 42.5,
+            "estoque": 10
+          },
+          {
+            "tamanho": 43,
+            "estoque": 12
+          }
+        ]
+      }
+    ],
+    "destaque_home": true
+  },
+  {
+    "id": "9",
+    "ativo": true,
+    "created_at": "2026-08-27T09:10:00Z",
+    "updated_at": "2026-08-27T09:25:00Z",
+    "nome": "Tênis Nike Revolution 8 Masculino",
+    "marca": "Nike",
+    "categoria_principal": "Tênis",
+    "genero": "Masculino",
+    "tipo_corrida": "Corrida 5k",
+    "descricoes": {
+      "vitrine": "Começando a correr",
+      "detalhada": "O Revolution 8 é a evolução de um clássico. Cada passada é amortecida com uma entressola de espuma e um antepé flexível que suaviza os movimentos. Além disso, a parte de cima de tela é ainda mais ventilada do que na versão anterior, garantindo corridas mais frescas e confortáveis.",
+      "especificacoes_tecnicas": [
+        "Drop: 10mm",
+        "Peso: 292g (Tamanho 42)",
+        "Entressola: Comfort",
+        "Código do artigo: JDC247"
+      ]
+    },
+    "variacoes": [
+      {
+        "sku_base": "R8-AZUL-BRANCO",
+        "created_at": "2026-08-27T09:10:00Z",
+        "updated_at": "2026-08-27T09:25:00Z",
+        "cor_nome": "Deep Royal Blue / Metallic Silver / White",
+        "cores": [
+          {
+            "nome": "Deep Royal Blue",
+            "hex": "#172A72"
+          },
+          {
+            "nome": "Metallic Silver",
+            "hex": "#C4C4C4"
+          },
+          {
+            "nome": "White",
+            "hex": "#F5F5F5"
+          }
+        ],
+        "preco": {
+          "original": 399.99,
+          "promocional": 299.99
+        },
+        "thumbnail_cor": "/Produtos/09/Azul_branco/05888915A2.avif",
+        "imagens": {
+          "principal_vitrine": "/Produtos/09/Azul_branco/05888915A2.avif",
+          "galeria": [
+            "/Produtos/09/Azul_branco/05888915A2.avif",
+            "/Produtos/09/Azul_branco/05888915A3.avif",
+            "/Produtos/09/Azul_branco/05888915A4.avif",
+            "/Produtos/09/Azul_branco/05888915A5.avif",
+            "/Produtos/09/Azul_branco/05888915A6.avif",
+            "/Produtos/09/Azul_branco/05888915A7.avif",
+            "/Produtos/09/Azul_branco/05888915A8.avif",
+            "/Produtos/09/Azul_branco/05888915A9.avif"
+          ]
+        },
+        "grade_tamanhos": [
+          {
+            "tamanho": 37,
+            "estoque": 20
+          },
+          {
+            "tamanho": 38,
+            "estoque": 20
+          },
+          {
+            "tamanho": 39,
+            "estoque": 20
+          },
+          {
+            "tamanho": 40,
+            "estoque": 20
+          },
+          {
+            "tamanho": 41,
+            "estoque": 15
+          },
+          {
+            "tamanho": 42,
+            "estoque": 11
+          },
+          {
+            "tamanho": 43,
+            "estoque": 8
+          }
+        ]
+      },
+      {
+        "sku_base": "R8-BRANCO-AMARELO",
+        "created_at": "2026-08-27T09:10:00Z",
+        "updated_at": "2026-08-27T09:25:00Z",
+        "cor_nome": "Photon Dust / White / Total Orange",
+        "cores": [
+          {
+            "nome": "Photon Dust",
+            "hex": "#D9DDDC"
+          },
+          {
+            "nome": "White",
+            "hex": "#F5F5F5"
+          },
+          {
+            "nome": "Total Orange",
+            "hex": "#FF4D2E"
+          }
+        ],
+        "preco": {
+          "original": 399.99,
+          "promocional": 299.99
+        },
+        "thumbnail_cor": "/Produtos/09/Branco_amarelo/05888953A23.avif",
+        "imagens": {
+          "principal_vitrine": "/Produtos/09/Branco_amarelo/05888953A23.avif",
+          "galeria": [
+            "/Produtos/09/Branco_amarelo/05888953A23.avif",
+            "/Produtos/09/Branco_amarelo/05888953A17.avif",
+            "/Produtos/09/Branco_amarelo/05888953A25.avif",
+            "/Produtos/09/Branco_amarelo/05888953A21.avif",
+            "/Produtos/09/Branco_amarelo/05888953A22.avif",
+            "/Produtos/09/Branco_amarelo/05888953A26.avif",
+            "/Produtos/09/Branco_amarelo/05888953A24.avif",
+            "/Produtos/09/Branco_amarelo/05888953A20.avif"
+          ]
+        },
+        "grade_tamanhos": [
+          {
+            "tamanho": 37,
+            "estoque": 0
+          },
+          {
+            "tamanho": 38,
+            "estoque": 12
+          },
+          {
+            "tamanho": 39,
+            "estoque": 2
+          },
+          {
+            "tamanho": 40,
+            "estoque": 0
+          },
+          {
+            "tamanho": 41,
+            "estoque": 15
+          },
+          {
+            "tamanho": 42,
+            "estoque": 11
+          },
+          {
+            "tamanho": 43,
+            "estoque": 8
+          }
+        ]
+      }
+    ],
+    "destaque_home": false
+  },
+  {
+    "id": "10",
+    "ativo": true,
+    "created_at": "2026-08-27T09:10:00Z",
+    "updated_at": "2026-08-27T09:25:00Z",
+    "nome": "Tênis Nike Pegasus Plus",
+    "marca": "Nike",
+    "categoria_principal": "Tênis",
+    "genero": "Feminino",
+    "tipo_corrida": "Corrida 10k",
+    "descricoes": {
+      "vitrine": "Conforto e Qualidade",
+      "detalhada": "Leve o amortecimento ágil para o próximo nível com o Pegasus Plus. Ele energiza seus passos com uma espuma ZoomX superleve por toda a sola, o que deixa o amortecimento mais reativo para corridas do dia a dia. E a parte de cima elástica em Flyknit se adapta aos pés para um ajuste perfeito.",
+      "especificacoes_tecnicas": [
+        "Drop: 10mm",
+        "Peso: 205g (Tamanho 37.5)",
+        "Entressola: ZoomX",
+        "Código do artigo: JDC117"
+      ]
+    },
+    "variacoes": [
+      {
+        "sku_base": "PP-ROSA",
+        "created_at": "2026-08-27T09:10:00Z",
+        "updated_at": "2026-08-27T09:25:00Z",
+        "cor_nome": "Sail / Hyper Violet / Black / Total Orange",
+        "cores": [
+          {
+            "nome": "Sail",
+            "hex": "#F5F0E6"
+          },
+          {
+            "nome": "Hyper Violet",
+            "hex": "#B45AA8"
+          },
+          {
+            "nome": "Black",
+            "hex": "#111111"
+          },
+          {
+            "nome": "Total Orange",
+            "hex": "#FF5A36"
+          }
+        ],
+        "preco": {
+          "original": 1299.99,
+          "promocional": 799.99
+        },
+        "thumbnail_cor": "/Produtos/10/Rosa/02939857A1.avif",
+        "imagens": {
+          "principal_vitrine": "/Produtos/10/Rosa/02939857A1.avif",
+          "galeria": [
+            "/Produtos/10/Rosa/02939857A1.avif",
+            "/Produtos/10/Rosa/02939857A2.avif",
+            "/Produtos/10/Rosa/02939857A3.avif",
+            "/Produtos/10/Rosa/02939857A4.avif",
+            "/Produtos/10/Rosa/02939857A5.avif",
+            "/Produtos/10/Rosa/02939857A6.avif"
+          ]
+        },
+        "grade_tamanhos": [
+          {
+            "tamanho": 34,
+            "estoque": 0
+          },
+          {
+            "tamanho": 35,
+            "estoque": 20
+          },
+          {
+            "tamanho": 36,
+            "estoque": 0
+          },
+          {
+            "tamanho": 37,
+            "estoque": 0
+          },
+          {
+            "tamanho": 38,
+            "estoque": 11
+          },
+          {
+            "tamanho": 39,
+            "estoque": 4
+          },
+          {
+            "tamanho": 40,
+            "estoque": 8
+          },
+          {
+            "tamanho": 41,
+            "estoque": 8
+          }
+        ]
+      },
+      {
+        "sku_base": "PP-VERDE",
+        "created_at": "2026-08-27T09:10:00Z",
+        "updated_at": "2026-08-27T09:25:00Z",
+        "cor_nome": "Volt / Black / White",
+        "cores": [
+          {
+            "nome": "Volt",
+            "hex": "#CEFF00"
+          },
+          {
+            "nome": "Black",
+            "hex": "#111111"
+          },
+          {
+            "nome": "White",
+            "hex": "#F5F5F5"
+          }
+        ],
+        "preco": {
+          "original": 1299.99,
+          "promocional": 849.99
+        },
+        "thumbnail_cor": "/Produtos/10/Verde/0293980LA2.avif",
+        "imagens": {
+          "principal_vitrine": "/Produtos/10/Verde/0293980LA2.avif",
+          "galeria": [
+            "/Produtos/10/Verde/0293980LA2.avif",
+            "/Produtos/10/Verde/0293980LA3.avif",
+            "/Produtos/10/Verde/0293980LA4.avif",
+            "/Produtos/10/Verde/0293980LA5.avif",
+            "/Produtos/10/Verde/0293980LA6.avif",
+            "/Produtos/10/Verde/0293980LA7.avif"
+          ]
+        },
+        "grade_tamanhos": [
+          {
+            "tamanho": 34,
+            "estoque": 3
+          },
+          {
+            "tamanho": 35,
+            "estoque": 20
+          },
+          {
+            "tamanho": 36,
+            "estoque": 5
+          },
+          {
+            "tamanho": 37,
+            "estoque": 1
+          },
+          {
+            "tamanho": 38,
+            "estoque": 6
+          },
+          {
+            "tamanho": 39,
+            "estoque": 4
+          },
+          {
+            "tamanho": 40,
+            "estoque": 8
+          },
+          {
+            "tamanho": 41,
+            "estoque": 2
+          }
+        ]
+      }
+    ],
+    "destaque_home": false
+  },
+  {
+    "id": "11",
+    "ativo": true,
+    "created_at": "2026-08-27T09:10:00Z",
+    "updated_at": "2026-08-27T09:25:00Z",
+    "nome": "Tênis Nike Zoom Fly 6 Premium",
+    "marca": "Nike",
+    "categoria_principal": "Tênis",
+    "genero": "Masculino",
+    "tipo_corrida": "Corrida 10k",
+    "descricoes": {
+      "vitrine": "Correndo com estilo",
+      "detalhada": "É o seu caminho e seu pace. O Zoom Fly 6 acompanha você a cada passo do caminho. Mais leve que o Zoom Fly 5, sua espuma ágil ZoomX oferece retorno de energia a cada passada, enquanto a placa estabilizadora de fibra de carbono Flyplate impulsiona você.",
+      "especificacoes_tecnicas": [
+        "Drop: 8mm",
+        "Peso: 265g (Tamanho 42)",
+        "Entressola: ZoomX",
+        "Código do artigo: JZC247"
+      ]
+    },
+    "variacoes": [
+      {
+        "sku_base": "ZF6P-AZUL",
+        "created_at": "2026-08-27T09:10:00Z",
+        "updated_at": "2026-08-27T09:25:00Z",
+        "cor_nome": "Black / Deep Navy / Dark Teal",
+        "cores": [
+          {
+            "nome": "Black",
+            "hex": "#111318"
+          },
+          {
+            "nome": "Deep Navy",
+            "hex": "#18213D"
+          },
+          {
+            "nome": "Dark Teal",
+            "hex": "#0B3B4A"
+          }
+        ],
+        "preco": {
+          "original": 1499.99,
+          "promocional": 899.99
+        },
+        "thumbnail_cor": "/Produtos/11/09670415A2.avif",
+        "imagens": {
+          "principal_vitrine": "/Produtos/11/09670415A2.avif",
+          "galeria": [
+            "/Produtos/11/09670415A2.avif",
+            "/Produtos/11/09670415A5.avif",
+            "/Produtos/11/09670415A4.avif",
+            "/Produtos/11/09670415A6.avif",
+            "/Produtos/11/09670415A7.avif",
+            "/Produtos/11/09670415A8.avif",
+            "/Produtos/11/09670415A11.avif",
+            "/Produtos/11/09670415A3.avif"
+          ]
+        },
+        "grade_tamanhos": [
+          {
+            "tamanho": 37,
+            "estoque": 4
+          },
+          {
+            "tamanho": 38,
+            "estoque": 25
+          },
+          {
+            "tamanho": 39,
+            "estoque": 0
+          },
+          {
+            "tamanho": 40,
+            "estoque": 9
+          },
+          {
+            "tamanho": 41,
+            "estoque": 15
+          },
+          {
+            "tamanho": 42,
+            "estoque": 11
+          },
+          {
+            "tamanho": 43,
+            "estoque": 8
+          },
+          {
+            "tamanho": 44,
+            "estoque": 12
+          },
+          {
+            "tamanho": 45,
+            "estoque": 5
+          },
+          {
+            "tamanho": 46,
+            "estoque": 3
+          }
+        ]
+      }
+    ],
+    "destaque_home": true
+  },
+  {
+    "id": "12",
+    "ativo": true,
+    "created_at": "2026-08-27T09:10:00Z",
+    "updated_at": "2026-08-27T09:25:00Z",
+    "nome": "Tênis de Corrida Deviate Pure NITRO™",
+    "marca": "Puma",
+    "categoria_principal": "Tênis",
+    "genero": "Feminino",
+    "tipo_corrida": "Corrida 21k",
+    "descricoes": {
+      "vitrine": "Performance sem Limites",
+      "detalhada": "Os Deviate Pure NITRO™ Running Shoes estão prontos para treinos e corridas diárias com amortecimento leve NITROFOAM™ e uma passada suave e responsiva. Sem placa, apenas propulsão fluida para você acelerar quando quiser.",
+      "especificacoes_tecnicas": [
+        "Drop: 8mm",
+        "Peso: 180g (Tamanho 36)",
+        "Entressola: NITROFOAM™",
+        "Código do artigo: JDC457"
+      ]
+    },
+    "variacoes": [
+      {
+        "sku_base": "DPN-BRANCO",
+        "created_at": "2026-08-27T09:10:00Z",
+        "updated_at": "2026-08-27T09:25:00Z",
+        "cor_nome": "White / Black / Bright Red",
+        "cores": [
+          {
+            "nome": "White",
+            "hex": "#F5F5F5"
+          },
+          {
+            "nome": "Black",
+            "hex": "#111111"
+          },
+          {
+            "nome": "Bright Red",
+            "hex": "#FF2D3D"
+          }
+        ],
+        "preco": {
+          "original": 1099.99,
+          "promocional": 1099.99
+        },
+        "thumbnail_cor": "/Produtos/12/Branco/1.avif",
+        "imagens": {
+          "principal_vitrine": "/Produtos/12/Branco/1.avif",
+          "galeria": [
+            "/Produtos/12/Branco/1.avif",
+            "/Produtos/12/Branco/2.avif",
+            "/Produtos/12/Branco/3.avif",
+            "/Produtos/12/Branco/4.avif",
+            "/Produtos/12/Branco/5.avif",
+            "/Produtos/12/Branco/6.avif",
+            "/Produtos/12/Branco/7.avif"
+          ]
+        },
+        "grade_tamanhos": [
+          {
+            "tamanho": 33.5,
+            "estoque": 0
+          },
+          {
+            "tamanho": 34,
+            "estoque": 5
+          },
+          {
+            "tamanho": 35,
+            "estoque": 20
+          },
+          {
+            "tamanho": 36,
+            "estoque": 0
+          },
+          {
+            "tamanho": 37,
+            "estoque": 3
+          },
+          {
+            "tamanho": 38,
+            "estoque": 11
+          },
+          {
+            "tamanho": 39,
+            "estoque": 4
+          },
+          {
+            "tamanho": 40,
+            "estoque": 10
+          },
+          {
+            "tamanho": 41,
+            "estoque": 8
+          }
+        ]
+      },
+      {
+        "sku_base": "DPN-ROSA",
+        "created_at": "2026-08-27T09:10:00Z",
+        "updated_at": "2026-08-27T09:25:00Z",
+        "cor_nome": "Dusty Rose / Rose Gold / Cream",
+        "cores": [
+          {
+            "nome": "Dusty Rose",
+            "hex": "#D8A8B0"
+          },
+          {
+            "nome": "Rose Gold",
+            "hex": "#B76E79"
+          },
+          {
+            "nome": "Cream",
+            "hex": "#F4E7DA"
+          }
+        ],
+        "preco": {
+          "original": 1099.99,
+          "promocional": 1099.99
+        },
+        "thumbnail_cor": "/Produtos/12/Rosa/1.avif",
+        "imagens": {
+          "principal_vitrine": "/Produtos/12/Rosa/1.avif",
+          "galeria": [
+            "/Produtos/12/Rosa/1.avif",
+            "/Produtos/12/Rosa/2.avif",
+            "/Produtos/12/Rosa/3.avif",
+            "/Produtos/12/Rosa/4.avif",
+            "/Produtos/12/Rosa/5.avif",
+            "/Produtos/12/Rosa/6.avif"
+          ]
+        },
+        "grade_tamanhos": [
+          {
+            "tamanho": 33.5,
+            "estoque": 5
+          },
+          {
+            "tamanho": 34,
+            "estoque": 5
+          },
+          {
+            "tamanho": 35,
+            "estoque": 20
+          },
+          {
+            "tamanho": 36,
+            "estoque": 12
+          },
+          {
+            "tamanho": 37,
+            "estoque": 3
+          },
+          {
+            "tamanho": 38,
+            "estoque": 11
+          },
+          {
+            "tamanho": 39,
+            "estoque": 8
+          },
+          {
+            "tamanho": 40,
+            "estoque": 10
+          },
+          {
+            "tamanho": 41,
+            "estoque": 0
+          }
+        ]
+      }
+    ],
+    "destaque_home": true
+  },
+  {
+    "id": "13",
+    "ativo": true,
+    "created_at": "2026-08-27T09:10:00Z",
+    "updated_at": "2026-08-27T09:25:00Z",
+    "nome": "Tênis de Corrida ForeverRun NITRO™ 3",
+    "marca": "Puma",
+    "categoria_principal": "Tênis",
+    "genero": "Masculino",
+    "tipo_corrida": "Corrida 10k",
+    "descricoes": {
+      "vitrine": "Leveza que Impulsiona",
+      "detalhada": "Macio onde você quer. Estável onde você precisa. O ForeverRun NITRO™ 3 traz um novo nível de suporte para a corrida de rua do dia a dia. A entressola NITRO™ completa possui uma construção de dupla densidade – com um núcleo acolchoado e uma borda mais firme – para ajudar você a encontrar orientação na sua passada.",
+      "especificacoes_tecnicas": [
+        "Drop: 8mm",
+        "Peso: 290g (Tamanho 41)",
+        "Entressola: NITROFOAM™",
+        "Código do artigo: AAC247"
+      ]
+    },
+    "variacoes": [
+      {
+        "sku_base": "CFRN3-AZUL",
+        "created_at": "2026-08-27T09:10:00Z",
+        "updated_at": "2026-08-27T09:25:00Z",
+        "cor_nome": "Slate Blue / Dark Grey / Off-White",
+        "cores": [
+          {
+            "nome": "Slate Blue",
+            "hex": "#5B84A8"
+          },
+          {
+            "nome": "Dark Grey",
+            "hex": "#3A3E45"
+          },
+          {
+            "nome": "Off-White",
+            "hex": "#F2EFE9"
+          }
+        ],
+        "preco": {
+          "original": 999.99,
+          "promocional": 999.99
+        },
+        "thumbnail_cor": "/Produtos/13/Azul/1.avif",
+        "imagens": {
+          "principal_vitrine": "/Produtos/13/Azul/1.avif",
+          "galeria": [
+            "/Produtos/13/Azul/1.avif",
+            "/Produtos/13/Azul/2.avif",
+            "/Produtos/13/Azul/3.avif",
+            "/Produtos/13/Azul/4.avif",
+            "/Produtos/13/Azul/5.avif",
+            "/Produtos/13/Azul/6.avif",
+            "/Produtos/13/Azul/7.avif",
+            "/Produtos/13/Azul/8.avif"
+          ]
+        },
+        "grade_tamanhos": [
+          {
+            "tamanho": 37,
+            "estoque": 10
+          },
+          {
+            "tamanho": 38,
+            "estoque": 15
+          },
+          {
+            "tamanho": 39,
+            "estoque": 20
+          },
+          {
+            "tamanho": 40,
+            "estoque": 8
+          },
+          {
+            "tamanho": 41,
+            "estoque": 15
+          },
+          {
+            "tamanho": 42,
+            "estoque": 11
+          },
+          {
+            "tamanho": 43,
+            "estoque": 9
+          },
+          {
+            "tamanho": 44,
+            "estoque": 8
+          },
+          {
+            "tamanho": 45,
+            "estoque": 0
+          },
+          {
+            "tamanho": 46,
+            "estoque": 0
+          }
+        ]
+      },
+      {
+        "sku_base": "CFRN3-PRETO",
+        "created_at": "2026-08-27T09:10:00Z",
+        "updated_at": "2026-08-27T09:25:00Z",
+        "cor_nome": "Black / White / Sun Stream",
+        "cores": [
+          {
+            "nome": "Black",
+            "hex": "#1B1C1E"
+          },
+          {
+            "nome": "White",
+            "hex": "#F4F3EE"
+          },
+          {
+            "nome": "Sun Stream",
+            "hex": "#FF4A60"
+          }
+        ],
+        "preco": {
+          "original": 999.99,
+          "promocional": 899.99
+        },
+        "thumbnail_cor": "/Produtos/13/Preto/1.avif",
+        "imagens": {
+          "principal_vitrine": "/Produtos/13/Preto/1.avif",
+          "galeria": [
+            "/Produtos/13/Preto/1.avif",
+            "/Produtos/13/Preto/2.avif",
+            "/Produtos/13/Preto/3.avif",
+            "/Produtos/13/Preto/4.avif",
+            "/Produtos/13/Preto/5.avif",
+            "/Produtos/13/Preto/6.avif"
+          ]
+        },
+        "grade_tamanhos": [
+          {
+            "tamanho": 37,
+            "estoque": 10
+          },
+          {
+            "tamanho": 38,
+            "estoque": 15
+          },
+          {
+            "tamanho": 39,
+            "estoque": 20
+          },
+          {
+            "tamanho": 40,
+            "estoque": 8
+          },
+          {
+            "tamanho": 41,
+            "estoque": 15
+          },
+          {
+            "tamanho": 42,
+            "estoque": 11
+          },
+          {
+            "tamanho": 43,
+            "estoque": 9
+          },
+          {
+            "tamanho": 44,
+            "estoque": 8
+          },
+          {
+            "tamanho": 45,
+            "estoque": 1
+          },
+          {
+            "tamanho": 46,
+            "estoque": 2
+          }
+        ]
+      }
+    ],
+    "destaque_home": false
+  },
+  {
+    "id": "14",
+    "ativo": true,
+    "created_at": "2026-08-27T09:10:00Z",
+    "updated_at": "2026-08-27T09:25:00Z",
+    "nome": "Tênis New Balance Fresh Foam Ellipse",
+    "marca": "New Balance",
+    "categoria_principal": "Tênis",
+    "genero": "Feminino",
+    "tipo_corrida": "Corrida 10k",
+    "descricoes": {
+      "vitrine": "Amortecimento Inteligente",
+      "detalhada": "Conforto com propulsão, ideal para as corridas diárias. Seja despertando às 5 da manhã, treinando no horário de almoço ou saindo para correr após o anoitecer, os quilômetros diários são um trabalho feito com amor. O New Balance Ellipse Feminino acompanha esse entusiasmo, combinando o conforto incomparável do amortecimento Fresh Foam X com uma sensação elástica sob os pés, projetada para tornar sua corrida diária a parte mais prazerosa do seu dia, todos os dias.",
+      "especificacoes_tecnicas": [
+        "Drop: 8mm",
+        "Peso: 218g (Tamanho 37)",
+        "Entressola:  Fresh Foam X",
+        "Código do artigo: JZZ457"
+      ]
+    },
+    "variacoes": [
+      {
+        "sku_base": "FFE-VERDE",
+        "created_at": "2026-08-27T09:10:00Z",
+        "updated_at": "2026-08-27T09:25:00Z",
+        "cor_nome": "Light Grey / Emerald Green / Lime Green",
+        "cores": [
+          {
+            "nome": "Light Grey",
+            "hex": "#D6D9DC"
+          },
+          {
+            "nome": "Emerald Green",
+            "hex": "#0F5A56"
+          },
+          {
+            "nome": "Lime Green",
+            "hex": "#D8F04B"
+          }
+        ],
+        "preco": {
+          "original": 999.99,
+          "promocional": 999.99
+        },
+        "thumbnail_cor": "/Produtos/14/Verde/1.avif",
+        "imagens": {
+          "principal_vitrine": "/Produtos/14/Verde/1.avif",
+          "galeria": [
+            "/Produtos/14/Verde/1.avif",
+            "/Produtos/14/Verde/2.avif",
+            "/Produtos/14/Verde/3.avif",
+            "/Produtos/14/Verde/4.avif",
+            "/Produtos/14/Verde/5.avif",
+            "/Produtos/14/Verde/6.avif"
+          ]
+        },
+        "grade_tamanhos": [
+          {
+            "tamanho": 34,
+            "estoque": 5
+          },
+          {
+            "tamanho": 35,
+            "estoque": 10
+          },
+          {
+            "tamanho": 36,
+            "estoque": 10
+          },
+          {
+            "tamanho": 37,
+            "estoque": 3
+          },
+          {
+            "tamanho": 38,
+            "estoque": 11
+          },
+          {
+            "tamanho": 39,
+            "estoque": 4
+          },
+          {
+            "tamanho": 40,
+            "estoque": 10
+          },
+          {
+            "tamanho": 41,
+            "estoque": 8
+          }
+        ]
+      },
+      {
+        "sku_base": "FFE-CINZA",
+        "created_at": "2026-08-27T09:10:00Z",
+        "updated_at": "2026-08-27T09:25:00Z",
+        "cor_nome": "Lavender / Slate Grey / Soft White",
+        "cores": [
+          {
+            "nome": "Lavender",
+            "hex": "#C6BED8"
+          },
+          {
+            "nome": "Slate Grey",
+            "hex": "#6C7375"
+          },
+          {
+            "nome": "Soft White",
+            "hex": "#F0EDF5"
+          }
+        ],
+        "preco": {
+          "original": 999.99,
+          "promocional": 999.99
+        },
+        "thumbnail_cor": "/Produtos/14/Cinza/1.avif",
+        "imagens": {
+          "principal_vitrine": "/Produtos/14/Cinza/1.avif",
+          "galeria": [
+            "/Produtos/14/Cinza/1.avif",
+            "/Produtos/14/Cinza/2.avif",
+            "/Produtos/14/Cinza/3.avif",
+            "/Produtos/14/Cinza/4.avif",
+            "/Produtos/14/Cinza/5.avif",
+            "/Produtos/14/Cinza/6.avif"
+          ]
+        },
+        "grade_tamanhos": [
+          {
+            "tamanho": 34,
+            "estoque": 9
+          },
+          {
+            "tamanho": 35,
+            "estoque": 15
+          },
+          {
+            "tamanho": 36,
+            "estoque": 10
+          },
+          {
+            "tamanho": 37,
+            "estoque": 5
+          },
+          {
+            "tamanho": 38,
+            "estoque": 11
+          },
+          {
+            "tamanho": 39,
+            "estoque": 41
+          },
+          {
+            "tamanho": 40,
+            "estoque": 13
+          },
+          {
+            "tamanho": 41,
+            "estoque": 8
+          }
+        ]
+      }
+    ],
+    "destaque_home": false
+  },
+  {
+    "id": "15",
+    "ativo": true,
+    "created_at": "2026-08-27T09:10:00Z",
+    "updated_at": "2026-08-27T09:25:00Z",
+    "nome": "Tênis New Balance Fresh Foam Garoév2 ",
+    "marca": "New Balance",
+    "categoria_principal": "Tênis",
+    "genero": "Masculino",
+    "tipo_corrida": "Corrida 5k",
+    "descricoes": {
+      "vitrine": "Pronto para o Desafio",
+      "detalhada": "Macio onde você quer. Estável onde você precisa. O New Balance Fresh Foam Garoév2 traz um novo nível de suporte para a corrida de rua do dia a dia. A entressola NITRO™ completa possui uma construção de dupla densidade – com um núcleo acolchoado e uma borda mais firme – para ajudar você a encontrar orientação na sua passada.",
+      "especificacoes_tecnicas": [
+        "Drop: 8mm",
+        "Peso: 290g (Tamanho 41)",
+        "Entressola: Fresh Foam",
+        "Código do artigo: AAT247"
+      ]
+    },
+    "variacoes": [
+      {
+        "sku_base": "FFG2-VERDE",
+        "created_at": "2026-08-27T09:10:00Z",
+        "updated_at": "2026-08-27T09:25:00Z",
+        "cor_nome": "Heather Grey / Dark Indigo / Slate",
+        "cores": [
+          {
+            "nome": "Heather Grey",
+            "hex": "#8B9199"
+          },
+          {
+            "nome": "Dark Indigo",
+            "hex": "#34374B"
+          },
+          {
+            "nome": "Slate",
+            "hex": "#525761"
+          }
+        ],
+        "preco": {
+          "original": 799.99,
+          "promocional": 799.99
+        },
+        "thumbnail_cor": "/Produtos/15/Verde/1.avif",
+        "imagens": {
+          "principal_vitrine": "/Produtos/15/Verde/1.avif",
+          "galeria": [
+            "/Produtos/15/Verde/1.avif",
+            "/Produtos/15/Verde/2.avif",
+            "/Produtos/15/Verde/3.avif",
+            "/Produtos/15/Verde/4.avif",
+            "/Produtos/15/Verde/5.avif",
+            "/Produtos/15/Verde/6.avif"
+          ]
+        },
+        "grade_tamanhos": [
+          {
+            "tamanho": 37,
+            "estoque": 10
+          },
+          {
+            "tamanho": 38,
+            "estoque": 15
+          },
+          {
+            "tamanho": 39,
+            "estoque": 20
+          },
+          {
+            "tamanho": 40,
+            "estoque": 8
+          },
+          {
+            "tamanho": 41,
+            "estoque": 15
+          },
+          {
+            "tamanho": 42,
+            "estoque": 11
+          },
+          {
+            "tamanho": 43,
+            "estoque": 9
+          },
+          {
+            "tamanho": 44,
+            "estoque": 8
+          },
+          {
+            "tamanho": 45,
+            "estoque": 0
+          },
+          {
+            "tamanho": 46,
+            "estoque": 10
+          }
+        ]
+      },
+      {
+        "sku_base": "FFG2-PRETO",
+        "created_at": "2026-08-27T09:10:00Z",
+        "updated_at": "2026-08-27T09:25:00Z",
+        "cor_nome": "Triple Black / Phantom / Lava Red",
+        "cores": [
+          {
+            "nome": "Black",
+            "hex": "#111111"
+          },
+          {
+            "nome": "Phantom",
+            "hex": "#22252A"
+          },
+          {
+            "nome": "Lava Red",
+            "hex": "#E0482B"
+          }
+        ],
+        "preco": {
+          "original": 799.99,
+          "promocional": 799.99
+        },
+        "thumbnail_cor": "/Produtos/15/Preto/1.avif",
+        "imagens": {
+          "principal_vitrine": "/Produtos/15/Preto/1.avif",
+          "galeria": [
+            "/Produtos/15/Preto/1.avif",
+            "/Produtos/15/Preto/2.avif",
+            "/Produtos/15/Preto/3.avif",
+            "/Produtos/15/Preto/4.avif",
+            "/Produtos/15/Preto/5.avif",
+            "/Produtos/15/Preto/6.avif"
+          ]
+        },
+        "grade_tamanhos": [
+          {
+            "tamanho": 37,
+            "estoque": 10
+          },
+          {
+            "tamanho": 38,
+            "estoque": 15
+          },
+          {
+            "tamanho": 39,
+            "estoque": 20
+          },
+          {
+            "tamanho": 40,
+            "estoque": 0
+          },
+          {
+            "tamanho": 41,
+            "estoque": 0
+          },
+          {
+            "tamanho": 42,
+            "estoque": 11
+          },
+          {
+            "tamanho": 43,
+            "estoque": 9
+          },
+          {
+            "tamanho": 44,
+            "estoque": 8
+          },
+          {
+            "tamanho": 45,
+            "estoque": 10
+          },
+          {
+            "tamanho": 46,
+            "estoque": 2
+          }
+        ]
+      }
+    ],
+    "destaque_home": true
+  }
+]

@@ -1,0 +1,430 @@
+{
+  "id": "5",
+  "ativo": true,
+  "created_at": "2026-08-27T09:10:00Z",
+  "updated_at": "2026-08-27T09:25:00Z",
+  "nome": "Tênis Adizero Boston 12",
+  "marca": "Adidas",
+  "categoria_principal": "Tênis",
+  "genero": "Feminino",
+  "tipo_corrida": "Corrida 21k",
+  "descricoes": {
+    "vitrine": "Para competições e treinos rápidos",
+    "detalhada": "A Maratona de Boston é uma corrida. Mas também é uma meta, um plano de treino e todos os dias em que você fica pensando nisso antes do grande evento. Os tênis Adizero Boston 12 foram desenvolvidos para corridas de média e longa distância. Eles trazem uma sensação de dia de corrida para o treinamento com uma sensação de propulsão que vem dos ENERGYRODS 2.0 infundidos com fibra de vidro, que limitam a perda de energia sob os pés. Eles são rápidos, mas isso não significa que a durabilidade seja prejudicada - a entressola combina o amortecimento ultraleve LIGHTSTRIKE PRO com uma nova versão do LIGHTSTRIKE 2.0 EVA durável.",
+    "especificacoes_tecnicas": [
+      "Drop: 18mm",
+      "Peso: 218g (Tamanho 37)",
+      "Entressola: Lightstrike Pro",
+      "Código do artigo: ID6898"
+    ]
+  },
+  "variacoes": [
+    {
+      "sku_base": "AB12-CINZA",
+      "created_at": "2026-08-27T09:10:00Z",
+      "updated_at": "2026-08-27T09:25:00Z",
+      "cor_nome": "Arctic Night / Lucid Lemon / Carbon",
+      "cores": [
+        {
+          "nome": "Arctic Night",
+          "hex": "#1F2A44"
+        },
+        {
+          "nome": "Lucid Lemon",
+          "hex": "#E6FF00"
+        },
+        {
+          "nome": "Carbon",
+          "hex": "#3B3B3B"
+        }
+      ],
+      "preco": {
+        "original": 1299.99,
+        "promocional": 1299.99
+      },
+      "thumbnail_cor": "/Produtos/05/Cinza/Tenis_Adizero_Boston_12_Turquesa_ID6898_HM1.avif",
+      "imagens": {
+        "principal_vitrine": "/Produtos/05/Cinza/Tenis_Adizero_Boston_12_Turquesa_ID6898_HM1.avif",
+        "galeria": [
+          "/Produtos/05/Cinza/Tenis_Adizero_Boston_12_Turquesa_ID6898_HM1.avif",
+          "/Produtos/05/Cinza/Tenis_Adizero_Boston_12_Turquesa_ID6898_HM3_hover.avif",
+          "/Produtos/05/Cinza/Tenis_Adizero_Boston_12_Turquesa_ID6898_HM4.avif",
+          "/Produtos/05/Cinza/Tenis_Adizero_Boston_12_Turquesa_ID6898_HM5.avif",
+          "/Produtos/05/Cinza/Tenis_Adizero_Boston_12_Turquesa_ID6898_HM6.avif",
+          "/Produtos/05/Cinza/Tenis_Adizero_Boston_12_Turquesa_ID6898_HM7.avif",
+          "/Produtos/05/Cinza/Tenis_Adizero_Boston_12_Turquesa_ID6898_HM8.avif",
+          "/Produtos/05/Cinza/Tenis_Adizero_Boston_12_Turquesa_ID6898_HM9.avif"
+        ]
+      },
+      "grade_tamanhos": [
+        {
+          "tamanho": 33.5,
+          "estoque": 0
+        },
+        {
+          "tamanho": 34,
+          "estoque": 0
+        },
+        {
+          "tamanho": 35,
+          "estoque": 0
+        },
+        {
+          "tamanho": 35.5,
+          "estoque": 0
+        },
+        {
+          "tamanho": 36,
+          "estoque": 0
+        },
+        {
+          "tamanho": 37,
+          "estoque": 0
+        },
+        {
+          "tamanho": 38,
+          "estoque": 0
+        },
+        {
+          "tamanho": 39,
+          "estoque": 10
+        },
+        {
+          "tamanho": 39.5,
+          "estoque": 0
+        },
+        {
+          "tamanho": 40,
+          "estoque": 0
+        },
+        {
+          "tamanho": 40.5,
+          "estoque": 0
+        },
+        {
+          "tamanho": 41,
+          "estoque": 0
+        },
+        {
+          "tamanho": 42,
+          "estoque": 0
+        },
+        {
+          "tamanho": 42.5,
+          "estoque": 0
+        },
+        {
+          "tamanho": 43,
+          "estoque": 0
+        }
+      ]
+    },
+    {
+      "sku_base": "AB12-AZUL-CLARO",
+      "created_at": "2026-08-27T09:10:00Z",
+      "updated_at": "2026-08-27T09:25:00Z",
+      "cor_nome": "Flash Aqua / Silver Metallic / Light Aqua",
+      "cores": [
+        {
+          "nome": "Flash Aqua",
+          "hex": "#00E0D1"
+        },
+        {
+          "nome": "Silver Metallic",
+          "hex": "#C0C0C0"
+        },
+        {
+          "nome": "Light Aqua",
+          "hex": "#8DE5DF"
+        }
+      ],
+      "preco": {
+        "original": 1299.99,
+        "promocional": 1299.99
+      },
+      "thumbnail_cor": "/Produtos/05/Azul_claro/Tenis_Adizero_Boston_12_Turquesa_ID6901_HM1.avif",
+      "imagens": {
+        "principal_vitrine": "/Produtos/05/Azul_claro/Tenis_Adizero_Boston_12_Turquesa_ID6901_HM1.avif",
+        "galeria": [
+          "/Produtos/05/Azul_claro/Tenis_Adizero_Boston_12_Turquesa_ID6901_HM1.avif",
+          "/Produtos/05/Azul_claro/Tenis_Adizero_Boston_12_Turquesa_ID6901_HM3_hover.avif",
+          "/Produtos/05/Azul_claro/Tenis_Adizero_Boston_12_Turquesa_ID6901_HM4.avif",
+          "/Produtos/05/Azul_claro/Tenis_Adizero_Boston_12_Turquesa_ID6901_HM5.avif",
+          "/Produtos/05/Azul_claro/Tenis_Adizero_Boston_12_Turquesa_ID6901_HM6.avif",
+          "/Produtos/05/Azul_claro/Tenis_Adizero_Boston_12_Turquesa_ID6901_HM7.avif",
+          "/Produtos/05/Azul_claro/Tenis_Adizero_Boston_12_Turquesa_ID6901_HM8.avif",
+          "/Produtos/05/Azul_claro/Tenis_Adizero_Boston_12_Turquesa_ID6901_HM1 (1).avif",
+          "/Produtos/05/Azul_claro/Tenis_Adizero_Boston_12_Turquesa_ID6901_HM2.avif",
+          "/Produtos/05/Azul_claro/Tenis_Adizero_Boston_12_Turquesa_ID6901_HM3.avif",
+          "/Produtos/05/Azul_claro/Tenis_Adizero_Boston_12_Turquesa_ID6901_HM4 (1).avif",
+          "/Produtos/05/Azul_claro/Tenis_Adizero_Boston_12_Turquesa_ID6901_DM1.avif"
+        ]
+      },
+      "grade_tamanhos": [
+        {
+          "tamanho": 33.5,
+          "estoque": 0
+        },
+        {
+          "tamanho": 34,
+          "estoque": 0
+        },
+        {
+          "tamanho": 35,
+          "estoque": 0
+        },
+        {
+          "tamanho": 35.5,
+          "estoque": 0
+        },
+        {
+          "tamanho": 36,
+          "estoque": 0
+        },
+        {
+          "tamanho": 37,
+          "estoque": 0
+        },
+        {
+          "tamanho": 38,
+          "estoque": 0
+        },
+        {
+          "tamanho": 39,
+          "estoque": 0
+        },
+        {
+          "tamanho": 39.5,
+          "estoque": 0
+        },
+        {
+          "tamanho": 40,
+          "estoque": 3
+        },
+        {
+          "tamanho": 40.5,
+          "estoque": 0
+        },
+        {
+          "tamanho": 41,
+          "estoque": 0
+        },
+        {
+          "tamanho": 42,
+          "estoque": 0
+        },
+        {
+          "tamanho": 42.5,
+          "estoque": 0
+        },
+        {
+          "tamanho": 43,
+          "estoque": 0
+        }
+      ]
+    },
+    {
+      "sku_base": "AB12-LILAS",
+      "created_at": "2026-08-27T09:10:00Z",
+      "updated_at": "2026-08-27T09:25:00Z",
+      "cor_nome": "Blue Spark / Zero Metallic / Cobalt Blue",
+      "cores": [
+        {
+          "nome": "Blue Spark",
+          "hex": "#007BFF"
+        },
+        {
+          "nome": "Zero Metallic",
+          "hex": "#D4D6D8"
+        },
+        {
+          "nome": "Cobalt Blue",
+          "hex": "#0047AB"
+        }
+      ],
+      "preco": {
+        "original": 1299.99,
+        "promocional": 1299.99
+      },
+      "thumbnail_cor": "/Produtos/05/Lilas/Tenis_Adizero_Boston_12_Azul_IF9220_HM1.avif",
+      "imagens": {
+        "principal_vitrine": "/Produtos/05/Lilas/Tenis_Adizero_Boston_12_Azul_IF9220_HM1.avif",
+        "galeria": [
+          "/Produtos/05/Lilas/Tenis_Adizero_Boston_12_Azul_IF9220_HM1.avif",
+          "/Produtos/05/Lilas/Tenis_Adizero_Boston_12_Azul_IF9220_HM3_hover.avif",
+          "/Produtos/05/Lilas/Tenis_Adizero_Boston_12_Azul_IF9220_HM4.avif",
+          "/Produtos/05/Lilas/Tenis_Adizero_Boston_12_Azul_IF9220_HM5.avif",
+          "/Produtos/05/Lilas/Tenis_Adizero_Boston_12_Azul_IF9220_HM6.avif",
+          "/Produtos/05/Lilas/Tenis_Adizero_Boston_12_Azul_IF9220_HM7.avif",
+          "/Produtos/05/Lilas/Tenis_Adizero_Boston_12_Azul_IF9220_HM8.avif",
+          "/Produtos/05/Lilas/Tenis_Adizero_Boston_12_Azul_IF9220_HM9.avif",
+          "/Produtos/05/Lilas/Tenis_Adizero_Boston_12_Azul_IF9220_HM10.avif"
+        ]
+      },
+      "grade_tamanhos": [
+        {
+          "tamanho": 33.5,
+          "estoque": 14
+        },
+        {
+          "tamanho": 34,
+          "estoque": 16
+        },
+        {
+          "tamanho": 35,
+          "estoque": 9
+        },
+        {
+          "tamanho": 35.5,
+          "estoque": 10
+        },
+        {
+          "tamanho": 36,
+          "estoque": 9
+        },
+        {
+          "tamanho": 37,
+          "estoque": 6
+        },
+        {
+          "tamanho": 38,
+          "estoque": 7
+        },
+        {
+          "tamanho": 39,
+          "estoque": 6
+        },
+        {
+          "tamanho": 39.5,
+          "estoque": 4
+        },
+        {
+          "tamanho": 40,
+          "estoque": 15
+        },
+        {
+          "tamanho": 40.5,
+          "estoque": 13
+        },
+        {
+          "tamanho": 41,
+          "estoque": 22
+        },
+        {
+          "tamanho": 42,
+          "estoque": 14
+        },
+        {
+          "tamanho": 42.5,
+          "estoque": 10
+        },
+        {
+          "tamanho": 43,
+          "estoque": 12
+        }
+      ]
+    },
+    {
+      "sku_base": "AB12-CINZA-CLARO",
+      "created_at": "2026-08-27T09:10:00Z",
+      "updated_at": "2026-08-27T09:25:00Z",
+      "cor_nome": "Dash Grey / Lucid Red / Lucid Lemon",
+      "cores": [
+        {
+          "nome": "Dash Grey",
+          "hex": "#8E9397"
+        },
+        {
+          "nome": "Lucid Red",
+          "hex": "#E63946"
+        },
+        {
+          "nome": "Lucid Lemon",
+          "hex": "#E6FF00"
+        }
+      ],
+      "preco": {
+        "original": 1299.99,
+        "promocional": 1099.99
+      },
+      "thumbnail_cor": "/Produtos/05/Cinza_claro/Tenis_Adizero_Boston_12_Cinza_JI4473_HM1.avif",
+      "imagens": {
+        "principal_vitrine": "/Produtos/05/Cinza_claro/Tenis_Adizero_Boston_12_Cinza_JI4473_HM1.avif",
+        "galeria": [
+          "/Produtos/05/Cinza_claro/Tenis_Adizero_Boston_12_Cinza_JI4473_HM1.avif",
+          "/Produtos/05/Cinza_claro/Tenis_Adizero_Boston_12_Cinza_JI4473_HM3_hover.avif",
+          "/Produtos/05/Cinza_claro/Tenis_Adizero_Boston_12_Cinza_JI4473_HM4.avif",
+          "/Produtos/05/Cinza_claro/Tenis_Adizero_Boston_12_Cinza_JI4473_HM5.avif",
+          "/Produtos/05/Cinza_claro/Tenis_Adizero_Boston_12_Cinza_JI4473_HM6.avif",
+          "/Produtos/05/Cinza_claro/Tenis_Adizero_Boston_12_Cinza_JI4473_HM7.avif",
+          "/Produtos/05/Cinza_claro/Tenis_Adizero_Boston_12_Cinza_JI4473_HM8.avif",
+          "/Produtos/05/Cinza_claro/Tenis_Adizero_Boston_12_Cinza_JI4473_HM9.avif",
+          "/Produtos/05/Cinza_claro/Tenis_Adizero_Boston_12_Cinza_JI4473_HM10.avif"
+        ]
+      },
+      "grade_tamanhos": [
+        {
+          "tamanho": 33.5,
+          "estoque": 12
+        },
+        {
+          "tamanho": 34,
+          "estoque": 11
+        },
+        {
+          "tamanho": 35,
+          "estoque": 9
+        },
+        {
+          "tamanho": 35.5,
+          "estoque": 10
+        },
+        {
+          "tamanho": 36,
+          "estoque": 9
+        },
+        {
+          "tamanho": 37,
+          "estoque": 6
+        },
+        {
+          "tamanho": 38,
+          "estoque": 7
+        },
+        {
+          "tamanho": 39,
+          "estoque": 6
+        },
+        {
+          "tamanho": 39.5,
+          "estoque": 4
+        },
+        {
+          "tamanho": 40,
+          "estoque": 11
+        },
+        {
+          "tamanho": 40.5,
+          "estoque": 13
+        },
+        {
+          "tamanho": 41,
+          "estoque": 22
+        },
+        {
+          "tamanho": 42,
+          "estoque": 14
+        },
+        {
+          "tamanho": 42.5,
+          "estoque": 10
+        },
+        {
+          "tamanho": 43,
+          "estoque": 8
+        }
+      ]
+    }
+  ],
+  "destaque_home": true
+}

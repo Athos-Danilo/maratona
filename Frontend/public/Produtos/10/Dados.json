@@ -1,0 +1,168 @@
+{
+  "id": "10",
+  "ativo": true,
+  "created_at": "2026-08-27T09:10:00Z",
+  "updated_at": "2026-08-27T09:25:00Z",
+  "nome": "Tênis Nike Pegasus Plus",
+  "marca": "Nike",
+  "categoria_principal": "Tênis",
+  "genero": "Feminino",
+  "tipo_corrida": "Corrida 10k",
+  "descricoes": {
+    "vitrine": "Conforto e Qualidade",
+    "detalhada": "Leve o amortecimento ágil para o próximo nível com o Pegasus Plus. Ele energiza seus passos com uma espuma ZoomX superleve por toda a sola, o que deixa o amortecimento mais reativo para corridas do dia a dia. E a parte de cima elástica em Flyknit se adapta aos pés para um ajuste perfeito.",
+    "especificacoes_tecnicas": [
+      "Drop: 10mm",
+      "Peso: 205g (Tamanho 37.5)",
+      "Entressola: ZoomX",
+      "Código do artigo: JDC117"
+    ]
+  },
+  "variacoes": [
+    {
+      "sku_base": "PP-ROSA",
+      "created_at": "2026-08-27T09:10:00Z",
+      "updated_at": "2026-08-27T09:25:00Z",
+      "cor_nome": "Sail / Hyper Violet / Black / Total Orange",
+      "cores": [
+        {
+          "nome": "Sail",
+          "hex": "#F5F0E6"
+        },
+        {
+          "nome": "Hyper Violet",
+          "hex": "#B45AA8"
+        },
+        {
+          "nome": "Black",
+          "hex": "#111111"
+        },
+        {
+          "nome": "Total Orange",
+          "hex": "#FF5A36"
+        }
+      ],
+      "preco": {
+        "original": 1299.99,
+        "promocional": 799.99
+      },
+      "thumbnail_cor": "/Produtos/10/Rosa/02939857A1.avif",
+      "imagens": {
+        "principal_vitrine": "/Produtos/10/Rosa/02939857A1.avif",
+        "galeria": [
+          "/Produtos/10/Rosa/02939857A1.avif",
+          "/Produtos/10/Rosa/02939857A2.avif",
+          "/Produtos/10/Rosa/02939857A3.avif",
+          "/Produtos/10/Rosa/02939857A4.avif",
+          "/Produtos/10/Rosa/02939857A5.avif",
+          "/Produtos/10/Rosa/02939857A6.avif"
+        ]
+      },
+      "grade_tamanhos": [
+        {
+          "tamanho": 34,
+          "estoque": 0
+        },
+        {
+          "tamanho": 35,
+          "estoque": 20
+        },
+        {
+          "tamanho": 36,
+          "estoque": 0
+        },
+        {
+          "tamanho": 37,
+          "estoque": 0
+        },
+        {
+          "tamanho": 38,
+          "estoque": 11
+        },
+        {
+          "tamanho": 39,
+          "estoque": 4
+        },
+        {
+          "tamanho": 40,
+          "estoque": 8
+        },
+        {
+          "tamanho": 41,
+          "estoque": 8
+        }
+      ]
+    },
+    {
+      "sku_base": "PP-VERDE",
+      "created_at": "2026-08-27T09:10:00Z",
+      "updated_at": "2026-08-27T09:25:00Z",
+      "cor_nome": "Volt / Black / White",
+      "cores": [
+        {
+          "nome": "Volt",
+          "hex": "#CEFF00"
+        },
+        {
+          "nome": "Black",
+          "hex": "#111111"
+        },
+        {
+          "nome": "White",
+          "hex": "#F5F5F5"
+        }
+      ],
+      "preco": {
+        "original": 1299.99,
+        "promocional": 849.99
+      },
+      "thumbnail_cor": "/Produtos/10/Verde/0293980LA2.avif",
+      "imagens": {
+        "principal_vitrine": "/Produtos/10/Verde/0293980LA2.avif",
+        "galeria": [
+          "/Produtos/10/Verde/0293980LA2.avif",
+          "/Produtos/10/Verde/0293980LA3.avif",
+          "/Produtos/10/Verde/0293980LA4.avif",
+          "/Produtos/10/Verde/0293980LA5.avif",
+          "/Produtos/10/Verde/0293980LA6.avif",
+          "/Produtos/10/Verde/0293980LA7.avif"
+        ]
+      },
+      "grade_tamanhos": [
+        {
+          "tamanho": 34,
+          "estoque": 3
+        },
+        {
+          "tamanho": 35,
+          "estoque": 20
+        },
+        {
+          "tamanho": 36,
+          "estoque": 5
+        },
+        {
+          "tamanho": 37,
+          "estoque": 1
+        },
+        {
+          "tamanho": 38,
+          "estoque": 6
+        },
+        {
+          "tamanho": 39,
+          "estoque": 4
+        },
+        {
+          "tamanho": 40,
+          "estoque": 8
+        },
+        {
+          "tamanho": 41,
+          "estoque": 2
+        }
+      ]
+    }
+  ],
+  "destaque_home": false
+}
