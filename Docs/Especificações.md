@@ -41,6 +41,8 @@ Aqui serão registradas as tarefas executadas ao longo do projeto.
 - [x] Documentação da estratégia de migração de dados para o PostgreSQL (Neon).
 - [x] Inclusão das colunas de auditoria (created_at, updated_at) e soft delete (ativo) no Schema JSON.
 - [x] Criação e documentação do Modelo Entidade-Relacionamento (MER/DER).
+- [x] Conclusão do processo de cadastro dos 15 produtos planejados.
+- [x] Setup inicial e estruturação da arquitetura base do Backend (Node.js + TypeScript).
 
 ---
 
