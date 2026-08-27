@@ -5,20 +5,6 @@
   "categoria_principal": "Tênis",
   "genero": "Feminino", 
   "tipo_corrida": "Corrida 5k",
-  "preco": {
-    "original": 999.99,
-    "promocional": 999.99
-  },
-  "cores_disponiveis": [
-    {
-      "nome": "Bliss Lilac / Preloved Ink / Lucid Blue",
-      "cores": [
-        {"nome": "Bliss Lilac", "hex": "#C9A8E8"},
-        {"nome": "Preloved Ink", "hex": "#1E2A44"},
-        {"nome": "Lucid Blue","hex": "#4AA3DF"}
-      ]
-    }
-  ],
   "descricoes": {
     "vitrine": "Versatilidade e energia",
     "detalhada": "Desperte o seu melhor desempenho com este tênis de corrida adidas, projetado para energizar suas passadas, seja qual for a velocidade ou distância. O amortecimento adidas Light BOOST na entressola é o mais leve adidas BOOST de sempre, com ainda mais retorno de energia a cada arrancada. O cabedal PRIMEKNIT+FORGED segue o contorno dos pés para um ajuste preciso e suporte no mediopé. O sistema adidas Linear Energy Push proporciona uma explosão extra de responsividade para você ir mais longe e mais rápido. Este produto contém pelo menos 20% de materiais reciclados. Ao reutilizar materiais que já foram criados, ajudamos a diminuir o desperdício e a nossa dependência de recursos não renováveis, além de reduzir a pegada dos produtos que fabricamos.",
@@ -29,36 +15,52 @@
       "Código do artigo: ID3316"
     ]
   },
-  "grade_tamanhos": [
-    { "tamanho": 33.5, "estoque": 2 },
-    { "tamanho": 34, "estoque": 5 },
-    { "tamanho": 35, "estoque": 0 },
-    { "tamanho": 35.5, "estoque": 3 },
-    { "tamanho": 36, "estoque": 8 },
-    { "tamanho": 37, "estoque": 12 },
-    { "tamanho": 38, "estoque": 15 },
-    { "tamanho": 39, "estoque": 0 },
-    { "tamanho": 39.5, "estoque": 4 },
-    { "tamanho": 40, "estoque": 22 },
-    { "tamanho": 40.5, "estoque": 7 },
-    { "tamanho": 41, "estoque": 18 },
-    { "tamanho": 42, "estoque": 10 },
-    { "tamanho": 42.5, "estoque": 2 },
-    { "tamanho": 43, "estoque": 5 }
+  "variacoes": [
+    {
+      "sku_base": "ID3316",
+      "cor_nome": "Bliss Lilac / Preloved Ink / Lucid Blue",
+      "cores": [
+        {"nome": "Bliss Lilac", "hex": "#C9A8E8"},
+        {"nome": "Preloved Ink", "hex": "#1E2A44"},
+        {"nome": "Lucid Blue","hex": "#4AA3DF"}
+      ],
+      "preco": {
+        "original": 999.99,
+        "promocional": 999.99
+      },
+      "thumbnail_cor": "Tenis_Ultraboost_Light_Roxo_ID3316_HM1.avif",
+      "imagens": {
+        "principal_vitrine": "Tenis_Ultraboost_Light_Roxo_ID3316_HM1.avif",
+        "galeria": [
+          "Tenis_Ultraboost_Light_Roxo_ID3316_HM1.avif",
+          "Tenis_Ultraboost_Light_Roxo_ID3316_HM3.avif",
+          "Tenis_Ultraboost_Light_Roxo_ID3316_HM4.avif",
+          "Tenis_Ultraboost_Light_Roxo_ID3316_HM5.avif",
+          "Tenis_Ultraboost_Light_Roxo_ID3316_HM6.avif",
+          "Tenis_Ultraboost_Light_Roxo_ID3316_HM7.avif",
+          "Tenis_Ultraboost_Light_Roxo_ID3316_HM8.avif",
+          "Tenis_Ultraboost_Light_Roxo_ID3316_HM9.avif",
+          "Tenis_Ultraboost_Light_Roxo_ID3316_HM10.avif"
+        ]
+      },
+      "grade_tamanhos": [
+        { "tamanho": 33.5, "estoque": 2 },
+        { "tamanho": 34, "estoque": 5 },
+        { "tamanho": 35, "estoque": 0 },
+        { "tamanho": 35.5, "estoque": 3 },
+        { "tamanho": 36, "estoque": 8 },
+        { "tamanho": 37, "estoque": 12 },
+        { "tamanho": 38, "estoque": 15 },
+        { "tamanho": 39, "estoque": 0 },
+        { "tamanho": 39.5, "estoque": 4 },
+        { "tamanho": 40, "estoque": 22 },
+        { "tamanho": 40.5, "estoque": 7 },
+        { "tamanho": 41, "estoque": 18 },
+        { "tamanho": 42, "estoque": 10 },
+        { "tamanho": 42.5, "estoque": 2 },
+        { "tamanho": 43, "estoque": 5 }
+      ]
+    }
   ],
-  "destaque_home": false,
-  "imagens": {
-    "principal_vitrine": "Tenis_Ultraboost_Light_Roxo_ID3316_HM1.avif",
-    "galeria": [
-      "Tenis_Ultraboost_Light_Roxo_ID3316_HM1.avif",
-      "Tenis_Ultraboost_Light_Roxo_ID3316_HM3.avif",
-      "Tenis_Ultraboost_Light_Roxo_ID3316_HM4.avif",
-      "Tenis_Ultraboost_Light_Roxo_ID3316_HM5.avif",
-      "Tenis_Ultraboost_Light_Roxo_ID3316_HM6.avif",
-      "Tenis_Ultraboost_Light_Roxo_ID3316_HM7.avif",
-      "Tenis_Ultraboost_Light_Roxo_ID3316_HM8.avif",
-      "Tenis_Ultraboost_Light_Roxo_ID3316_HM9.avif",
-      "Tenis_Ultraboost_Light_Roxo_ID3316_HM10.avif"
-    ]
-  }
+  "destaque_home": false
 }
