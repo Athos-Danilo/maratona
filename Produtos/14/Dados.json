@@ -1,0 +1,164 @@
+{
+  "id": "14",
+  "ativo": true,
+  "created_at": "2026-08-27T09:10:00Z",
+  "updated_at": "2026-08-27T09:25:00Z",
+  "nome": "Tênis New Balance Fresh Foam Ellipse",
+  "marca": "New Balance",
+  "categoria_principal": "Tênis",
+  "genero": "Feminino",
+  "tipo_corrida": "Corrida 10k",
+  "descricoes": {
+    "vitrine": "Amortecimento Inteligente",
+    "detalhada": "Conforto com propulsão, ideal para as corridas diárias. Seja despertando às 5 da manhã, treinando no horário de almoço ou saindo para correr após o anoitecer, os quilômetros diários são um trabalho feito com amor. O New Balance Ellipse Feminino acompanha esse entusiasmo, combinando o conforto incomparável do amortecimento Fresh Foam X com uma sensação elástica sob os pés, projetada para tornar sua corrida diária a parte mais prazerosa do seu dia, todos os dias.",
+    "especificacoes_tecnicas": [
+      "Drop: 8mm",
+      "Peso: 218g (Tamanho 37)",
+      "Entressola:  Fresh Foam X",
+      "Código do artigo: JZZ457"
+    ]
+  },
+  "variacoes": [
+    {
+      "sku_base": "FFE-VERDE",
+      "created_at": "2026-08-27T09:10:00Z",
+      "updated_at": "2026-08-27T09:25:00Z",
+      "cor_nome": "Light Grey / Emerald Green / Lime Green",
+      "cores": [
+        {
+          "nome": "Light Grey",
+          "hex": "#D6D9DC"
+        },
+        {
+          "nome": "Emerald Green",
+          "hex": "#0F5A56"
+        },
+        {
+          "nome": "Lime Green",
+          "hex": "#D8F04B"
+        }
+      ],
+      "preco": {
+        "original": 999.99,
+        "promocional": 999.99
+      },
+      "thumbnail_cor": "/Produtos/14/Verde/1.avif",
+      "imagens": {
+        "principal_vitrine": "/Produtos/14/Verde/1.avif",
+        "galeria": [
+          "/Produtos/14/Verde/1.avif",
+          "/Produtos/14/Verde/2.avif",
+          "/Produtos/14/Verde/3.avif",
+          "/Produtos/14/Verde/4.avif",
+          "/Produtos/14/Verde/5.avif",
+          "/Produtos/14/Verde/6.avif"
+        ]
+      },
+      "grade_tamanhos": [
+        {
+          "tamanho": 34,
+          "estoque": 5
+        },
+        {
+          "tamanho": 35,
+          "estoque": 10
+        },
+        {
+          "tamanho": 36,
+          "estoque": 10
+        },
+        {
+          "tamanho": 37,
+          "estoque": 3
+        },
+        {
+          "tamanho": 38,
+          "estoque": 11
+        },
+        {
+          "tamanho": 39,
+          "estoque": 4
+        },
+        {
+          "tamanho": 40,
+          "estoque": 10
+        },
+        {
+          "tamanho": 41,
+          "estoque": 8
+        }
+      ]
+    },
+    {
+      "sku_base": "FFE-CINZA",
+      "created_at": "2026-08-27T09:10:00Z",
+      "updated_at": "2026-08-27T09:25:00Z",
+      "cor_nome": "Lavender / Slate Grey / Soft White",
+      "cores": [
+        {
+          "nome": "Lavender",
+          "hex": "#C6BED8"
+        },
+        {
+          "nome": "Slate Grey",
+          "hex": "#6C7375"
+        },
+        {
+          "nome": "Soft White",
+          "hex": "#F0EDF5"
+        }
+      ],
+      "preco": {
+        "original": 999.99,
+        "promocional": 999.99
+      },
+      "thumbnail_cor": "/Produtos/14/Cinza/1.avif",
+      "imagens": {
+        "principal_vitrine": "/Produtos/14/Cinza/1.avif",
+        "galeria": [
+          "/Produtos/14/Cinza/1.avif",
+          "/Produtos/14/Cinza/2.avif",
+          "/Produtos/14/Cinza/3.avif",
+          "/Produtos/14/Cinza/4.avif",
+          "/Produtos/14/Cinza/5.avif",
+          "/Produtos/14/Cinza/6.avif"
+        ]
+      },
+      "grade_tamanhos": [
+        {
+          "tamanho": 34,
+          "estoque": 9
+        },
+        {
+          "tamanho": 35,
+          "estoque": 15
+        },
+        {
+          "tamanho": 36,
+          "estoque": 10
+        },
+        {
+          "tamanho": 37,
+          "estoque": 5
+        },
+        {
+          "tamanho": 38,
+          "estoque": 11
+        },
+        {
+          "tamanho": 39,
+          "estoque": 41
+        },
+        {
+          "tamanho": 40,
+          "estoque": 13
+        },
+        {
+          "tamanho": 41,
+          "estoque": 8
+        }
+      ]
+    }
+  ],
+  "destaque_home": false
+}

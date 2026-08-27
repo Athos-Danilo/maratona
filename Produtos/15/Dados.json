@@ -1,0 +1,180 @@
+{
+  "id": "15",
+  "ativo": true,
+  "created_at": "2026-08-27T09:10:00Z",
+  "updated_at": "2026-08-27T09:25:00Z",
+  "nome": "Tênis New Balance Fresh Foam Garoév2 ",
+  "marca": "New Balance",
+  "categoria_principal": "Tênis",
+  "genero": "Masculino",
+  "tipo_corrida": "Corrida 5k",
+  "descricoes": {
+    "vitrine": "Pronto para o Desafio",
+    "detalhada": "Macio onde você quer. Estável onde você precisa. O New Balance Fresh Foam Garoév2 traz um novo nível de suporte para a corrida de rua do dia a dia. A entressola NITRO™ completa possui uma construção de dupla densidade – com um núcleo acolchoado e uma borda mais firme – para ajudar você a encontrar orientação na sua passada.",
+    "especificacoes_tecnicas": [
+      "Drop: 8mm",
+      "Peso: 290g (Tamanho 41)",
+      "Entressola: Fresh Foam",
+      "Código do artigo: AAT247"
+    ]
+  },
+  "variacoes": [
+    {
+      "sku_base": "FFG2-VERDE",
+      "created_at": "2026-08-27T09:10:00Z",
+      "updated_at": "2026-08-27T09:25:00Z",
+      "cor_nome": "Heather Grey / Dark Indigo / Slate",
+      "cores": [
+        {
+          "nome": "Heather Grey",
+          "hex": "#8B9199"
+        },
+        {
+          "nome": "Dark Indigo",
+          "hex": "#34374B"
+        },
+        {
+          "nome": "Slate",
+          "hex": "#525761"
+        }
+      ],
+      "preco": {
+        "original": 799.99,
+        "promocional": 799.99
+      },
+      "thumbnail_cor": "/Produtos/15/Verde/1.avif",
+      "imagens": {
+        "principal_vitrine": "/Produtos/15/Verde/1.avif",
+        "galeria": [
+          "/Produtos/15/Verde/1.avif",
+          "/Produtos/15/Verde/2.avif",
+          "/Produtos/15/Verde/3.avif",
+          "/Produtos/15/Verde/4.avif",
+          "/Produtos/15/Verde/5.avif",
+          "/Produtos/15/Verde/6.avif"
+        ]
+      },
+      "grade_tamanhos": [
+        {
+          "tamanho": 37,
+          "estoque": 10
+        },
+        {
+          "tamanho": 38,
+          "estoque": 15
+        },
+        {
+          "tamanho": 39,
+          "estoque": 20
+        },
+        {
+          "tamanho": 40,
+          "estoque": 8
+        },
+        {
+          "tamanho": 41,
+          "estoque": 15
+        },
+        {
+          "tamanho": 42,
+          "estoque": 11
+        },
+        {
+          "tamanho": 43,
+          "estoque": 9
+        },
+        {
+          "tamanho": 44,
+          "estoque": 8
+        },
+        {
+          "tamanho": 45,
+          "estoque": 0
+        },
+        {
+          "tamanho": 46,
+          "estoque": 10
+        }
+      ]
+    },
+    {
+      "sku_base": "FFG2-PRETO",
+      "created_at": "2026-08-27T09:10:00Z",
+      "updated_at": "2026-08-27T09:25:00Z",
+      "cor_nome": "Triple Black / Phantom / Lava Red",
+      "cores": [
+        {
+          "nome": "Black",
+          "hex": "#111111"
+        },
+        {
+          "nome": "Phantom",
+          "hex": "#22252A"
+        },
+        {
+          "nome": "Lava Red",
+          "hex": "#E0482B"
+        }
+      ],
+      "preco": {
+        "original": 799.99,
+        "promocional": 799.99
+      },
+      "thumbnail_cor": "/Produtos/15/Preto/1.avif",
+      "imagens": {
+        "principal_vitrine": "/Produtos/15/Preto/1.avif",
+        "galeria": [
+          "/Produtos/15/Preto/1.avif",
+          "/Produtos/15/Preto/2.avif",
+          "/Produtos/15/Preto/3.avif",
+          "/Produtos/15/Preto/4.avif",
+          "/Produtos/15/Preto/5.avif",
+          "/Produtos/15/Preto/6.avif"
+        ]
+      },
+      "grade_tamanhos": [
+        {
+          "tamanho": 37,
+          "estoque": 10
+        },
+        {
+          "tamanho": 38,
+          "estoque": 15
+        },
+        {
+          "tamanho": 39,
+          "estoque": 20
+        },
+        {
+          "tamanho": 40,
+          "estoque": 0
+        },
+        {
+          "tamanho": 41,
+          "estoque": 0
+        },
+        {
+          "tamanho": 42,
+          "estoque": 11
+        },
+        {
+          "tamanho": 43,
+          "estoque": 9
+        },
+        {
+          "tamanho": 44,
+          "estoque": 8
+        },
+        {
+          "tamanho": 45,
+          "estoque": 10
+        },
+        {
+          "tamanho": 46,
+          "estoque": 2
+        }
+      ]
+    }
+  ],
+  "destaque_home": true
+}

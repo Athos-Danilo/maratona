@@ -13,3 +13,17 @@ https://www.adidas.com.br/tenis-adizero-adios-pro-evo-1/IH5564.html
 https://www.adidas.com.br/tenis-adizero-boston-13/JP9252.html
 
 https://www.adidas.com.br/tenis-adizero-boston-13/KI3148.html
+
+https://www.nike.com.br/tenis-nike-revolution-8-masculino-058889.html?cor=53
+
+https://www.nike.com.br/tenis-nike-pegasus-plus-feminino-029398.html?cor=0L
+
+https://www.nike.com.br/tenis-nike-zoom-fly-6-premium-096704.html?cor=15
+
+https://br.puma.com/pd/tenis-de-corrida-deviate-pure-nitrotm-feminina/313905.html?color=05
+
+https://br.puma.com/pd/tenis-de-corrida-foreverrun-nitrotm-3-masculino/312942.html?color=07
+
+https://www.newbalance.com.br/tenis-new-balance-fresh-foam-ellipse-feminino-1348835/p
+
+https://www.newbalance.com.br/tenis-new-balance-fresh-foam-garoev2-masculino-1394633/p

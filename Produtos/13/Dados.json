@@ -1,0 +1,182 @@
+{
+  "id": "13",
+  "ativo": true,
+  "created_at": "2026-08-27T09:10:00Z",
+  "updated_at": "2026-08-27T09:25:00Z",
+  "nome": "Tênis de Corrida ForeverRun NITRO™ 3",
+  "marca": "Puma",
+  "categoria_principal": "Tênis",
+  "genero": "Masculino",
+  "tipo_corrida": "Corrida 10k",
+  "descricoes": {
+    "vitrine": "Leveza que Impulsiona",
+    "detalhada": "Macio onde você quer. Estável onde você precisa. O ForeverRun NITRO™ 3 traz um novo nível de suporte para a corrida de rua do dia a dia. A entressola NITRO™ completa possui uma construção de dupla densidade – com um núcleo acolchoado e uma borda mais firme – para ajudar você a encontrar orientação na sua passada.",
+    "especificacoes_tecnicas": [
+      "Drop: 8mm",
+      "Peso: 290g (Tamanho 41)",
+      "Entressola: NITROFOAM™",
+      "Código do artigo: AAC247"
+    ]
+  },
+  "variacoes": [
+    {
+      "sku_base": "CFRN3-AZUL",
+      "created_at": "2026-08-27T09:10:00Z",
+      "updated_at": "2026-08-27T09:25:00Z",
+      "cor_nome": "Slate Blue / Dark Grey / Off-White",
+      "cores": [
+        {
+          "nome": "Slate Blue",
+          "hex": "#5B84A8"
+        },
+        {
+          "nome": "Dark Grey",
+          "hex": "#3A3E45"
+        },
+        {
+          "nome": "Off-White",
+          "hex": "#F2EFE9"
+        }
+      ],
+      "preco": {
+        "original": 999.99,
+        "promocional": 999.99
+      },
+      "thumbnail_cor": "/Produtos/13/Azul/1.avif",
+      "imagens": {
+        "principal_vitrine": "/Produtos/13/Azul/1.avif",
+        "galeria": [
+          "/Produtos/13/Azul/1.avif",
+          "/Produtos/13/Azul/2.avif",
+          "/Produtos/13/Azul/3.avif",
+          "/Produtos/13/Azul/4.avif",
+          "/Produtos/13/Azul/5.avif",
+          "/Produtos/13/Azul/6.avif",
+          "/Produtos/13/Azul/7.avif",
+          "/Produtos/13/Azul/8.avif"
+        ]
+      },
+      "grade_tamanhos": [
+        {
+          "tamanho": 37,
+          "estoque": 10
+        },
+        {
+          "tamanho": 38,
+          "estoque": 15
+        },
+        {
+          "tamanho": 39,
+          "estoque": 20
+        },
+        {
+          "tamanho": 40,
+          "estoque": 8
+        },
+        {
+          "tamanho": 41,
+          "estoque": 15
+        },
+        {
+          "tamanho": 42,
+          "estoque": 11
+        },
+        {
+          "tamanho": 43,
+          "estoque": 9
+        },
+        {
+          "tamanho": 44,
+          "estoque": 8
+        },
+        {
+          "tamanho": 45,
+          "estoque": 0
+        },
+        {
+          "tamanho": 46,
+          "estoque": 0
+        }
+      ]
+    },
+    {
+      "sku_base": "CFRN3-PRETO",
+      "created_at": "2026-08-27T09:10:00Z",
+      "updated_at": "2026-08-27T09:25:00Z",
+      "cor_nome": "Black / White / Sun Stream",
+      "cores": [
+        {
+          "nome": "Black",
+          "hex": "#1B1C1E"
+        },
+        {
+          "nome": "White",
+          "hex": "#F4F3EE"
+        },
+        {
+          "nome": "Sun Stream",
+          "hex": "#FF4A60"
+        }
+      ],
+      "preco": {
+        "original": 999.99,
+        "promocional": 899.99
+      },
+      "thumbnail_cor": "/Produtos/13/Preto/1.avif",
+      "imagens": {
+        "principal_vitrine": "/Produtos/13/Preto/1.avif",
+        "galeria": [
+          "/Produtos/13/Preto/1.avif",
+          "/Produtos/13/Preto/2.avif",
+          "/Produtos/13/Preto/3.avif",
+          "/Produtos/13/Preto/4.avif",
+          "/Produtos/13/Preto/5.avif",
+          "/Produtos/13/Preto/6.avif"
+        ]
+      },
+      "grade_tamanhos": [
+        {
+          "tamanho": 37,
+          "estoque": 10
+        },
+        {
+          "tamanho": 38,
+          "estoque": 15
+        },
+        {
+          "tamanho": 39,
+          "estoque": 20
+        },
+        {
+          "tamanho": 40,
+          "estoque": 8
+        },
+        {
+          "tamanho": 41,
+          "estoque": 15
+        },
+        {
+          "tamanho": 42,
+          "estoque": 11
+        },
+        {
+          "tamanho": 43,
+          "estoque": 9
+        },
+        {
+          "tamanho": 44,
+          "estoque": 8
+        },
+        {
+          "tamanho": 45,
+          "estoque": 1
+        },
+        {
+          "tamanho": 46,
+          "estoque": 2
+        }
+      ]
+    }
+  ],
+  "destaque_home": false
+}

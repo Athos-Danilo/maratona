@@ -127,7 +127,7 @@ Para garantir uma transição segura entre a estruturação estática (JSON) e o
 *   **Propósito Técnico:** Desenhar as entidades visualmente previne falhas de arquitetura antes da codificação e documenta as restrições físicas do PostgreSQL, assegurando a correta tipagem para dados financeiros (`decimal(10,2)`), injeção de timestamps de auditoria e a implementação de *soft delete*.
 
 <p align="center">
-  <img src="./imagens/Diagrama de Entidade-Relacionamento.png" width="100%" alt="Diagrama de Entidade-Relacionamento do Banco de Dados Maratona" />
+  <img src="./Imagens/Diagrama_de_Entidade-Relacionamento.png" width="100%" alt="Diagrama de Entidade-Relacionamento do Banco de Dados Maratona" />
 </p>
 
 ### 3.4. Perspectiva de Migração para Produção (PostgreSQL + Neon)
