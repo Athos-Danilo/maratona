@@ -19,6 +19,8 @@ Este documento tem como objetivo registrar e justificar todas as decisões técn
   - [3.2. Modelagem do Schema JSON (SKUs e Variações)](#32-modelagem-do-schema-json-skus-e-variações)
   - [3.3. Modelagem Relacional e Diagrama de Entidade-Relacionamento (MER/DER)](#33-modelagem-relacional-e-diagrama-de-entidade-relacionamento-merder)
   - [3.4. Perspectiva de Migração para Produção (PostgreSQL + Neon)](#34-perspectiva-de-migração-para-produção-postgresql--neon)
+- [4. Arquitetura e Padrões de Projeto (Backend)](#4-arquitetura-e-padrões-de-projeto-backend)
+- [5. Arquitetura e Padrões de Projeto (Frontend)](#5-arquitetura-e-padrões-de-projeto-frontend)
 
 ---
 
@@ -43,6 +45,9 @@ Aqui serão registradas as tarefas executadas ao longo do projeto.
 - [x] Criação e documentação do Modelo Entidade-Relacionamento (MER/DER).
 - [x] Conclusão do processo de cadastro dos 15 produtos planejados.
 - [x] Setup inicial e estruturação da arquitetura base do Backend (Node.js + TypeScript).
+- [x] Definição e documentação da arquitetura (Layered) e dos padrões de projeto do backend.
+- [x] Execução de pivot estratégico: consolidação dos 15 catálogos em products.json e foco no escopo Headless.
+- [x] Definição e documentação da arquitetura (Layer-Based) e dos padrões de projeto do frontend (React).
 
 ---
 
@@ -142,3 +147,57 @@ A estrutura em JSON mapeia perfeitamente para as futuras tabelas do banco de dad
 
 ---
 
+## 4. Arquitetura e Padrões de Projeto (Backend)
+
+Para garantir escalabilidade, organização e uma base sólida de engenharia de software, o backend em Node.js com TypeScript foi estruturado com base nos seguintes conceitos:
+
+### 4.1. Layered Architecture (Arquitetura em Camadas)
+A aplicação adota a divisão estrita em camadas (Controller-Service-Repository), alinhando-se perfeitamente à escolha "Layer-Based" do frontend:
+*   **Route:** Recebe a requisição (ex: `GET /produtos`).
+*   **Controller:** Valida se os dados da requisição estão corretos e repassa para o Service.
+*   **Service:** O "cérebro" da aplicação. Aplica as regras de negócio e aciona o cache do Redis.
+*   **Repository:** A única camada que sabe se comunicar com o PostgreSQL. Executa o SQL e devolve os dados para cima.
+
+**Por que usar?** Demonstra maturidade em engenharia de software. Essa estrutura permite, por exemplo, a substituição do banco de dados alterando apenas a camada Repository, sem que o resto do sistema seja afetado.
+
+### 4.2. Padrões de Projeto Essenciais
+Para organizar o fluxo de forma profissional e otimizar os recursos do sistema, adotamos três padrões principais:
+
+*   **Dependency Injection (Injeção de Dependência):** As classes recebem suas dependências de fora (ex: o Controller recebe o Service; o Service recebe o Repository) em vez de criarem suas próprias conexões. Isso desacopla as camadas e permite injetar diferentes repositórios sem alterar as regras de negócio.
+*   **Singleton Pattern:** Utilizado nas conexões externas (banco PostgreSQL e cache Redis). Garante a criação de uma única instância de conexão que é reutilizada em todas as consultas. Isso é vital para garantir performance e suportar altos volumes de acessos simultâneos sem derrubar o servidor por excesso de conexões.
+*   **DTO (Data Transfer Object):** Aproveitando a tipagem estática do TypeScript, os DTOs garantem que os dados trafeguem no formato correto e que o Controller envie ao frontend estritamente as informações necessárias, ocultando dados sensíveis de forma segura.
+
+### 4.3. Pivot Estratégico: Foco no Escopo Headless (Desafio Bootcamp)
+
+> [!IMPORTANT]
+> **Atualização de Escopo (27/08/2026):** Para garantir a entrega impecável do desafio 'Minha Loja no Ar' até o prazo estrito de 01/09, a implementação prática do servidor Node.js e a conexão física com o PostgreSQL foram temporariamente congeladas. Toda a arquitetura (Layered) e o Modelo Entidade-Relacionamento detalhados acima permanecem validados e figuram como o roadmap oficial de escalabilidade do e-commerce. Contudo, a prioridade técnica atual é cumprir o requisito primário da avaliação: a demonstração prática do conceito de headless commerce através de um consumo estático.
+
+**Ações do Pivot:**
+*   **Consolidação do Banco em Texto:** Os 15 catálogos granulares (`Dados.json`) mapeados ao longo do processo de curadoria foram unificados em um único e robusto arquivo `products.json`.
+*   **Orquestração pelo Frontend:** A aplicação React assumirá o papel de consumir esse catálogo nativamente via `fetch`, gerenciando o estado global, a vitrine e o motor de busca sem a dependência de uma API intermediária.
+
+Esta manobra isola o risco estrutural, garante a estabilidade do layout e libera carga horária para o foco no maior peso avaliativo: a gravação do vídeo técnico com a defesa do Lighthouse e do mapeamento em nuvem (AWS).
+
+---
+
+## 5. Arquitetura e Padrões de Projeto (Frontend)
+
+Para o desenvolvimento da interface, focando na orquestração pelo frontend (Headless Commerce), adotamos os seguintes padrões arquiteturais no React para demonstrar domínio técnico, garantir escalabilidade e manter a separação estrita de responsabilidades:
+
+### 5.1. Layer-Based Architecture (Arquitetura por Camadas)
+O projeto foi organizado com base no tipo técnico de cada arquivo. Essa abordagem tradicional é extremamente intuitiva, tem curva de aprendizado nula e é perfeita para navegação ágil no código durante defesas técnicas:
+*   `components/`: Componentes visuais compartilhados (Header, Card, Button).
+*   `pages/`: Telas completas da aplicação (Home, ProductDetail, Checkout).
+*   `services/`: Centralização das chamadas à API e requisições externas.
+*   `hooks/`: Lógica de negócios isolada via Custom Hooks.
+*   `types/`: Tipagens globais e interfaces TypeScript.
+*   `styles/`: CSS global e variáveis de design.
+
+### 5.2. Padrões de Componentes e Estado
+No ecossistema moderno do React, abandonamos os padrões clássicos orientados a objetos em favor de padrões funcionais que comprovam, na prática, o conceito de Headless:
+
+*   **Custom Hooks Pattern:** O padrão de ouro do projeto. A lógica pesada (chamadas de API, filtros, estados complexos) é extraída dos componentes visuais para arquivos isolados (ex: `useProducts`). **Por que usar?** Os componentes visuais ficam "burros" (focados apenas em renderizar UI). Se a fonte de dados for alterada (do JSON para a API), altera-se apenas o Hook, sem a necessidade de reescrever as telas.
+*   **Provider Pattern (Context API):** Utilizado para gerenciar estados globais, como o Carrinho de Compras, sem instalar bibliotecas pesadas (como Redux). **Por que usar?** Resolve o problema de *Prop Drilling* (passar propriedades de pai para filho infinitamente), permitindo que qualquer tela acesse ou modifique o carrinho globalmente de forma eficiente.
+*   **Container / Presenter Pattern (Bônus Visual):** Integrado perfeitamente à arquitetura Layer-Based. As `pages` atuam como *Containers* (lidam com os dados chamando os Custom Hooks), enquanto os `components` atuam como *Presenters* (recebem os dados via *props* e os exibem visualmente).
+
+**Veredito:** O "cérebro" da aplicação está centralizado na pasta `hooks/`, enquanto a "beleza e a interface" reinam soberanas na pasta `components/`.
