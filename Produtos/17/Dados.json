@@ -1,37 +1,37 @@
 {
-  "id": "16",
+  "id": "17",
   "ativo": true,
   "created_at": "2026-08-28T09:10:00Z",
   "updated_at": "2026-08-28T09:25:00Z",
-  "nome": "MEIA DE CANO MÉDIO PARA CORRIDA ADIZERO",
+  "nome": "MEIAS DE CORRIDA CONFORTÁVEIS",
   "marca": "Adidas",
   "categoria_principal": "Meias",
-  "genero": "Unissex",
-  "tipo_corrida": "Corrida 5k",
+  "genero": "Masculino",
+  "tipo_corrida": "Corrida 10k",
   "descricoes": {
-    "vitrine": "Corrida com tecnologia",
-    "detalhada": "A Meia de Cano Médio para Corrida Adizero foi projetada para atletas e corredores ambiciosos. Com um design clean e recursos técnicos, estas meias da adidas são um complemento essencial para seu equipamento de corrida. As meias incorporam a tecnologia Climacool, que absorve o suor para manter você confortável. A alta elasticidade oferece um ajuste confortável e estável, enquanto a aba para puxar facilita o uso.",
+    "vitrine": "Conforto térmico",
+    "detalhada": "Abrace o conforto diário com as Meias de corrida confortáveis da adidas, projetadas para corredores que exigem mais do seu equipamento. Feitas com materiais técnicos, elas oferecem suporte consistente e um ajuste confortável a cada passada. Os elementos em relevo 3D ao longo do tendão de Aquiles e do mediopé ajudam a aliviar a pressão, enquanto as zonas de amortecimento e o fio antifricção no calcanhar e na biqueira reduzem distrações durante a corrida.",
     "especificacoes_tecnicas": [
-      "Material Principal: 50% Poliéster / 48% Poliamida / 2% Elastano",
+      "Material Principal: 63% poliamida (100% reciclada)/32% poliéster (100% reciclado)/5% elastano",
       "Cano: Médio",
       "Tecnologia: CLIMACOOL",
-      "Código do Artigo: KR8959"
+      "Código do Artigo: KR8972"
     ]
   },
   "variacoes": [
     {
-      "sku_base": "MDCMPCA-AMARELO",
+      "sku_base": "MDCC-AZUL",
       "created_at": "2026-08-27T09:10:00Z",
       "updated_at": "2026-08-27T09:25:00Z",
-      "cor_nome": "Solar Yellow / Aurora Plum",
+      "cor_nome": "Eqt Blue / White",
       "cores": [
         {
-          "nome": "Solar Yellow",
-          "hex": "#FFEF3D"
+          "nome": "Eqt Blue",
+          "hex": "#0077C8"
         },
         {
-          "nome": "Aurora Plum",
-          "hex": "#6C2D63"
+          "nome": "White",
+          "hex": "#FFFFFF"
         }
       ],
       "preco": {

@@ -27,3 +27,7 @@ https://br.puma.com/pd/tenis-de-corrida-foreverrun-nitrotm-3-masculino/312942.ht
 https://www.newbalance.com.br/tenis-new-balance-fresh-foam-ellipse-feminino-1348835/p
 
 https://www.newbalance.com.br/tenis-new-balance-fresh-foam-garoev2-masculino-1394633/p
+
+https://www.adidas.com.br/meia-de-cano-medio-para-corrida-adizero/KR8959.html
+
+https://www.adidas.com.br/meias-de-corrida-confortaveis/KR8972.html
