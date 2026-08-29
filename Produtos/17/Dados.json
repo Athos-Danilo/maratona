@@ -35,27 +35,27 @@
         }
       ],
       "preco": {
-        "original": 109.99,
-        "promocional": 109.99
+        "original": 89.99,
+        "promocional": 89.99
       },
-      "thumbnail_cor": "/Produtos/16/MEIA_DE_CANO_MEDIO_PARA_CORRIDA_ADIZERO_Amarelo_KR8959_01_01_00_standard.avif",
+      "thumbnail_cor": "/Produtos/17/MEIAS_DE_CORRIDA_CONFORTAVEIS_Azul_KR8972_01_01_00_standard.avif",
       "imagens": {
-        "principal_vitrine": "/Produtos/16/MEIA_DE_CANO_MEDIO_PARA_CORRIDA_ADIZERO_Amarelo_KR8959_01_01_00_standard.avif",
+        "principal_vitrine": "/Produtos/17/MEIAS_DE_CORRIDA_CONFORTAVEIS_Azul_KR8972_01_01_00_standard.avif",
         "galeria": [
-          "/Produtos/16/MEIA_DE_CANO_MEDIO_PARA_CORRIDA_ADIZERO_Amarelo_KR8959_01_01_00_standard.avif",
-          "/Produtos/16/MEIA_DE_CANO_MEDIO_PARA_CORRIDA_ADIZERO_Amarelo_KR8959_02_standard_hover.avif",
-          "/Produtos/16/MEIA_DE_CANO_MEDIO_PARA_CORRIDA_ADIZERO_Amarelo_KR8959_41_detail.avif",
-          "/Produtos/16/MEIA_DE_CANO_MEDIO_PARA_CORRIDA_ADIZERO_Amarelo_KR8959_42_detail.avif"
+          "/Produtos/17/MEIAS_DE_CORRIDA_CONFORTAVEIS_Azul_KR8972_01_01_00_standard.avif",
+          "/Produtos/17/MEIAS_DE_CORRIDA_CONFORTAVEIS_Azul_KR8972_02_standard_hover.avif",
+          "/Produtos/17/MEIAS_DE_CORRIDA_CONFORTAVEIS_Azul_KR8972_41_detail_hover.avif",
+          "/Produtos/17/MEIAS_DE_CORRIDA_CONFORTAVEIS_Azul_KR8972_42_detail.avif"
         ]
       },
       "grade_tamanhos": [
         {
           "tamanho": "PP",
-          "estoque": 20
+          "estoque": 0
         },
         {
           "tamanho": "P",
-          "estoque": 25
+          "estoque": 20
         },
         {
           "tamanho": "M",
@@ -67,11 +67,11 @@
         },
         {
           "tamanho": "GG",
-          "estoque": 15
+          "estoque": 20
         },
         {
           "tamanho": "2GG",
-          "estoque": 11
+          "estoque": 20
         }
       ]
     }
