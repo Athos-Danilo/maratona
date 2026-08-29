@@ -31,3 +31,11 @@ https://www.newbalance.com.br/tenis-new-balance-fresh-foam-garoev2-masculino-139
 https://www.adidas.com.br/meia-de-cano-medio-para-corrida-adizero/KR8959.html
 
 https://www.adidas.com.br/meias-de-corrida-confortaveis/KR8972.html
+
+https://www.adidas.com.br/meia-de-corrida-adizero-calf/KR8977.html
+
+https://www.adidas.com.br/meias-running-message/KS0121.html
+
+https://www.nike.com.br/meia-nike-fast-lightweight-unissex-059237.html?cor=52
+
+https://br.puma.com/pd/meia-cano-medio-masculina-3-pares/927360.html?color=02
