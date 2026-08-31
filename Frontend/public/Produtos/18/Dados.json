@@ -1,0 +1,80 @@
+{
+  "id": "18",
+  "ativo": true,
+  "created_at": "2026-08-29T09:10:00Z",
+  "updated_at": "2026-08-29T09:25:00Z",
+  "nome": "MEIA DE CORRIDA ADIZERO CALF",
+  "marca": "Adidas",
+  "categoria_principal": "Meias",
+  "genero": "Masculino",
+  "tipo_corrida": "Corrida 10k",
+  "descricoes": {
+    "vitrine": "Desempenho com tecnologia",
+    "detalhada": "Corra com confiança com as Meias de Corrida Adizero Calf. Projetadas para atletas e corredores ambiciosos, estas meias combinam materiais de primeira linha e tecnologias avançadas da adidas para uma modelagem aconchegante e durabilidade. Os canais projetados da zona de flexibilidade reduzem o volume durante o movimento, enquanto a aderência na parte de trás é posicionada para se conectar ao seu tênis. A alta elasticidade proporciona um ajuste justo e estável.",
+    "especificacoes_tecnicas": [
+      "Material Principal: 54% PA6 (100% reciclado), 42% poliéster (100% reciclado), 4% elastano",
+      "Cano: Alto",
+      "Tecnologia: CLIMACOOL",
+      "Código do Artigo: KR8977"
+    ]
+  },
+  "variacoes": [
+    {
+      "sku_base": "MDCAXC-BRANCO",
+      "created_at": "2026-08-29T09:10:00Z",
+      "updated_at": "2026-08-29T09:25:00Z",
+      "cor_nome": "Frozen Purple / Solar Purple",
+      "cores": [
+        {
+          "nome": "Frozen Purple",
+          "hex": "#8A79A5"
+        },
+        {
+          "nome": "Solar Purple",
+          "hex": "#C4258E"
+        }
+      ],
+      "preco": {
+        "original": 119.99,
+        "promocional": 89.99
+      },
+      "thumbnail_cor": "/Produtos/18/MEIA_DE_CORRIDA_ADIZERO_CALF_Roxo_KR8977_01_01_00_standard.avif",
+      "imagens": {
+        "principal_vitrine": "/Produtos/18/MEIA_DE_CORRIDA_ADIZERO_CALF_Roxo_KR8977_01_01_00_standard.avif",
+        "galeria": [
+          "/Produtos/18/MEIA_DE_CORRIDA_ADIZERO_CALF_Roxo_KR8977_01_01_00_standard.avif",
+          "/Produtos/18/MEIA_DE_CORRIDA_ADIZERO_CALF_Roxo_KR8977_02_standard_hover.avif",
+          "/Produtos/18/MEIA_DE_CORRIDA_ADIZERO_CALF_Roxo_KR8977_41_detail.avif",
+          "/Produtos/18/MEIA_DE_CORRIDA_ADIZERO_CALF_Roxo_KR8977_42_detail.avif"
+        ]
+      },
+      "grade_tamanhos": [
+        {
+          "tamanho": "PP",
+          "estoque": 0
+        },
+        {
+          "tamanho": "P",
+          "estoque": 0
+        },
+        {
+          "tamanho": "M",
+          "estoque": 10
+        },
+        {
+          "tamanho": "G",
+          "estoque": 15
+        },
+        {
+          "tamanho": "GG",
+          "estoque": 5
+        },
+        {
+          "tamanho": "2GG",
+          "estoque": 2
+        }
+      ]
+    }
+  ],
+  "destaque_home": false
+}
