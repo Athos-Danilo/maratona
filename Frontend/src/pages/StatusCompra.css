@@ -1,0 +1,237 @@
+.status-compra-container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 48px 16px;
+  animation: slideUp 0.5s ease-out;
+}
+
+@keyframes slideUp {
+  from { transform: translateY(20px); opacity: 0; }
+  to { transform: translateY(0); opacity: 1; }
+}
+
+.status-header {
+  text-align: center;
+  margin-bottom: 48px;
+}
+
+.status-header-icone {
+  color: #2e7d32;
+  margin-bottom: 16px;
+  display: inline-block;
+  animation: popIn 0.5s cubic-bezier(0.175, 0.885, 0.32, 1.275) 0.2s both;
+}
+
+@keyframes popIn {
+  from { transform: scale(0.5); opacity: 0; }
+  to { transform: scale(1); opacity: 1; }
+}
+
+.status-header h1 {
+  font-size: 2.5rem;
+  margin-bottom: 8px;
+  color: #111;
+}
+
+.status-header p {
+  font-size: 1.1rem;
+  color: #666;
+}
+
+.status-layout {
+  display: grid;
+  grid-template-columns: 2fr 1fr;
+  gap: 32px;
+  align-items: start;
+}
+
+.status-col-principal {
+  display: flex;
+  flex-direction: column;
+  gap: 32px;
+}
+
+.status-card {
+  background-color: white;
+  border-radius: 12px;
+  padding: 32px;
+  border: 1px solid #eaeaea;
+  box-shadow: 0 4px 20px rgba(0,0,0,0.03);
+}
+
+.status-card h2 {
+  font-size: 1.5rem;
+  margin-bottom: 24px;
+  padding-bottom: 16px;
+  border-bottom: 1px solid #eaeaea;
+}
+
+/* Timeline Vertical */
+.timeline-container {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+  padding: 16px 0;
+}
+
+.timeline-step {
+  display: flex;
+  align-items: center;
+  gap: 24px;
+}
+
+.timeline-icone {
+  width: 48px;
+  height: 48px;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #f5f5f5;
+  color: #aaa;
+  border: 2px solid #eaeaea;
+  z-index: 2;
+  transition: all 0.3s;
+}
+
+.timeline-step.concluido .timeline-icone {
+  background-color: #2e7d32;
+  color: white;
+  border-color: #2e7d32;
+}
+
+.timeline-step.atual .timeline-icone {
+  background-color: var(--cor-texto-principal);
+  color: white;
+  border-color: var(--cor-texto-principal);
+  box-shadow: 0 0 0 4px rgba(0,0,0,0.1);
+}
+
+.timeline-texto {
+  display: flex;
+  flex-direction: column;
+}
+
+.timeline-texto strong {
+  font-size: 1.1rem;
+  color: #333;
+}
+
+.timeline-step.pendente .timeline-texto strong {
+  color: #999;
+}
+
+.timeline-texto span {
+  font-size: 0.9rem;
+  color: #777;
+}
+
+.timeline-linha {
+  width: 4px;
+  height: 32px;
+  background-color: #eaeaea;
+  margin-left: 22px;
+  border-radius: 2px;
+}
+
+.timeline-linha.ativa {
+  background-color: var(--cor-texto-principal);
+}
+
+/* Endereço Confirmado */
+.endereco-confirmado {
+  display: flex;
+  justify-content: space-between;
+  background-color: #f9f9f9;
+  padding: 24px;
+  border-radius: 8px;
+  margin-bottom: 16px;
+}
+
+.endereco-dados strong {
+  display: block;
+  font-size: 1.1rem;
+  margin-bottom: 8px;
+}
+
+.endereco-dados p {
+  color: #555;
+  margin-bottom: 4px;
+}
+
+.frete-escolhido {
+  text-align: right;
+}
+
+.frete-escolhido strong {
+  display: block;
+  margin-bottom: 4px;
+}
+
+.frete-escolhido p {
+  color: var(--cor-primaria);
+  font-weight: 600;
+}
+
+.aviso-envio {
+  background-color: #fff8f5;
+  border-left: 4px solid var(--cor-primaria);
+  padding: 16px;
+  color: #555;
+  border-radius: 0 8px 8px 0;
+}
+
+/* Resumo Final */
+.resumo-final {
+  position: sticky;
+  top: 100px;
+}
+
+.resumo-valores-final {
+  margin-top: 24px;
+}
+
+.metodo-utilizado {
+  margin-top: 24px;
+  padding: 16px;
+  background-color: #f5f5f5;
+  border-radius: 8px;
+  text-align: center;
+  font-size: 0.95rem;
+  color: #555;
+}
+
+.metodo-utilizado strong {
+  color: #000;
+}
+
+.btn-voltar-compras {
+  margin-top: 24px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 12px;
+}
+
+@media (max-width: 900px) {
+  .status-layout {
+    grid-template-columns: 1fr;
+  }
+  
+  .resumo-final {
+    position: static;
+  }
+}
+
+@media (max-width: 600px) {
+  .endereco-confirmado {
+    flex-direction: column;
+    gap: 16px;
+  }
+  
+  .frete-escolhido {
+    text-align: left;
+    border-top: 1px solid #eaeaea;
+    padding-top: 16px;
+  }
+}
