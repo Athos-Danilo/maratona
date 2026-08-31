@@ -1,0 +1,465 @@
+.home-container {
+  width: 100%;
+}
+
+.hero-slider {
+  position: relative;
+  width: 100%;
+  height: 85vh;
+  min-height: 600px;
+  overflow: hidden;
+  background-color: #111; /* Fallback */
+}
+
+.hero-slide {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  opacity: 0;
+  transition: opacity 0.8s ease-in-out;
+  z-index: 1;
+}
+
+.hero-slide.active {
+  opacity: 1;
+  z-index: 2;
+}
+
+.hero-slide-content {
+  flex: 1;
+  padding: 0 10%;
+  color: white;
+  z-index: 3;
+}
+
+.hero-slide-content h2 {
+  font-size: 5rem;
+  margin-bottom: 16px;
+  color: #fff;
+  line-height: 1.1;
+  text-shadow: 2px 2px 4px rgba(0,0,0,0.5);
+}
+
+.hero-slide-content p {
+  font-size: 1.5rem;
+  color: #ddd;
+  margin-bottom: 32px;
+  max-width: 500px;
+}
+
+.hero-slide-image {
+  flex: 1;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding-right: 5%;
+}
+
+.hero-slide-image img {
+  max-width: 100%;
+  max-height: 90%;
+  object-fit: contain;
+  /* Masking out flat solid backgrounds softly if needed, but we match bgColor */
+}
+
+.slider-arrow {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  background: rgba(255, 255, 255, 0.1);
+  color: white;
+  border: none;
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  font-size: 1.5rem;
+  cursor: pointer;
+  z-index: 10;
+  transition: background 0.3s, transform 0.3s;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.slider-arrow:hover {
+  background: rgba(255, 255, 255, 0.3);
+  transform: translateY(-50%) scale(1.1);
+}
+
+.slider-arrow.prev { left: 24px; }
+.slider-arrow.next { right: 24px; }
+
+.slider-dots {
+  position: absolute;
+  bottom: 24px;
+  left: 50%;
+  transform: translateX(-50%);
+  display: flex;
+  gap: 12px;
+  z-index: 10;
+}
+
+.dot {
+  width: 12px;
+  height: 12px;
+  border-radius: 50%;
+  background: rgba(255,255,255,0.3);
+  cursor: pointer;
+  transition: background 0.3s, transform 0.3s;
+}
+
+.dot:hover, .dot.active {
+  background: var(--cor-primaria);
+  transform: scale(1.2);
+}
+
+/* --- Benefits Bar --- */
+.benefits-bar {
+  background-color: #0d0d0d;
+  color: #fff;
+  padding: 16px 0;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+}
+
+.benefits-container {
+  max-width: 1200px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 16px;
+  padding: 0 24px;
+}
+
+.benefit-item {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  font-size: 0.95rem;
+  font-weight: 500;
+  text-transform: uppercase;
+  letter-spacing: 0.5px;
+}
+
+.benefit-item svg {
+  color: var(--cor-primaria, #ff4500); /* Destaque para o ícone */
+}
+
+/* --- Lifestyle Section --- */
+.lifestyle-collage-section {
+  max-width: 1400px;
+  margin: 64px auto;
+  padding: 0 24px;
+}
+
+.lifestyle-title-container {
+  text-align: center;
+  margin-bottom: 40px;
+}
+
+.lifestyle-title-container h2 {
+  font-size: 3rem;
+  color: var(--cor-texto-principal);
+  letter-spacing: 1.5px;
+  text-transform: uppercase;
+  margin-bottom: 8px;
+}
+
+.lifestyle-title-container p {
+  font-size: 1.2rem;
+  color: var(--cor-texto-secundario);
+}
+
+.lifestyle-grid {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-auto-rows: 250px;
+  grid-auto-flow: dense;
+  gap: 16px;
+  margin-bottom: 40px;
+}
+
+.grid-item {
+  border-radius: 12px;
+  overflow: hidden;
+  position: relative;
+  background-color: rgba(255, 255, 255, 0.05); /* Placeholder enquanto a imagem carrega */
+}
+
+.grid-item img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  object-position: center 20%; /* Foca na parte superior onde geralmente estão os rostos */
+  transition: transform 0.4s ease;
+}
+
+.item-4 img {
+  object-position: bottom; /* Evita cortar as pessoas na parte inferior */
+}
+
+.grid-item:hover img {
+  transform: scale(1.08);
+}
+
+.item-large {
+  grid-column: span 2;
+  grid-row: span 2;
+}
+
+.item-tall {
+  grid-row: span 2;
+}
+
+.lifestyle-message {
+  text-align: center;
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+.lifestyle-message h2 {
+  font-size: 3rem;
+  margin-bottom: 16px;
+  color: var(--cor-texto-principal);
+  letter-spacing: 1px;
+}
+
+.lifestyle-message p {
+  font-size: 1.2rem;
+  color: var(--cor-texto-secundario);
+  margin-bottom: 32px;
+}
+
+.lifestyle-cta-btn {
+  display: inline-block;
+  background-color: var(--cor-primaria);
+  color: white;
+  padding: 16px 40px;
+  font-size: 1.1rem;
+  font-weight: 700;
+  text-transform: uppercase;
+  border-radius: 4px;
+  transition: all 0.3s ease;
+}
+
+.lifestyle-cta-btn:hover {
+  background-color: var(--cor-secundaria);
+  transform: translateY(-2px);
+  box-shadow: 0 10px 20px rgba(0,0,0,0.2);
+}
+
+.hero-overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: linear-gradient(to top, rgba(0,0,0,0.8) 0%, rgba(0,0,0,0.2) 100%);
+}
+
+.hero-content {
+  position: relative;
+  z-index: 10;
+  max-width: 800px;
+  margin: 0 auto;
+  text-align: center;
+  color: white;
+  padding: 0 24px;
+}
+
+.hero-content h2 {
+  font-size: 4rem;
+  margin-bottom: 16px;
+  color: #fff;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+}
+
+.hero-content p {
+  font-size: 1.3rem;
+  color: #f0f0f0;
+  margin-bottom: 32px;
+}
+
+.hero-btn {
+  display: inline-block;
+  background-color: var(--cor-primaria);
+  color: white;
+  padding: 16px 32px;
+  font-size: 1.2rem;
+  font-weight: bold;
+  text-transform: uppercase;
+  border-radius: 4px;
+  transition: background-color 0.2s;
+}
+
+.hero-btn:hover {
+  background-color: var(--cor-secundaria);
+}
+
+.vitrine-container {
+  max-width: 1400px; /* Alargado um pouco para acomodar 4 cards */
+  margin: 0 auto;
+  padding: 64px 24px 24px;
+}
+
+.vitrine-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 32px;
+}
+
+.vitrine-header h2 {
+  font-size: 2.2rem;
+}
+
+.grid-produtos {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr); /* 4 colunas no desktop */
+  gap: 24px;
+}
+
+.loading, .error, .no-results {
+  text-align: center;
+  padding: 80px 24px;
+  font-size: 1.2rem;
+  color: var(--cor-texto-secundario);
+}
+
+.error {
+  color: var(--cor-alerta);
+}
+
+/* Responsividade */
+@media (max-width: 1200px) {
+  .grid-produtos {
+    grid-template-columns: repeat(3, 1fr);
+  }
+}
+
+@media (max-width: 900px) {
+  .benefits-container {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+  
+  .grid-produtos {
+    grid-template-columns: repeat(2, 1fr);
+  }
+  .hero-content h2 {
+    font-size: 3rem;
+  }
+  .lifestyle-title-container h2 {
+    font-size: 2.2rem;
+  }
+  .lifestyle-grid {
+    grid-template-columns: repeat(2, 1fr);
+    grid-auto-rows: 220px;
+  }
+  .item-large {
+    grid-column: span 2;
+    grid-row: span 2;
+  }
+}
+
+@media (max-width: 600px) {
+  .hero-slider {
+    height: 95vh;
+  }
+  
+  .hero-slide {
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    padding-top: 80px;
+  }
+  
+  .hero-slide-content {
+    flex: none;
+    padding: 0 5%;
+  }
+  
+  .hero-slide-content h2 {
+    font-size: 3.5rem;
+  }
+  
+  .hero-slide-image {
+    padding: 0;
+    margin-top: 24px;
+    height: 50%;
+  }
+
+  .slider-arrow {
+    display: none; /* Hide arrows on mobile for a cleaner look, users use dots or swipe */
+  }
+
+  .grid-produtos {
+    grid-template-columns: 1fr; /* 1 coluna no celular */
+    gap: 32px;
+  }
+  
+  .vitrine-header h2 {
+    font-size: 1.8rem;
+  }
+  
+  .lifestyle-grid {
+    grid-template-columns: repeat(2, 1fr);
+    grid-auto-rows: 140px;
+    gap: 12px;
+    display: grid;
+  }
+  
+  /* Esconder todas as imagens por padrão no mobile */
+  .grid-item {
+    display: none;
+  }
+  
+  /* Mostrar apenas as 4 fotos escolhidas */
+  .item-1, .item-7, .item-3, .item-4 {
+    display: block;
+  }
+
+  /* Resetar spans que vieram do desktop */
+  .item-large, .item-tall {
+    grid-column: span 1;
+    grid-row: span 1;
+  }
+
+  /* Grid bonitão com 4 fotos no mobile + Ordenação específica */
+  .item-1 {
+    order: 1;
+    grid-column: span 2;
+    grid-row: span 2; /* Grande (Destaque) */
+  }
+  .item-7 {
+    order: 2;
+    grid-column: span 2;
+    grid-row: span 1; /* Média (Wide) */
+  }
+  .item-3 {
+    order: 3;
+    grid-column: span 1;
+    grid-row: span 1; /* Pequenas (Lado a lado) */
+  }
+  .item-4 {
+    order: 4;
+    grid-column: span 1;
+    grid-row: span 1; /* Pequenas (Lado a lado) */
+  }
+
+  .lifestyle-message h2 {
+    font-size: 2rem;
+  }
+  
+  .lifestyle-title-container h2 {
+    font-size: 1.8rem;
+  }
+}
