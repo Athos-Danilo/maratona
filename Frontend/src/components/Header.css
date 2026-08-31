@@ -1,0 +1,250 @@
+.header {
+  background-color: #000000;
+  border-bottom: 1px solid #222;
+  position: sticky;
+  top: 0;
+  z-index: 1000;
+  height: 70px;
+  display: flex;
+  align-items: center;
+}
+
+.header-container {
+  width: 100%;
+  max-width: 1400px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 24px;
+}
+
+.mobile-menu-btn {
+  display: none;
+  background: none;
+  border: none;
+  color: white;
+  cursor: pointer;
+}
+
+.logo h1 {
+  font-size: 1.8rem;
+  margin: 0;
+  color: #fff;
+  letter-spacing: 1.5px;
+  text-transform: uppercase;
+}
+
+.logo h1:hover {
+  color: var(--cor-primaria);
+}
+
+.nav-links {
+  display: flex;
+  align-items: center;
+  gap: 32px;
+  font-weight: 600;
+  font-size: 0.95rem;
+}
+
+.nav-links a {
+  color: #ffffff;
+  transition: all 0.2s;
+  text-transform: uppercase;
+  letter-spacing: 0.5px;
+}
+
+.nav-links a:hover {
+  color: var(--cor-primaria);
+}
+
+.nav-sobre {
+  color: #aaa !important;
+}
+
+/* Perfil do Usuário */
+.profile-container {
+  position: relative;
+  display: flex;
+  align-items: center;
+}
+
+.profile-btn {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  background: transparent;
+  border: 1px solid transparent;
+  border-radius: 24px;
+  cursor: pointer;
+  padding: 4px 12px 4px 4px;
+  transition: all 0.2s ease;
+}
+
+.profile-btn:hover {
+  background-color: rgba(255, 255, 255, 0.1);
+  border-color: rgba(255, 255, 255, 0.15);
+}
+
+.profile-img {
+  width: 32px;
+  height: 32px;
+  border-radius: 50%;
+  object-fit: cover;
+}
+
+.profile-name {
+  color: #fff;
+  font-size: 0.9rem;
+  font-weight: 500;
+  display: none;
+}
+
+@media (min-width: 768px) {
+  .profile-name {
+    display: block;
+  }
+}
+
+.profile-dropdown {
+  position: absolute;
+  top: calc(100% + 12px);
+  right: 0;
+  background-color: #1a1a1a;
+  border: 1px solid #333;
+  border-radius: 8px;
+  min-width: 160px;
+  padding: 8px 0;
+  box-shadow: 0 10px 30px rgba(0,0,0,0.5);
+  animation: slideDown 0.2s ease forwards;
+  z-index: 100;
+}
+
+.profile-dropdown a {
+  display: block;
+  padding: 12px 20px;
+  color: #ddd;
+  text-decoration: none;
+  font-size: 0.95rem;
+  transition: background-color 0.2s, color 0.2s;
+}
+
+.profile-dropdown a:hover {
+  background-color: #2a2a2a;
+  color: #fff;
+}
+
+.header-actions {
+  display: flex;
+  align-items: center;
+  gap: 24px;
+}
+
+.search-container {
+  display: flex;
+  align-items: center;
+}
+
+.search-form {
+  display: flex;
+  align-items: center;
+  background-color: #1a1a1a;
+  border: 1px solid #333;
+  border-radius: 24px;
+  padding: 8px 16px;
+  transition: all 0.3s ease;
+}
+
+.search-form:focus-within {
+  border-color: #666;
+  background-color: #222;
+  box-shadow: 0 0 0 2px rgba(255, 255, 255, 0.1);
+}
+
+.search-icon {
+  color: #888;
+  margin-right: 8px;
+}
+
+.search-form input {
+  background: transparent;
+  border: none;
+  color: white;
+  font-size: 0.95rem;
+  outline: none;
+  width: 200px;
+  transition: width 0.3s ease;
+}
+
+.search-form input:focus {
+  width: 250px;
+}
+
+.cart-icon {
+  position: relative;
+  display: flex;
+  align-items: center;
+  color: white;
+  transition: color 0.2s;
+}
+
+.cart-icon:hover {
+  color: var(--cor-primaria);
+}
+
+.cart-count {
+  position: absolute;
+  top: -6px;
+  right: -10px;
+  background-color: var(--cor-alerta);
+  color: white;
+  font-size: 0.7rem;
+  font-weight: bold;
+  border-radius: 50%;
+  width: 18px;
+  height: 18px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+/* Mobile */
+@media (max-width: 900px) {
+  .mobile-menu-btn {
+    display: block;
+  }
+
+  .nav-links {
+    position: fixed;
+    top: 70px;
+    left: -100%;
+    width: 80%;
+    height: calc(100vh - 70px);
+    background-color: #111;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 32px 24px;
+    transition: left 0.3s ease;
+    z-index: 999;
+  }
+
+  .nav-links.mobile-open {
+    left: 0;
+    box-shadow: 100vw 0 0 rgba(0,0,0,0.5);
+  }
+
+  .nav-links a {
+    font-size: 1.2rem;
+    padding: 12px 0;
+    border-bottom: 1px solid #333;
+    width: 100%;
+  }
+
+  .search-form input {
+    width: 140px;
+  }
+  
+  .search-form input:focus {
+    width: 180px;
+  }
+}
