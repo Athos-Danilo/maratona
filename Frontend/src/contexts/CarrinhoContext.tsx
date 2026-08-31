@@ -1,4 +1,4 @@
-import React, { createContext, useContext, useState, ReactNode } from 'react';
+import React, { createContext, useContext, useState, type ReactNode } from 'react';
 
 export interface ItemCarrinho {
   produtoId: string;
@@ -19,6 +19,7 @@ interface CarrinhoContextType {
   atualizarQuantidade: (sku: string, tamanho: number, novaQuantidade: number) => void;
   total: number;
   quantidadeItens: number;
+  esvaziarCarrinho: () => void;
 }
 
 const CarrinhoContext = createContext<CarrinhoContextType | undefined>(undefined);
@@ -57,6 +58,10 @@ export const CarrinhoProvider: React.FC<{ children: ReactNode }> = ({ children }
     ));
   };
 
+  const esvaziarCarrinho = () => {
+    setItens([]);
+  };
+
   const total = itens.reduce((acc, item) => acc + (item.preco * item.quantidade), 0);
   const quantidadeItens = itens.reduce((acc, item) => acc + item.quantidade, 0);
 
@@ -67,7 +72,8 @@ export const CarrinhoProvider: React.FC<{ children: ReactNode }> = ({ children }
       removerItem,
       atualizarQuantidade,
       total,
-      quantidadeItens
+      quantidadeItens,
+      esvaziarCarrinho
     }}>
       {children}
     </CarrinhoContext.Provider>

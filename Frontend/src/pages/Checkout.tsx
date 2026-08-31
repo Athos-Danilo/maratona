@@ -1,8 +1,8 @@
-import React, { useState, useEffect } from 'react';
+import React, { useState } from 'react';
 import { useNavigate } from 'react-router-dom';
 import { useCarrinho } from '../contexts/CarrinhoContext';
 import Botao from '../components/Botao';
-import { MapPin, CreditCard, QrCode, CheckCircle2, Loader2, ArrowLeft } from 'lucide-react';
+import { MapPin, CreditCard, QrCode, Loader2, ArrowLeft } from 'lucide-react';
 import './Checkout.css';
 
 type MetodoPagamento = 'cartao' | 'pix' | null;
