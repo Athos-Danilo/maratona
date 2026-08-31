@@ -43,19 +43,19 @@
           "original": 999.99,
           "promocional": 999.99
         },
-        "thumbnail_cor": "Tenis_Ultraboost_Light_Roxo_ID3316_HM1.avif",
+        "thumbnail_cor": "/Produtos/01/Tenis_Ultraboost_Light_Roxo_ID3316_HM1.avif",
         "imagens": {
-          "principal_vitrine": "Tenis_Ultraboost_Light_Roxo_ID3316_HM1.avif",
+          "principal_vitrine": "/Produtos/01/Tenis_Ultraboost_Light_Roxo_ID3316_HM1.avif",
           "galeria": [
-            "Tenis_Ultraboost_Light_Roxo_ID3316_HM1.avif",
-            "Tenis_Ultraboost_Light_Roxo_ID3316_HM3.avif",
-            "Tenis_Ultraboost_Light_Roxo_ID3316_HM4.avif",
-            "Tenis_Ultraboost_Light_Roxo_ID3316_HM5.avif",
-            "Tenis_Ultraboost_Light_Roxo_ID3316_HM6.avif",
-            "Tenis_Ultraboost_Light_Roxo_ID3316_HM7.avif",
-            "Tenis_Ultraboost_Light_Roxo_ID3316_HM8.avif",
-            "Tenis_Ultraboost_Light_Roxo_ID3316_HM9.avif",
-            "Tenis_Ultraboost_Light_Roxo_ID3316_HM10.avif"
+            "/Produtos/01/Tenis_Ultraboost_Light_Roxo_ID3316_HM1.avif",
+            "/Produtos/01/Tenis_Ultraboost_Light_Roxo_ID3316_HM3_hover.avif",
+            "/Produtos/01/Tenis_Ultraboost_Light_Roxo_ID3316_HM4.avif",
+            "/Produtos/01/Tenis_Ultraboost_Light_Roxo_ID3316_HM5.avif",
+            "/Produtos/01/Tenis_Ultraboost_Light_Roxo_ID3316_HM6.avif",
+            "/Produtos/01/Tenis_Ultraboost_Light_Roxo_ID3316_HM7.avif",
+            "/Produtos/01/Tenis_Ultraboost_Light_Roxo_ID3316_HM8.avif",
+            "/Produtos/01/Tenis_Ultraboost_Light_Roxo_ID3316_HM9.avif",
+            "/Produtos/01/Tenis_Ultraboost_Light_Roxo_ID3316_HM10.avif"
           ]
         },
         "grade_tamanhos": [
@@ -168,18 +168,18 @@
           "original": 899.99,
           "promocional": 699.99
         },
-        "thumbnail_cor": "Tenis_Supernova_3_Running_Cinza_IE4368_HM1.avif",
+        "thumbnail_cor": "/Produtos/02/Tenis_Supernova_3_Running_Cinza_IE4368_HM1.avif",
         "imagens": {
-          "principal_vitrine": "Tenis_Supernova_3_Running_Cinza_IE4368_HM1.avif",
+          "principal_vitrine": "/Produtos/02/Tenis_Supernova_3_Running_Cinza_IE4368_HM1.avif",
           "galeria": [
-            "Tenis_Supernova_3_Running_Cinza_IE4368_HM1.avif",
-            "Tenis_Supernova_3_Running_Cinza_IE4368_HM3.avif",
-            "Tenis_Supernova_3_Running_Cinza_IE4368_HM4.avif",
-            "Tenis_Supernova_3_Running_Cinza_IE4368_HM5.avif",
-            "Tenis_Supernova_3_Running_Cinza_IE4368_HM6.avif",
-            "Tenis_Supernova_3_Running_Cinza_IE4368_HM7.avif",
-            "Tenis_Supernova_3_Running_Cinza_IE4368_HM8.avif",
-            "Tenis_Supernova_3_Running_Cinza_IE4368_HM9.avif"
+            "/Produtos/02/Tenis_Supernova_3_Running_Cinza_IE4368_HM1.avif",
+            "/Produtos/02/Tenis_Supernova_3_Running_Cinza_IE4368_HM3_hover.avif",
+            "/Produtos/02/Tenis_Supernova_3_Running_Cinza_IE4368_HM4.avif",
+            "/Produtos/02/Tenis_Supernova_3_Running_Cinza_IE4368_HM5.avif",
+            "/Produtos/02/Tenis_Supernova_3_Running_Cinza_IE4368_HM6.avif",
+            "/Produtos/02/Tenis_Supernova_3_Running_Cinza_IE4368_HM7.avif",
+            "/Produtos/02/Tenis_Supernova_3_Running_Cinza_IE4368_HM8.avif",
+            "/Produtos/02/Tenis_Supernova_3_Running_Cinza_IE4368_HM9.avif"
           ]
         },
         "grade_tamanhos": [
@@ -305,7 +305,7 @@
           "principal_vitrine": "/Produtos/03/Branco/Tenis_Ultraboost_5_Branco_ID8810_HM1.avif",
           "galeria": [
             "/Produtos/03/Branco/Tenis_Ultraboost_5_Branco_ID8810_HM1.avif",
-            "/Produtos/03/Branco/Tenis_Ultraboost_5_Branco_ID8810_HM3.avif",
+            "/Produtos/03/Branco/Tenis_Ultraboost_5_Branco_ID8810_HM3_hover.avif",
             "/Produtos/03/Branco/Tenis_Ultraboost_5_Branco_ID8810_HM4.avif",
             "/Produtos/03/Branco/Tenis_Ultraboost_5_Branco_ID8810_HM5.avif",
             "/Produtos/03/Branco/Tenis_Ultraboost_5_Branco_ID8810_HM6.avif",
@@ -1939,11 +1939,11 @@
           "principal_vitrine": "/Produtos/07/Azul/Adizero_Boston_13_Azul_JQ1669_01_00_standard.avif",
           "galeria": [
             "/Produtos/07/Azul/Adizero_Boston_13_Azul_JQ1669_01_00_standard.avif",
-            "/Produtos/07/Azul/Adizero_Boston_13_Azul_JQ1669_01_02_standard.avif",
-            "/Produtos/07/Azul/Adizero_Boston_13_Azul_JQ1669_01_03_standard.avif",
-            "/Produtos/07/Azul/Adizero_Boston_13_Azul_JQ1669_01_04_standard.avif",
-            "/Produtos/07/Azul/Adizero_Boston_13_Azul_JQ1669_01_05_standard.avif",
-            "/Produtos/07/Azul/Adizero_Boston_13_Azul_JQ1669_01_06_standard.avif",
+            "/Produtos/07/Azul/Adizero_Boston_13_Azul_JQ1669_02_standard_hover.avif",
+            "/Produtos/07/Azul/Adizero_Boston_13_Azul_JQ1669_03_standard.avif",
+            "/Produtos/07/Azul/Adizero_Boston_13_Azul_JQ1669_04_standard.avif",
+            "/Produtos/07/Azul/Adizero_Boston_13_Azul_JQ1669_05_standard.avif",
+            "/Produtos/07/Azul/Adizero_Boston_13_Azul_JQ1669_06_standard.avif",
             "/Produtos/07/Azul/Adizero_Boston_13_Azul_JQ1669_41_detail.avif",
             "/Produtos/07/Azul/Adizero_Boston_13_Azul_JQ1669_HM53.avif",
             "/Produtos/07/Azul/Adizero_Boston_13_Azul_JQ1669_HM54.avif",
