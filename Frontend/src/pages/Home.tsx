@@ -99,28 +99,12 @@ const HeroSlider: React.FC<{ produtos: Produto[] }> = ({ produtos }) => {
   );
 };
 
-const preloadLifestyleImages = [
-  "/Imagens/pexels-basquetebol-br-934307817-20037838-copiar.avif",
-  "/Imagens/pexels-cristian-camilo-estrada-2152272341-32566487-copiar.avif",
-  "/Imagens/pexels-cristian-camilo-estrada-2152272341-35261936-copiar.avif",
-  "/Imagens/pexels-federicoabisphotography-28907540-copiar.avif",
-  "/Imagens/pexels-igor-pericles-517653171-37989859-copiar.avif",
-  "/Imagens/pexels-runffwpu-2402777-copiar.avif",
-  "/Imagens/pexels-runffwpu-10527114-copiar.avif",
-  "/Imagens/pexels-willians-huerta-2157111846-34663460-copiar.avif"
-];
+
 
 const Home: React.FC = () => {
   const { produtos, loading, error } = useProdutos();
 
-  // Força o navegador a baixar e fazer cache das fotos pesadas em background
-  // assim que o usuário abre a página, antes mesmo de ele rolar a tela!
-  useEffect(() => {
-    preloadLifestyleImages.forEach(src => {
-      const img = new Image();
-      img.src = src;
-    });
-  }, []);
+
 
   if (loading) {
     return <div className="loading">Carregando catálogo de alta performance...</div>;
