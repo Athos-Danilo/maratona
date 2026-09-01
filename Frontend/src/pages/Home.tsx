@@ -1,44 +1,47 @@
 import React, { useState, useEffect } from 'react';
 import { Link } from 'react-router-dom';
-import { Truck, CreditCard, RefreshCw } from 'lucide-react';
+import { Truck, CreditCard, RefreshCw, ChevronLeft, ChevronRight } from 'lucide-react';
 import { useProdutos } from '../hooks/useProdutos';
 import ProdutoCard from '../components/ProdutoCard';
 import './Home.css';
+import type { Produto } from '../types';
 
-const slides = [
-  {
-    id: 1,
-    title: 'NIKE ZOOM FLY 6',
-    subtitle: 'clássico & estiloso',
-    image: '/Imagens/nike_hero.jpg',
-    btnText: 'clique aqui',
-    bgColor: '#1a1a1a',
-  },
-  {
-    id: 2,
-    title: 'ADIDAS ADIZERO BOSTON',
-    subtitle: 'inspirado em um design arquitetônico transformador',
-    image: '/Imagens/adidas_hero.jpg',
-    btnText: 'compre já',
-    bgColor: '#161616',
-  },
-  {
-    id: 3,
-    title: 'NEW BALANCE ELLIPSE',
-    subtitle: 'do outfit casual até uma produção mais alinhada',
-    image: '/Imagens/newbalance_hero.jpg',
-    btnText: 'ver todos',
-    bgColor: '#1e1c1b',
-  }
-];
+const HeroSlider: React.FC<{ produtos: Produto[] }> = ({ produtos }) => {
+  const getSlideData = (id: string, skuBase: string, mensagem: string, bgColor: string, defaultTitle: string, defaultImage: string) => {
+    const produto = produtos.find(p => p.id === id);
+    if (!produto) return { id, title: defaultTitle, subtitle: mensagem, image: defaultImage, btnText: 'VER PRODUTO', bgColor, link: '/catalogo', preco: 0, marca: '', descVitrine: '' };
+    
+    const variacao = produto.variacoes.find(v => v.sku_base === skuBase) || produto.variacoes[0];
+    const imagens = variacao.imagens as any;
+    const imgUrl = Array.isArray(imagens) ? imagens[0] : (imagens?.principal_vitrine || '');
+    const preco = variacao.preco.promocional || variacao.preco.original;
+    
+    return {
+      id,
+      title: produto.nome,
+      marca: produto.marca,
+      subtitle: mensagem,
+      descVitrine: produto.descricoes.vitrine,
+      image: imgUrl,
+      btnText: 'COMPRAR AGORA',
+      bgColor,
+      link: `/produto/${produto.id}`,
+      preco
+    };
+  };
 
-const HeroSlider: React.FC = () => {
+  const slides = [
+    getSlideData('6', 'AAPE1-BRANCO', 'Sinta a velocidade absoluta. O tênis mais leve e rápido já criado para você quebrar todos os seus recordes nas maratonas.', '#ebedf0', 'ADIZERO ADIOS PRO EVO 1', '/Imagens/nike_hero.jpg'),
+    getSlideData('10', 'PP-ROSA', 'Leve o amortecimento ágil para o próximo nível. A tecnologia ZoomX superleve energiza seus passos, garantindo uma corrida diária incrivelmente responsiva e confortável.', '#f5f5f6', 'NIKE PEGASUS PLUS', '/Imagens/nike_hero.jpg'),
+    getSlideData('15', 'FFG2-VERDE', 'Conforto incomparável para o dia a dia. A tecnologia Fresh Foam que seus pés merecem, pronto para qualquer desafio.', '#e2e2e3', 'FRESH FOAM GAROÉV2', '/Imagens/newbalance_hero.jpg')
+  ];
+
   const [currentSlide, setCurrentSlide] = useState(0);
 
   useEffect(() => {
     const timer = setInterval(() => {
       setCurrentSlide((prev) => (prev + 1) % slides.length);
-    }, 5000);
+    }, 10000);
     return () => clearInterval(timer);
   }, []);
 
@@ -54,9 +57,16 @@ const HeroSlider: React.FC = () => {
           style={{ backgroundColor: slide.bgColor }}
         >
           <div className="hero-slide-content">
+            <span className="hero-brand">{slide.marca}</span>
             <h2>{slide.title}</h2>
-            <p>{slide.subtitle}</p>
-            <Link to="/catalogo" className="hero-btn">
+            <p className="hero-vitrine">{slide.descVitrine}</p>
+            <p className="hero-subtitle">{slide.subtitle}</p>
+            {slide.preco > 0 && (
+              <div className="hero-price">
+                {new Intl.NumberFormat('pt-BR', { style: 'currency', currency: 'BRL' }).format(slide.preco)}
+              </div>
+            )}
+            <Link to={slide.link} className="hero-btn">
               {slide.btnText}
             </Link>
           </div>
@@ -66,8 +76,8 @@ const HeroSlider: React.FC = () => {
         </div>
       ))}
       
-      <button className="slider-arrow prev" onClick={prevSlide}>&#10094;</button>
-      <button className="slider-arrow next" onClick={nextSlide}>&#10095;</button>
+      <button className="slider-arrow prev" onClick={prevSlide}><ChevronLeft size={48} strokeWidth={1.5} /></button>
+      <button className="slider-arrow next" onClick={nextSlide}><ChevronRight size={48} strokeWidth={1.5} /></button>
       
       <div className="slider-dots">
         {slides.map((_, index) => (
@@ -125,7 +135,7 @@ const Home: React.FC = () => {
   return (
     <div className="home-container">
         <>
-          <HeroSlider />
+          <HeroSlider produtos={produtos} />
 
           <section className="benefits-bar">
             <div className="benefits-container">

@@ -5,8 +5,8 @@
 .hero-slider {
   position: relative;
   width: 100%;
-  height: 85vh;
-  min-height: 600px;
+  height: 50vh;
+  min-height: 450px;
   overflow: hidden;
   background-color: #111; /* Fallback */
 }
@@ -19,7 +19,8 @@
   height: 100%;
   display: flex;
   align-items: center;
-  justify-content: space-between;
+  justify-content: center;
+  gap: 40px;
   opacity: 0;
   transition: opacity 0.8s ease-in-out;
   z-index: 1;
@@ -31,34 +32,61 @@
 }
 
 .hero-slide-content {
-  flex: 1;
-  padding: 0 10%;
+  flex: 0 1 500px;
+  padding: 0;
   color: white;
   z-index: 3;
 }
 
-.hero-slide-content h2 {
-  font-size: 5rem;
-  margin-bottom: 16px;
-  color: #fff;
-  line-height: 1.1;
-  text-shadow: 2px 2px 4px rgba(0,0,0,0.5);
+.hero-slide-content .hero-brand {
+  font-size: 1.2rem;
+  font-weight: 700;
+  color: var(--cor-primaria, #ff4500);
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  display: block;
+  margin-bottom: 8px;
 }
 
-.hero-slide-content p {
-  font-size: 1.5rem;
-  color: #ddd;
-  margin-bottom: 32px;
+.hero-slide-content h2 {
+  font-size: 2.8rem;
+  margin-bottom: 12px;
+  color: #111;
+  line-height: 1.1;
+  text-shadow: none;
+  font-weight: 800;
+}
+
+.hero-slide-content .hero-vitrine {
+  font-size: 1.2rem;
+  font-weight: 600;
+  color: #222;
+  margin-bottom: 12px;
   max-width: 500px;
 }
 
+.hero-slide-content .hero-subtitle {
+  font-size: 1rem;
+  color: #444;
+  margin-bottom: 16px;
+  max-width: 500px;
+  line-height: 1.5;
+}
+
+.hero-slide-content .hero-price {
+  font-size: 2rem;
+  font-weight: 900;
+  color: #111;
+  margin-bottom: 24px;
+}
+
 .hero-slide-image {
-  flex: 1;
+  flex: 0 1 550px;
   height: 100%;
   display: flex;
   align-items: center;
   justify-content: center;
-  padding-right: 5%;
+  padding: 0;
 }
 
 .hero-slide-image img {
@@ -72,23 +100,24 @@
   position: absolute;
   top: 50%;
   transform: translateY(-50%);
-  background: rgba(255, 255, 255, 0.1);
-  color: white;
+  background: transparent;
+  color: #777;
   border: none;
   width: 50px;
   height: 50px;
   border-radius: 50%;
-  font-size: 1.5rem;
+  font-size: 2.5rem;
   cursor: pointer;
   z-index: 10;
-  transition: background 0.3s, transform 0.3s;
+  transition: color 0.3s, transform 0.3s;
   display: flex;
   align-items: center;
   justify-content: center;
 }
 
 .slider-arrow:hover {
-  background: rgba(255, 255, 255, 0.3);
+  background: transparent;
+  color: var(--cor-primaria);
   transform: translateY(-50%) scale(1.1);
 }
 
@@ -109,7 +138,7 @@
   width: 12px;
   height: 12px;
   border-radius: 50%;
-  background: rgba(255,255,255,0.3);
+  background: rgba(0, 0, 0, 0.2);
   cursor: pointer;
   transition: background 0.3s, transform 0.3s;
 }
@@ -300,8 +329,8 @@
   display: inline-block;
   background-color: var(--cor-primaria);
   color: white;
-  padding: 16px 32px;
-  font-size: 1.2rem;
+  padding: 12px 24px;
+  font-size: 1rem;
   font-weight: bold;
   text-transform: uppercase;
   border-radius: 4px;
