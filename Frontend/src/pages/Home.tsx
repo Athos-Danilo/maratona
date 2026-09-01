@@ -93,14 +93,14 @@ const HeroSlider: React.FC<{ produtos: Produto[] }> = ({ produtos }) => {
 };
 
 const preloadLifestyleImages = [
-  "/Imagens/pexels-basquetebol-br-934307817-20037838.avif",
-  "/Imagens/pexels-cristian-camilo-estrada-2152272341-32566487.avif",
-  "/Imagens/pexels-cristian-camilo-estrada-2152272341-35261936.avif",
-  "/Imagens/pexels-federicoabisphotography-28907540.avif",
-  "/Imagens/pexels-igor-pericles-517653171-37989859.avif",
-  "/Imagens/pexels-runffwpu-2402777.avif",
-  "/Imagens/pexels-runffwpu-10527114.avif",
-  "/Imagens/pexels-willians-huerta-2157111846-34663460.avif"
+  "/Imagens/pexels-basquetebol-br-934307817-20037838-copiar.avif",
+  "/Imagens/pexels-cristian-camilo-estrada-2152272341-32566487-copiar.avif",
+  "/Imagens/pexels-cristian-camilo-estrada-2152272341-35261936-copiar.avif",
+  "/Imagens/pexels-federicoabisphotography-28907540-copiar.avif",
+  "/Imagens/pexels-igor-pericles-517653171-37989859-copiar.avif",
+  "/Imagens/pexels-runffwpu-2402777-copiar.avif",
+  "/Imagens/pexels-runffwpu-10527114-copiar.avif",
+  "/Imagens/pexels-willians-huerta-2157111846-34663460-copiar.avif"
 ];
 
 const Home: React.FC = () => {
@@ -172,28 +172,28 @@ const Home: React.FC = () => {
             </div>
             <div className="lifestyle-grid">
               <div className="grid-item item-large item-1">
-                <img src="/Imagens/pexels-basquetebol-br-934307817-20037838.avif" alt="Lifestyle 1" decoding="async" />
+                <img src="/Imagens/pexels-basquetebol-br-934307817-20037838-copiar.avif" alt="Lifestyle 1" decoding="async" />
               </div>
               <div className="grid-item item-2">
-                <img src="/Imagens/pexels-cristian-camilo-estrada-2152272341-32566487.avif" alt="Lifestyle 2" decoding="async" />
+                <img src="/Imagens/pexels-cristian-camilo-estrada-2152272341-32566487-copiar.avif" alt="Lifestyle 2" decoding="async" />
               </div>
               <div className="grid-item item-tall item-3">
-                <img src="/Imagens/pexels-cristian-camilo-estrada-2152272341-35261936.avif" alt="Lifestyle 3" decoding="async" />
+                <img src="/Imagens/pexels-cristian-camilo-estrada-2152272341-35261936-copiar.avif" alt="Lifestyle 3" decoding="async" />
               </div>
               <div className="grid-item item-4">
-                <img src="/Imagens/pexels-federicoabisphotography-28907540.avif" alt="Lifestyle 4" decoding="async" />
+                <img src="/Imagens/pexels-federicoabisphotography-28907540-copiar.avif" alt="Lifestyle 4" decoding="async" />
               </div>
               <div className="grid-item item-5">
-                <img src="/Imagens/pexels-igor-pericles-517653171-37989859.avif" alt="Lifestyle 5" decoding="async" />
+                <img src="/Imagens/pexels-igor-pericles-517653171-37989859-copiar.avif" alt="Lifestyle 5" decoding="async" />
               </div>
               <div className="grid-item item-6">
-                <img src="/Imagens/pexels-runffwpu-2402777.avif" alt="Lifestyle 6" decoding="async" />
+                <img src="/Imagens/pexels-runffwpu-2402777-copiar.avif" alt="Lifestyle 6" decoding="async" />
               </div>
               <div className="grid-item item-7">
-                <img src="/Imagens/pexels-runffwpu-10527114.avif" alt="Lifestyle 7" decoding="async" />
+                <img src="/Imagens/pexels-runffwpu-10527114-copiar.avif" alt="Lifestyle 7" decoding="async" />
               </div>
               <div className="grid-item item-8">
-                <img src="/Imagens/pexels-willians-huerta-2157111846-34663460.avif" alt="Lifestyle 8" decoding="async" />
+                <img src="/Imagens/pexels-willians-huerta-2157111846-34663460-copiar.avif" alt="Lifestyle 8" decoding="async" />
               </div>
             </div>
             <div className="lifestyle-message">
