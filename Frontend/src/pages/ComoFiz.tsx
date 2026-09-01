@@ -11,16 +11,16 @@ const ComoFiz: React.FC = () => {
 
       <div className="video-section">
         <div className="video-wrapper">
-          {/* Substitua pelo iframe do YouTube real ao gravar o vídeo */}
-          <iframe 
-            width="100%" 
-            height="100%" 
-            src="https://www.youtube.com/embed/dQw4w9WgXcQ" 
-            title="Apresentação do Projeto" 
-            frameBorder="0" 
-            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" 
-            allowFullScreen
-          ></iframe>
+          <video
+            width="100%"
+            height="100%"
+            controls
+            preload="metadata"
+            title="Apresentação do Projeto"
+          >
+            <source src="/Video/video.mp4" type="video/mp4" />
+            Seu navegador não suporta a tag de vídeo.
+          </video>
         </div>
       </div>
 
@@ -60,6 +60,29 @@ const ComoFiz: React.FC = () => {
           <p>
             A Inteligência Artificial se encaixaria perfeitamente como um "Assistente de Corrida" (um chatbot treinado) recomendando o tênis ideal com base na pisada, peso e objetivo de pace do corredor. A parte mais difícil técnica foi modelar o schema JSON "Padrão Ouro", garantindo o mapeamento exato do controle de estoque granular de cada variação de cor e número.
           </p>
+        </div>
+
+        <div className="pergunta-item bff-section">
+          <h3>6. Bônus — Arquitetura com BFF (Backend For Frontend)</h3>
+          <p>
+            <strong>O que é o padrão BFF?</strong> BFF significa <em>Backend For Frontend</em>. Quando uma empresa tem várias plataformas (um site Web e um App de celular, por exemplo), as necessidades de dados dessas duas plataformas são muito diferentes. O celular tem tela menor e internet 4G (precisa de dados compactos), enquanto a Web tem tela grande e internet rápida (pode carregar imagens enormes e muitos dados de uma vez).
+          </p>
+          <p>
+            Em vez de fazer o App e o Site consumirem a mesma "API Gorda" (o que deixaria o App lento), o padrão BFF cria um <strong>Backend intermediário exclusivo para cada frontend</strong>.
+          </p>
+          <p>
+            O BFF do Mobile vai buscar os dados no banco, filtrar apenas o essencial, diminuir o tamanho da resposta e entregar "mastigado" para o aplicativo de celular.
+          </p>
+
+          <h4 className="diagram-title">Diagrama da Arquitetura</h4>
+          
+          <div className="diagrama-container">
+            <img 
+              src="/Imagens/Captura%20de%20tela%202026-09-01%20163043.png" 
+              alt="Diagrama da Arquitetura com BFF" 
+              className="diagrama-img"
+            />
+          </div>
         </div>
       </div>
     </div>
