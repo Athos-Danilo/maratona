@@ -167,7 +167,7 @@ const Home: React.FC = () => {
 
           <section className="lifestyle-collage-section">
             <div className="lifestyle-title-container">
-              <h2>EQUIPAMENTO DE ELITE PARA O SEU CORRE</h2>
+              <h2>EQUIPAMENTO DE ELITE <br className="mobile-break" /> PARA O SEU CORRE</h2>
               <p>Explore o mundo com os melhores tênis do mercado.</p>
             </div>
             <div className="lifestyle-grid">

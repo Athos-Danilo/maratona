@@ -247,6 +247,10 @@
   grid-row: span 2;
 }
 
+.mobile-break {
+  display: none; /* Hidden on desktop */
+}
+
 .lifestyle-message {
   text-align: center;
   max-width: 900px;
@@ -522,6 +526,10 @@
     display: none;
   }
   
+  .mobile-break {
+    display: initial;
+  }
+  
   /* Mostrar apenas as 4 fotos escolhidas */
   .item-1, .item-7, .item-3, .item-4 {
     display: block;
@@ -557,9 +565,21 @@
 
   .lifestyle-message h2 {
     font-size: 2rem;
+    margin-bottom: 16px;
+  }
+
+  .lifestyle-message p {
+    text-align: justify;
+    margin: 0 auto 24px auto;
   }
   
   .lifestyle-title-container h2 {
     font-size: 1.8rem;
+    margin-bottom: 24px;
+  }
+  
+  .lifestyle-cta-btn {
+    padding: 12px 24px;
+    font-size: 1rem;
   }
 }
