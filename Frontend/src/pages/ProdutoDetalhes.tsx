@@ -205,11 +205,11 @@ const ProdutoDetalhes: React.FC = () => {
         <div className="galeria-secao">
 
           <div className="imagem-principal" onClick={openLightbox} style={{ cursor: 'zoom-in', position: 'relative' }}>
-            <button className="inline-nav prev-inline" onClick={imagemAnteriorInline} title="Imagem anterior">
+            <button className="inline-nav prev-inline" onClick={imagemAnteriorInline} title="Imagem anterior" aria-label="Imagem anterior">
               <ChevronLeft size={40} />
             </button>
-            <img src={imagemAtiva} alt={produto.nome} />
-            <button className="inline-nav next-inline" onClick={proximaImagemInline} title="Próxima imagem">
+            <img src={imagemAtiva} alt={produto.nome} width="500" height="500" fetchPriority="high" />
+            <button className="inline-nav next-inline" onClick={proximaImagemInline} title="Próxima imagem" aria-label="Próxima imagem">
               <ChevronRight size={40} />
             </button>
           </div>
@@ -221,6 +221,8 @@ const ProdutoDetalhes: React.FC = () => {
                 alt={`${produto.nome} vista ${index + 1}`} 
                 className={imagemAtiva === img ? 'ativa' : ''}
                 onClick={() => setImagemAtiva(img)}
+                width="96"
+                height="96"
               />
             ))}
           </div>
@@ -354,12 +356,12 @@ const ProdutoDetalhes: React.FC = () => {
 
       {isLightboxOpen && (
         <div className="lightbox-overlay" onClick={() => setIsLightboxOpen(false)}>
-          <button className="lightbox-close" onClick={() => setIsLightboxOpen(false)}>
+          <button className="lightbox-close" onClick={() => setIsLightboxOpen(false)} aria-label="Fechar galeria">
             <X size={32} />
           </button>
           
-          <button className="lightbox-nav prev" onClick={imagemAnterior}>
-            <ChevronLeft size={48} />
+          <button className="lightbox-nav prev" onClick={imagemAnterior} aria-label="Imagem anterior">
+            <ChevronLeft size={48} strokeWidth={1.5} />
           </button>
           
           <div className="lightbox-content" onClick={e => e.stopPropagation()}>
@@ -374,9 +376,9 @@ const ProdutoDetalhes: React.FC = () => {
               {({ zoomIn, zoomOut, resetTransform }) => (
                 <>
                   <div className="zoom-controls">
-                    <button onClick={() => zoomIn()} title="Aumentar Zoom"><ZoomIn size={20} /></button>
-                    <button onClick={() => zoomOut()} title="Diminuir Zoom"><ZoomOut size={20} /></button>
-                    <button onClick={() => resetTransform()} title="Redefinir"><Maximize size={20} /></button>
+                    <button onClick={() => zoomIn()} title="Aumentar Zoom" aria-label="Aumentar zoom"><ZoomIn size={20} /></button>
+                    <button onClick={() => zoomOut()} title="Diminuir Zoom" aria-label="Diminuir zoom"><ZoomOut size={20} /></button>
+                    <button onClick={() => resetTransform()} title="Redefinir" aria-label="Redefinir zoom"><Maximize size={20} /></button>
                   </div>
                   <TransformComponent wrapperStyle={{ width: '100vw', height: '100vh' }}>
                     <img 
@@ -390,8 +392,8 @@ const ProdutoDetalhes: React.FC = () => {
             </TransformWrapper>
           </div>
           
-          <button className="lightbox-nav next" onClick={proximaImagem}>
-            <ChevronRight size={48} />
+          <button className="lightbox-nav next" onClick={proximaImagem} aria-label="Próxima imagem">
+            <ChevronRight size={48} strokeWidth={1.5} />
           </button>
         </div>
       )}
@@ -437,7 +439,7 @@ const ProdutoDetalhes: React.FC = () => {
           <div className="size-guide-modal" onClick={(e) => e.stopPropagation()}>
             <div className="size-guide-header">
               <h4><Ruler size={20} style={{ marginRight: '8px' }}/> Guia de Tamanhos</h4>
-              <button className="close-modal-btn" onClick={() => setIsSizeGuideOpen(false)}>✕</button>
+              <button className="close-modal-btn" onClick={() => setIsSizeGuideOpen(false)} aria-label="Fechar guia de tamanhos">✕</button>
             </div>
             
             <div className="size-guide-content">

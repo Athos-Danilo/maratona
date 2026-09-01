@@ -71,13 +71,20 @@ const HeroSlider: React.FC<{ produtos: Produto[] }> = ({ produtos }) => {
             </Link>
           </div>
           <div className="hero-slide-image">
-            <img src={slide.image} alt={slide.title} />
+            <img 
+              src={slide.image} 
+              alt={slide.title} 
+              width="600" 
+              height="600" 
+              loading={index === 0 ? "eager" : "lazy"}
+              fetchPriority={index === 0 ? "high" : "auto"}
+            />
           </div>
         </div>
       ))}
       
-      <button className="slider-arrow prev" onClick={prevSlide}><ChevronLeft size={48} strokeWidth={1.5} /></button>
-      <button className="slider-arrow next" onClick={nextSlide}><ChevronRight size={48} strokeWidth={1.5} /></button>
+      <button className="slider-arrow prev" onClick={prevSlide} aria-label="Slide anterior"><ChevronLeft size={48} strokeWidth={1.5} /></button>
+      <button className="slider-arrow next" onClick={nextSlide} aria-label="Próximo slide"><ChevronRight size={48} strokeWidth={1.5} /></button>
       
       <div className="slider-dots">
         {slides.map((_, index) => (

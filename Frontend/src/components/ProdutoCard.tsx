@@ -37,6 +37,8 @@ const ProdutoCard: React.FC<ProdutoCardProps> = ({ produto, variacaoEspecifica }
             src={variacaoVitrine.imagens.principal_vitrine} 
             alt={produto.nome} 
             className="produto-imagem" 
+            width="400" 
+            height="400" 
             loading="lazy"
           />
           <div className="card-badges-left">
@@ -54,7 +56,7 @@ const ProdutoCard: React.FC<ProdutoCardProps> = ({ produto, variacaoEspecifica }
           <button 
             className={`wishlist-btn ${isFavorited ? 'favorited' : ''}`}
             onClick={handleFavoriteClick}
-            aria-label="Adicionar aos favoritos"
+            aria-label={isFavorited ? "Remover dos favoritos" : "Adicionar aos favoritos"}
           >
             <Heart size={20} fill={isFavorited ? "#e32636" : "none"} color={isFavorited ? "#e32636" : "#666"} />
           </button>

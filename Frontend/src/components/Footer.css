@@ -100,7 +100,7 @@
 }
 
 .footer-brand-column p {
-  color: #888;
+  color: #aaa;
   line-height: 1.6;
   margin: 0 0 24px 0;
   max-width: 400px;
@@ -149,7 +149,7 @@
 }
 
 .security-badge svg {
-  color: #555;
+  color: #999;
 }
 
 .social-icons {
@@ -181,7 +181,7 @@
   background-color: #000;
   text-align: center;
   padding: 24px;
-  color: #666;
+  color: #aaa;
   font-size: 0.9rem;
   border-top: 1px solid #111;
 }

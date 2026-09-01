@@ -30,7 +30,7 @@ const Carrinho: React.FC = () => {
           {itens.map((item) => (
             <div key={`${item.sku}-${item.tamanho}`} className="carrinho-item">
               <div className="item-imagem">
-                <img src={item.imagem} alt={item.nome} />
+                <img src={item.imagem} alt={item.nome} width="100" height="100" />
               </div>
               <div className="item-detalhes">
                 <span className="item-marca">{item.marca}</span>
@@ -42,16 +42,16 @@ const Carrinho: React.FC = () => {
                 <div className="item-controles">
                   <div className="quantidade-controle">
                     <button 
+                      className="qtd-btn" 
                       onClick={() => atualizarQuantidade(item.sku, item.tamanho, item.quantidade - 1)}
-                      className="qtd-btn"
                       aria-label="Diminuir quantidade"
                     >
                       <Minus size={16} />
                     </button>
                     <span>{item.quantidade}</span>
                     <button 
+                      className="qtd-btn" 
                       onClick={() => atualizarQuantidade(item.sku, item.tamanho, item.quantidade + 1)}
-                      className="qtd-btn"
                       aria-label="Aumentar quantidade"
                     >
                       <Plus size={16} />
@@ -59,11 +59,11 @@ const Carrinho: React.FC = () => {
                   </div>
                   
                   <button 
+                    className="remover-btn" 
                     onClick={() => removerItem(item.sku, item.tamanho)}
-                    className="remover-btn"
-                    aria-label="Remover item"
+                    aria-label="Remover item do carrinho"
                   >
-                    <Trash2 size={18} /> Remover
+                    <Trash2 size={18} />
                   </button>
                 </div>
               </div>

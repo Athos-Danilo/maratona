@@ -56,7 +56,7 @@ const Header: React.FC = () => {
       <header className={`header ${isScrolledDown ? 'header-hidden' : ''}`}>
       <div className="header-container">
         
-        <button className="mobile-menu-btn" onClick={() => setIsMobileMenuOpen(!isMobileMenuOpen)}>
+        <button className="mobile-menu-btn" onClick={() => setIsMobileMenuOpen(!isMobileMenuOpen)} aria-label={isMobileMenuOpen ? "Fechar menu" : "Abrir menu"}>
           {isMobileMenuOpen ? <X size={24} /> : <Menu size={24} />}
         </button>
 
@@ -81,14 +81,14 @@ const Header: React.FC = () => {
                   onChange={e => setTermoBusca(e.target.value)}
                 />
                 {termoBusca && (
-                  <button type="button" className="clear-search-btn" onClick={() => setTermoBusca('')}>
+                  <button type="button" className="clear-search-btn" onClick={() => setTermoBusca('')} aria-label="Limpar busca">
                     <X size={16} />
                   </button>
                 )}
               </form>
             </div>
 
-            <button className="mobile-search-toggle" onClick={() => { setIsMobileSearchOpen(true); setIsMobileMenuOpen(false); }}>
+            <button className="mobile-search-toggle" onClick={() => { setIsMobileSearchOpen(true); setIsMobileMenuOpen(false); }} aria-label="Abrir busca">
               <Search size={24} />
             </button>
 
@@ -96,6 +96,7 @@ const Header: React.FC = () => {
               <button 
                 className="profile-btn" 
                 onClick={() => setIsProfileOpen(!isProfileOpen)}
+                aria-label="Menu do usuário"
               >
                 <img src="/Imagens/perfil.jpg" alt="Athos" className="profile-img" />
                 <span className="profile-name">Athos</span>
@@ -109,7 +110,7 @@ const Header: React.FC = () => {
               )}
             </div>
             
-            <Link to="/carrinho" className="cart-icon" onClick={() => setIsMobileMenuOpen(false)}>
+            <Link to="/carrinho" className="cart-icon" onClick={() => setIsMobileMenuOpen(false)} aria-label="Carrinho">
               <ShoppingCart size={24} />
               {quantidadeItens > 0 && <span className="cart-count">{quantidadeItens}</span>}
             </Link>
@@ -132,13 +133,13 @@ const Header: React.FC = () => {
             autoFocus={isMobileSearchOpen}
           />
           {termoBusca && (
-            <button type="button" className="clear-search-btn" onClick={() => setTermoBusca('')}>
-              <X size={18} />
+            <button type="button" className="clear-search-btn" onClick={() => setTermoBusca('')} aria-label="Limpar busca">
+              <X size={16} />
             </button>
           )}
         </form>
-        <button className="close-mobile-search" onClick={() => setIsMobileSearchOpen(false)}>
-          <X size={28} />
+        <button className="close-mobile-search" onClick={() => setIsMobileSearchOpen(false)} aria-label="Fechar busca">
+          <X size={24} />
         </button>
       </div>
     </div>
