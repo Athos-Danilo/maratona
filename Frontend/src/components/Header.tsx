@@ -70,52 +70,51 @@ const Header: React.FC = () => {
           <Link to="/catalogo?genero=Masculino" onClick={() => setIsMobileMenuOpen(false)}>Homens</Link>
           <Link to="/catalogo?ofertas=true" onClick={() => setIsMobileMenuOpen(false)}>Outlet</Link>
           <Link to="/como-fiz" className="nav-sobre" onClick={() => setIsMobileMenuOpen(false)}>Como Fiz</Link>
-        </nav>
+          <div className="header-actions">
+            <div className="search-container desktop-search">
+              <form className="search-form" onSubmit={handleSearch}>
+                <Search size={20} className="search-icon" />
+                <input 
+                  type="text" 
+                  placeholder="Busque por marca, modelo..." 
+                  value={termoBusca}
+                  onChange={e => setTermoBusca(e.target.value)}
+                />
+                {termoBusca && (
+                  <button type="button" className="clear-search-btn" onClick={() => setTermoBusca('')}>
+                    <X size={16} />
+                  </button>
+                )}
+              </form>
+            </div>
 
-        <div className="header-actions">
-          <div className="search-container desktop-search">
-            <form className="search-form" onSubmit={handleSearch}>
-              <Search size={20} className="search-icon" />
-              <input 
-                type="text" 
-                placeholder="Busque por marca, modelo..." 
-                value={termoBusca}
-                onChange={e => setTermoBusca(e.target.value)}
-              />
-              {termoBusca && (
-                <button type="button" className="clear-search-btn" onClick={() => setTermoBusca('')}>
-                  <X size={16} />
-                </button>
-              )}
-            </form>
-          </div>
-
-          <button className="mobile-search-toggle" onClick={() => setIsMobileSearchOpen(true)}>
-            <Search size={24} />
-          </button>
-
-          <div className="profile-container" ref={profileRef}>
-            <button 
-              className="profile-btn" 
-              onClick={() => setIsProfileOpen(!isProfileOpen)}
-            >
-              <img src="/Imagens/perfil.jpg" alt="Athos" className="profile-img" />
-              <span className="profile-name">Athos</span>
+            <button className="mobile-search-toggle" onClick={() => { setIsMobileSearchOpen(true); setIsMobileMenuOpen(false); }}>
+              <Search size={24} />
             </button>
 
-            {isProfileOpen && (
-              <div className="profile-dropdown">
-                <a href="#" onClick={(e) => { e.preventDefault(); setIsProfileOpen(false); }}>Configurações</a>
-                <a href="#" onClick={(e) => { e.preventDefault(); setIsProfileOpen(false); }}>Sair</a>
-              </div>
-            )}
+            <div className="profile-container" ref={profileRef}>
+              <button 
+                className="profile-btn" 
+                onClick={() => setIsProfileOpen(!isProfileOpen)}
+              >
+                <img src="/Imagens/perfil.jpg" alt="Athos" className="profile-img" />
+                <span className="profile-name">Athos</span>
+              </button>
+
+              {isProfileOpen && (
+                <div className="profile-dropdown">
+                  <a href="#" onClick={(e) => { e.preventDefault(); setIsProfileOpen(false); setIsMobileMenuOpen(false); }}>Configurações</a>
+                  <a href="#" onClick={(e) => { e.preventDefault(); setIsProfileOpen(false); setIsMobileMenuOpen(false); }}>Sair</a>
+                </div>
+              )}
+            </div>
+            
+            <Link to="/carrinho" className="cart-icon" onClick={() => setIsMobileMenuOpen(false)}>
+              <ShoppingCart size={24} />
+              {quantidadeItens > 0 && <span className="cart-count">{quantidadeItens}</span>}
+            </Link>
           </div>
-          
-          <Link to="/carrinho" className="cart-icon">
-            <ShoppingCart size={24} />
-            {quantidadeItens > 0 && <span className="cart-count">{quantidadeItens}</span>}
-          </Link>
-        </div>
+        </nav>
 
       </div>
     </header>
