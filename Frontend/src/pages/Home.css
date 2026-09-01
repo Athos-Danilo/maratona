@@ -409,33 +409,96 @@
 
 @media (max-width: 600px) {
   .hero-slider {
-    height: 95vh;
+    height: 75vh;
+    min-height: 580px;
   }
   
   .hero-slide {
     flex-direction: column;
-    justify-content: center;
+    justify-content: flex-start;
+    gap: 8px;
     text-align: center;
-    padding-top: 80px;
+    padding: 24px 5% 48px; /* Added more padding bottom to clear the dots */
   }
   
   .hero-slide-content {
-    flex: none;
-    padding: 0 5%;
+    display: contents;
   }
+  
+  .hero-slide-content .hero-brand { order: 1; }
   
   .hero-slide-content h2 {
-    font-size: 3.5rem;
+    order: 2;
+    font-size: 2.3rem;
+    margin-bottom: 4px;
+    text-wrap: balance;
+  }
+
+  .hero-slide-content .hero-vitrine { order: 3; }
+
+  .hero-slide-content .hero-subtitle {
+    display: none; /* Hidden on mobile */
   }
   
+  .hero-slide-content .hero-price {
+    order: 4;
+    font-size: 1.5rem;
+    margin-bottom: 8px;
+  }
+  
+  .hero-slide-content .hero-btn,
+  .hero-btn {
+    order: 5;
+    margin: 0 auto 16px auto; /* Space below button before the image */
+  }
+
   .hero-slide-image {
+    order: 6;
     padding: 0;
-    margin-top: 24px;
-    height: 50%;
+    margin: 0;
+    height: auto;
+    flex: 1;
+    max-height: none;
+    width: 100%;
+  }
+  
+  .hero-slide-image img {
+    max-height: 110%;
+    transform: scale(1.15);
   }
 
   .slider-arrow {
-    display: none; /* Hide arrows on mobile for a cleaner look, users use dots or swipe */
+    display: none;
+  }
+
+  .slider-dots {
+    bottom: 8px; /* Overlays the bottom of the image */
+  }
+
+  .benefits-bar {
+    padding: 12px 0;
+  }
+  
+  .benefits-container {
+    gap: 8px;
+    padding: 0 16px;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .benefit-item {
+    font-size: 0.75rem;
+    gap: 8px;
+    justify-content: center;
+  }
+  
+  .benefit-item svg {
+    width: 18px;
+    height: 18px;
+  }
+  
+  .vitrine-container {
+    padding: 32px 16px 16px;
   }
 
   .grid-produtos {
