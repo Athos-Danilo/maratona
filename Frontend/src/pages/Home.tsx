@@ -131,7 +131,7 @@ const Home: React.FC = () => {
             <div className="benefits-container">
               <div className="benefit-item">
                 <Truck size={24} />
-                <span>Frete Grátis acima de R$ 299</span>
+                <span>Frete Grátis</span>
               </div>
               <div className="benefit-item">
                 <CreditCard size={24} />
