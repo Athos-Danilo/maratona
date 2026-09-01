@@ -150,7 +150,7 @@
 
 /* --- Benefits Bar --- */
 .benefits-bar {
-  background-color: #0d0d0d;
+  background-color: var(--cor-texto-secundario);
   color: #fff;
   padding: 16px 0;
   border-bottom: 1px solid rgba(255, 255, 255, 0.1);

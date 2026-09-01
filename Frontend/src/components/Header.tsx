@@ -65,6 +65,7 @@ const Header: React.FC = () => {
         </Link>
 
         <nav className={`nav-links ${isMobileMenuOpen ? 'mobile-open' : ''}`}>
+          <Link to="/catalogo" onClick={() => setIsMobileMenuOpen(false)}>Todos</Link>
           <Link to="/catalogo?genero=Feminino" onClick={() => setIsMobileMenuOpen(false)}>Mulheres</Link>
           <Link to="/catalogo?genero=Masculino" onClick={() => setIsMobileMenuOpen(false)}>Homens</Link>
           <Link to="/catalogo?ofertas=true" onClick={() => setIsMobileMenuOpen(false)}>Outlet</Link>
