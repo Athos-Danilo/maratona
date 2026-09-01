@@ -21,6 +21,8 @@
   align-items: center;
   justify-content: center;
   gap: 40px;
+  padding: 0 64px;
+  box-sizing: border-box;
   opacity: 0;
   transition: opacity 0.8s ease-in-out;
   z-index: 1;
@@ -383,6 +385,23 @@
 @media (max-width: 1200px) {
   .grid-produtos {
     grid-template-columns: repeat(3, 1fr);
+  }
+  
+  .hero-slide {
+    padding: 0 48px;
+    gap: 24px;
+  }
+  
+  .hero-slide-content h2 {
+    font-size: 2.2rem;
+  }
+  
+  .hero-slide-content .hero-vitrine {
+    font-size: 1.05rem;
+  }
+  
+  .hero-slide-content .hero-price {
+    font-size: 1.6rem;
   }
 }
 

@@ -69,8 +69,8 @@ const Header: React.FC = () => {
           <Link to="/catalogo?genero=Feminino" onClick={() => setIsMobileMenuOpen(false)}>Mulheres</Link>
           <Link to="/catalogo?genero=Masculino" onClick={() => setIsMobileMenuOpen(false)}>Homens</Link>
           <Link to="/catalogo?ofertas=true" onClick={() => setIsMobileMenuOpen(false)}>Outlet</Link>
-          <Link to="/como-fiz" className="nav-sobre" onClick={() => setIsMobileMenuOpen(false)}>Como Fiz</Link>
-          <div className="header-actions">
+          <Link to="/como-fiz" onClick={() => setIsMobileMenuOpen(false)}>Como Fiz</Link>
+          <div className="header-actions" style={{ position: 'static', marginLeft: '40px', flexShrink: 0 }}>
             <div className="search-container desktop-search">
               <form className="search-form" onSubmit={handleSearch}>
                 <Search size={20} className="search-icon" />

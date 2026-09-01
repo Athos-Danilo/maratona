@@ -19,7 +19,7 @@
   max-width: 1400px;
   margin: 0 auto;
   display: flex;
-  justify-content: center;
+  justify-content: flex-end;
   align-items: center;
   padding: 0 24px;
   position: relative;
@@ -71,7 +71,7 @@
 }
 
 .nav-sobre {
-  color: #aaa !important;
+  /* Cor e margens agora herdam de .nav-links a */
 }
 
 /* Perfil do Usuário */
@@ -150,8 +150,8 @@
   display: flex;
   align-items: center;
   gap: 24px;
-  position: absolute;
-  right: 24px;
+  position: static;
+  margin-left: 24px;
 }
 
 .search-container {
@@ -257,8 +257,32 @@
   justify-content: center;
 }
 
+/* Tablet e Telas Menores */
+@media (max-width: 1200px) {
+  .nav-links {
+    gap: 16px;
+    font-size: 0.85rem;
+  }
+  
+  .logo h1 {
+    font-size: 1.5rem;
+  }
+  
+  .search-form input {
+    width: 150px;
+  }
+  
+  .search-form input:focus {
+    width: 200px;
+  }
+}
+
 /* Mobile */
 @media (max-width: 900px) {
+  .header-container {
+    justify-content: center;
+  }
+
   .logo {
     position: static;
   }
