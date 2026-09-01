@@ -1,12 +1,14 @@
 import { BrowserRouter, Routes, Route } from 'react-router-dom';
 import Header from './components/Header';
-import Home from './pages/Home';
-import ProdutoDetalhes from './pages/ProdutoDetalhes';
-import Carrinho from './pages/Carrinho';
-import Checkout from './pages/Checkout';
-import StatusCompra from './pages/StatusCompra';
-import ComoFiz from './pages/ComoFiz';
-import Catalogo from './pages/Catalogo';
+import { Suspense, lazy } from 'react';
+
+const Home = lazy(() => import('./pages/Home'));
+const ProdutoDetalhes = lazy(() => import('./pages/ProdutoDetalhes'));
+const Carrinho = lazy(() => import('./pages/Carrinho'));
+const Checkout = lazy(() => import('./pages/Checkout'));
+const StatusCompra = lazy(() => import('./pages/StatusCompra'));
+const ComoFiz = lazy(() => import('./pages/ComoFiz'));
+const Catalogo = lazy(() => import('./pages/Catalogo'));
 import Footer from './components/Footer';
 
 function App() {
@@ -14,15 +16,17 @@ function App() {
     <BrowserRouter>
       <Header />
       <main className="main-content">
-        <Routes>
-          <Route path="/" element={<Home />} />
-          <Route path="/catalogo" element={<Catalogo />} />
-          <Route path="/produto/:id" element={<ProdutoDetalhes />} />
-          <Route path="/carrinho" element={<Carrinho />} />
-          <Route path="/checkout" element={<Checkout />} />
-          <Route path="/status-compra" element={<StatusCompra />} />
-          <Route path="/como-fiz" element={<ComoFiz />} />
-        </Routes>
+        <Suspense fallback={<div className="loading-spinner" style={{ minHeight: '60vh', display: 'flex', justifyContent: 'center', alignItems: 'center' }}>Carregando...</div>}>
+          <Routes>
+            <Route path="/" element={<Home />} />
+            <Route path="/catalogo" element={<Catalogo />} />
+            <Route path="/produto/:id" element={<ProdutoDetalhes />} />
+            <Route path="/carrinho" element={<Carrinho />} />
+            <Route path="/checkout" element={<Checkout />} />
+            <Route path="/status-compra" element={<StatusCompra />} />
+            <Route path="/como-fiz" element={<ComoFiz />} />
+          </Routes>
+        </Suspense>
       </main>
       <Footer />
     </BrowserRouter>
