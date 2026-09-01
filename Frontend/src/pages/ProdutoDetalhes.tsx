@@ -166,30 +166,7 @@ const ProdutoDetalhes: React.FC = () => {
   return (
     <div className="detalhes-container">
       <div className="produto-grid">
-        <div className="galeria-secao">
-          <div className="imagem-principal" onClick={openLightbox} style={{ cursor: 'zoom-in', position: 'relative' }}>
-            <button className="inline-nav prev-inline" onClick={imagemAnteriorInline} title="Imagem anterior">
-              <ChevronLeft size={40} />
-            </button>
-            <img src={imagemAtiva} alt={produto.nome} />
-            <button className="inline-nav next-inline" onClick={proximaImagemInline} title="Próxima imagem">
-              <ChevronRight size={40} />
-            </button>
-          </div>
-          <div className="miniaturas">
-            {variacaoSelecionada.imagens.galeria.map((img, index) => (
-              <img 
-                key={index} 
-                src={img} 
-                alt={`${produto.nome} vista ${index + 1}`} 
-                className={imagemAtiva === img ? 'ativa' : ''}
-                onClick={() => setImagemAtiva(img)}
-              />
-            ))}
-          </div>
-        </div>
-
-        <div className="info-secao">
+        <div className="info-header">
           <span className="marca">{produto.marca}</span>
 
           {produto.avaliacoes && (
@@ -223,7 +200,33 @@ const ProdutoDetalhes: React.FC = () => {
               </span>
             )}
           </div>
+        </div>
 
+        <div className="galeria-secao">
+
+          <div className="imagem-principal" onClick={openLightbox} style={{ cursor: 'zoom-in', position: 'relative' }}>
+            <button className="inline-nav prev-inline" onClick={imagemAnteriorInline} title="Imagem anterior">
+              <ChevronLeft size={40} />
+            </button>
+            <img src={imagemAtiva} alt={produto.nome} />
+            <button className="inline-nav next-inline" onClick={proximaImagemInline} title="Próxima imagem">
+              <ChevronRight size={40} />
+            </button>
+          </div>
+          <div className="miniaturas">
+            {variacaoSelecionada.imagens.galeria.map((img, index) => (
+              <img 
+                key={index} 
+                src={img} 
+                alt={`${produto.nome} vista ${index + 1}`} 
+                className={imagemAtiva === img ? 'ativa' : ''}
+                onClick={() => setImagemAtiva(img)}
+              />
+            ))}
+          </div>
+        </div>
+
+        <div className="info-secao">
           {produto.variacoes.length > 1 && (
             <div className="seletor-cores">
               <h3>Cores Disponíveis</h3>

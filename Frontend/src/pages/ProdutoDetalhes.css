@@ -7,11 +7,16 @@
 .produto-grid {
   display: grid;
   grid-template-columns: 65fr 35fr;
-  gap: 48px;
+  grid-template-areas:
+    "galeria info-header"
+    "galeria info-secao";
+  grid-template-rows: auto 1fr;
+  gap: 0 48px;
   align-items: start;
 }
 
 .galeria-secao {
+  grid-area: galeria;
   display: flex;
   flex-direction: column;
   gap: 16px;
@@ -58,7 +63,16 @@
   border-color: var(--cor-primaria);
 }
 
+.info-header {
+  grid-area: info-header;
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+  margin-bottom: 24px;
+}
+
 .info-secao {
+  grid-area: info-secao;
   display: flex;
   flex-direction: column;
   gap: 24px;
@@ -115,7 +129,7 @@
   font-size: 0.85rem;
 }
 
-.info-secao h1 {
+.info-header h1 {
   font-size: 2.5rem;
   margin: 0;
   line-height: 1.1;
@@ -312,6 +326,7 @@
 
 .descricao-secao p {
   color: #444;
+  text-align: justify;
   margin-bottom: 24px;
 }
 
@@ -327,6 +342,11 @@
 @media (max-width: 900px) {
   .produto-grid {
     grid-template-columns: 1fr;
+    grid-template-areas:
+      "info-header"
+      "galeria"
+      "info-secao";
+    grid-template-rows: auto auto auto;
     gap: 32px;
   }
 }
@@ -337,8 +357,12 @@
     overflow-x: hidden;
   }
 
-  .info-secao h1 {
+  .info-header h1 {
     font-size: 1.8rem;
+  }
+
+  .modal-content {
+    padding: 24px 20px;
   }
 
   .imagem-principal {

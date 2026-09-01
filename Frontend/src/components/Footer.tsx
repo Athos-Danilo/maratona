@@ -65,7 +65,7 @@ const Footer: React.FC = () => {
             </div>
 
             <div className="footer-bottom">
-                <p>&copy; {currentYear} Maratona. Bootcamp Minha Loja no Ar - Projeto Fictício.</p>
+                <p>&copy; {currentYear} MARATONA. Projetado e desenvolvido por Athos Inácio.</p>
             </div>
         </footer>
     );

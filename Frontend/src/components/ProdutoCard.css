@@ -328,3 +328,26 @@
   flex-shrink: 0;
   margin-top: 2px;
 }
+
+@media (max-width: 768px) {
+  .size-guide-modal {
+    width: 95%;
+  }
+  
+  .size-guide-header {
+    padding: 12px 16px;
+  }
+  
+  .size-guide-content {
+    padding: 16px;
+  }
+  
+  .size-guide-instructions {
+    padding: 12px;
+    margin-bottom: 16px;
+  }
+  
+  .size-guide-grid-container {
+    margin-bottom: 16px;
+  }
+}
