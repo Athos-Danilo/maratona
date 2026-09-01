@@ -9,8 +9,25 @@ const Header: React.FC = () => {
   const [termoBusca, setTermoBusca] = useState('');
   const [isMobileMenuOpen, setIsMobileMenuOpen] = useState(false);
   const [isProfileOpen, setIsProfileOpen] = useState(false);
+  const [isMobileSearchOpen, setIsMobileSearchOpen] = useState(false);
+  const [isScrolledDown, setIsScrolledDown] = useState(false);
+  const [lastScrollY, setLastScrollY] = useState(0);
   const navigate = useNavigate();
   const profileRef = useRef<HTMLDivElement>(null);
+
+  useEffect(() => {
+    const handleScroll = () => {
+      const currentScrollY = window.scrollY;
+      if (currentScrollY > lastScrollY && currentScrollY > 70) {
+        setIsScrolledDown(true);
+      } else {
+        setIsScrolledDown(false);
+      }
+      setLastScrollY(currentScrollY);
+    };
+    window.addEventListener('scroll', handleScroll, { passive: true });
+    return () => window.removeEventListener('scroll', handleScroll);
+  }, [lastScrollY]);
 
   useEffect(() => {
     const handleClickOutside = (event: MouseEvent) => {
@@ -35,7 +52,8 @@ const Header: React.FC = () => {
   };
 
   return (
-    <header className="header">
+    <>
+      <header className={`header ${isScrolledDown ? 'header-hidden' : ''}`}>
       <div className="header-container">
         
         <button className="mobile-menu-btn" onClick={() => setIsMobileMenuOpen(!isMobileMenuOpen)}>
@@ -54,7 +72,7 @@ const Header: React.FC = () => {
         </nav>
 
         <div className="header-actions">
-          <div className="search-container">
+          <div className="search-container desktop-search">
             <form className="search-form" onSubmit={handleSearch}>
               <Search size={20} className="search-icon" />
               <input 
@@ -63,8 +81,17 @@ const Header: React.FC = () => {
                 value={termoBusca}
                 onChange={e => setTermoBusca(e.target.value)}
               />
+              {termoBusca && (
+                <button type="button" className="clear-search-btn" onClick={() => setTermoBusca('')}>
+                  <X size={16} />
+                </button>
+              )}
             </form>
           </div>
+
+          <button className="mobile-search-toggle" onClick={() => setIsMobileSearchOpen(true)}>
+            <Search size={24} />
+          </button>
 
           <div className="profile-container" ref={profileRef}>
             <button 
@@ -91,6 +118,31 @@ const Header: React.FC = () => {
 
       </div>
     </header>
+
+    {/* Mobile Search Overlay */}
+    <div className={`mobile-search-overlay ${isMobileSearchOpen ? 'open' : ''}`}>
+      <div className="mobile-search-header">
+        <form className="mobile-search-form" onSubmit={(e) => { handleSearch(e); setIsMobileSearchOpen(false); }}>
+          <Search size={20} className="search-icon" />
+          <input 
+            type="text" 
+            placeholder="O que você procura?" 
+            value={termoBusca}
+            onChange={e => setTermoBusca(e.target.value)}
+            autoFocus={isMobileSearchOpen}
+          />
+          {termoBusca && (
+            <button type="button" className="clear-search-btn" onClick={() => setTermoBusca('')}>
+              <X size={18} />
+            </button>
+          )}
+        </form>
+        <button className="close-mobile-search" onClick={() => setIsMobileSearchOpen(false)}>
+          <X size={28} />
+        </button>
+      </div>
+    </div>
+    </>
   );
 };
 
