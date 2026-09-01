@@ -1,7 +1,7 @@
-import React, { useState, useEffect } from 'react';
-import { createPortal } from 'react-dom';
+import React, { useState } from 'react';
+
 import { Link } from 'react-router-dom';
-import { Heart, Star, Ruler, Info } from 'lucide-react';
+import { Heart, Star } from 'lucide-react';
 import type { Produto, Variacao } from '../types';
 import './ProdutoCard.css';
 
@@ -12,12 +12,6 @@ interface ProdutoCardProps {
 
 const ProdutoCard: React.FC<ProdutoCardProps> = ({ produto, variacaoEspecifica }) => {
   const [isFavorited, setIsFavorited] = useState(false);
-  const [isSizeGuideOpen, setIsSizeGuideOpen] = useState(false);
-  const [mounted, setMounted] = useState(false);
-
-  useEffect(() => {
-    setMounted(true);
-  }, []);
 
   // Pegamos a variação específica ou a primeira para exibir na vitrine
   const variacaoVitrine = variacaoEspecifica || produto.variacoes[0];
@@ -77,7 +71,8 @@ const ProdutoCard: React.FC<ProdutoCardProps> = ({ produto, variacaoEspecifica }
             )}
           </div>
           <h3 className="produto-nome">{produto.nome}</h3>
-          <p className="produto-desc-curta">{produto.descricoes.vitrine} - {variacaoVitrine.cor_nome}</p>
+          <p className="produto-genero">{produto.genero}</p>
+          <p className="produto-desc-curta">{produto.descricoes.vitrine}</p>
           <div className="produto-preco-container">
             {temDesconto ? (
               <>
@@ -94,58 +89,9 @@ const ProdutoCard: React.FC<ProdutoCardProps> = ({ produto, variacaoEspecifica }
               </span>
             )}
           </div>
-          <div className="guia-tamanhos-link" onClick={(e) => { e.preventDefault(); e.stopPropagation(); setIsSizeGuideOpen(true); }}>
-            Guia de Tamanhos
-          </div>
         </div>
       </Link>
       
-      {mounted && isSizeGuideOpen && createPortal(
-        <div className="size-guide-modal-overlay" onClick={(e) => { e.preventDefault(); e.stopPropagation(); setIsSizeGuideOpen(false); }}>
-          <div className="size-guide-modal" onClick={(e) => e.stopPropagation()}>
-            <div className="size-guide-header">
-              <h4><Ruler size={20} style={{ marginRight: '8px' }}/> Guia de Tamanhos</h4>
-              <button className="close-modal-btn" onClick={() => setIsSizeGuideOpen(false)}>✕</button>
-            </div>
-            
-            <div className="size-guide-content">
-              <div className="size-guide-instructions">
-                <h5>Como medir o seu pé:</h5>
-                <ol>
-                  <li>Pise descalço sobre uma folha de papel.</li>
-                  <li>Marque a ponta do dedão e o final do calcanhar.</li>
-                  <li>Meça a distância entre os dois pontos.</li>
-                </ol>
-              </div>
-
-              <div className="size-guide-grid-container">
-                <div className="size-guide-grid">
-                  <div className="size-item"><span>33</span><span>22,0 cm</span></div>
-                  <div className="size-item"><span>40</span><span>26,5 cm</span></div>
-                  <div className="size-item"><span>34</span><span>22,5 cm</span></div>
-                  <div className="size-item"><span>41</span><span>27,5 cm</span></div>
-                  <div className="size-item"><span>35</span><span>23,5 cm</span></div>
-                  <div className="size-item"><span>42</span><span>28,0 cm</span></div>
-                  <div className="size-item"><span>36</span><span>24,0 cm</span></div>
-                  <div className="size-item"><span>43</span><span>29,0 cm</span></div>
-                  <div className="size-item"><span>37</span><span>25,0 cm</span></div>
-                  <div className="size-item"><span>44</span><span>29,5 cm</span></div>
-                  <div className="size-item"><span>38</span><span>25,5 cm</span></div>
-                  <div className="size-item"><span>45</span><span>30,0 cm</span></div>
-                  <div className="size-item"><span>39</span><span>26,0 cm</span></div>
-                  <div className="size-item"><span>46</span><span>31,0 cm</span></div>
-                </div>
-              </div>
-              
-              <div className="size-guide-tip">
-                <Info size={18} />
-                <p><strong>Dica de ouro:</strong> Para corrida, escolha um número <strong>maior</strong> do que o casual.</p>
-              </div>
-            </div>
-          </div>
-        </div>,
-        document.body
-      )}
     </div>
   );
 };

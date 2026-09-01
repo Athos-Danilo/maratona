@@ -138,6 +138,13 @@
   margin: 0;
 }
 
+.produto-genero {
+  font-size: 0.85rem;
+  color: #777;
+  text-transform: capitalize;
+  margin: -4px 0 0 0; /* Puxa um pouquinho para perto do nome */
+}
+
 .produto-desc-curta {
   font-size: 0.9rem;
   color: #666;

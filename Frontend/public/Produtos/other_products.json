@@ -77,7 +77,48 @@
         ]
       }
     ],
-    "destaque_home": false
+    "destaque_home": false,
+    "avaliacoes": {
+      "resumo": {
+        "nota_geral": 4.6,
+        "total_avaliacoes": 262,
+        "metricas": {
+          "conforto": 83,
+          "qualidade": 100,
+          "tamanho": 60,
+          "largura": 55
+        }
+      },
+      "comentarios": [
+        {
+          "nota": 5,
+          "titulo": "Durabilidade excelente",
+          "texto": "Já lavei várias vezes e não dão bolinhas. Ajuste perfeito e muito confortáveis.",
+          "data": "20 de julho de 2026",
+          "id": "q44tbk",
+          "util_sim": 29,
+          "util_nao": 3
+        },
+        {
+          "nota": 3,
+          "titulo": "Tamanho único não é para todos",
+          "texto": "Meu pé é muito grande (44) e ficou um pouco apertada no início. Depois laceou um pouco.",
+          "data": "05 de maio de 2026",
+          "id": "14ft8f",
+          "util_sim": 29,
+          "util_nao": 1
+        },
+        {
+          "nota": 2,
+          "titulo": "Fica caindo",
+          "texto": "Infelizmente o elástico não prende bem e fica descendo pro calcanhar o tempo todo.",
+          "data": "10 de março de 2026",
+          "id": "9n7ch",
+          "util_sim": 0,
+          "util_nao": 1
+        }
+      ]
+    }
   },
   {
     "id": "17",
@@ -157,7 +198,48 @@
         ]
       }
     ],
-    "destaque_home": false
+    "destaque_home": false,
+    "avaliacoes": {
+      "resumo": {
+        "nota_geral": 4.8,
+        "total_avaliacoes": 641,
+        "metricas": {
+          "conforto": 98,
+          "qualidade": 86,
+          "tamanho": 42,
+          "largura": 44
+        }
+      },
+      "comentarios": [
+        {
+          "nota": 5,
+          "titulo": "As melhores que já usei",
+          "texto": "Tecido super macio e respirável. Não escorrega no calcanhar de jeito nenhum durante o treino.",
+          "data": "01 de agosto de 2026",
+          "id": "p1k9li",
+          "util_sim": 13,
+          "util_nao": 5
+        },
+        {
+          "nota": 2,
+          "titulo": "Fica caindo",
+          "texto": "Infelizmente o elástico não prende bem e fica descendo pro calcanhar o tempo todo.",
+          "data": "10 de março de 2026",
+          "id": "k6asx8",
+          "util_sim": 20,
+          "util_nao": 0
+        },
+        {
+          "nota": 3,
+          "titulo": "Tamanho único não é para todos",
+          "texto": "Meu pé é muito grande (44) e ficou um pouco apertada no início. Depois laceou um pouco.",
+          "data": "05 de maio de 2026",
+          "id": "23lb2",
+          "util_sim": 12,
+          "util_nao": 0
+        }
+      ]
+    }
   },
   {
     "id": "18",
@@ -237,7 +319,48 @@
         ]
       }
     ],
-    "destaque_home": false
+    "destaque_home": false,
+    "avaliacoes": {
+      "resumo": {
+        "nota_geral": 4.8,
+        "total_avaliacoes": 126,
+        "metricas": {
+          "conforto": 72,
+          "qualidade": 89,
+          "tamanho": 33,
+          "largura": 46
+        }
+      },
+      "comentarios": [
+        {
+          "nota": 5,
+          "titulo": "As melhores que já usei",
+          "texto": "Tecido super macio e respirável. Não escorrega no calcanhar de jeito nenhum durante o treino.",
+          "data": "01 de agosto de 2026",
+          "id": "kh560f",
+          "util_sim": 16,
+          "util_nao": 2
+        },
+        {
+          "nota": 5,
+          "titulo": "Durabilidade excelente",
+          "texto": "Já lavei várias vezes e não dão bolinhas. Ajuste perfeito e muito confortáveis.",
+          "data": "20 de julho de 2026",
+          "id": "qdijmh",
+          "util_sim": 4,
+          "util_nao": 4
+        },
+        {
+          "nota": 2,
+          "titulo": "Fica caindo",
+          "texto": "Infelizmente o elástico não prende bem e fica descendo pro calcanhar o tempo todo.",
+          "data": "10 de março de 2026",
+          "id": "3ls6ip",
+          "util_sim": 19,
+          "util_nao": 0
+        }
+      ]
+    }
   },
   {
     "id": "19",
@@ -373,7 +496,48 @@
         ]
       }
     ],
-    "destaque_home": false
+    "destaque_home": false,
+    "avaliacoes": {
+      "resumo": {
+        "nota_geral": 4.7,
+        "total_avaliacoes": 377,
+        "metricas": {
+          "conforto": 67,
+          "qualidade": 80,
+          "tamanho": 52,
+          "largura": 58
+        }
+      },
+      "comentarios": [
+        {
+          "nota": 2,
+          "titulo": "Fica caindo",
+          "texto": "Infelizmente o elástico não prende bem e fica descendo pro calcanhar o tempo todo.",
+          "data": "10 de março de 2026",
+          "id": "ldwe1s",
+          "util_sim": 7,
+          "util_nao": 1
+        },
+        {
+          "nota": 5,
+          "titulo": "As melhores que já usei",
+          "texto": "Tecido super macio e respirável. Não escorrega no calcanhar de jeito nenhum durante o treino.",
+          "data": "01 de agosto de 2026",
+          "id": "5qzx1d",
+          "util_sim": 29,
+          "util_nao": 1
+        },
+        {
+          "nota": 5,
+          "titulo": "Durabilidade excelente",
+          "texto": "Já lavei várias vezes e não dão bolinhas. Ajuste perfeito e muito confortáveis.",
+          "data": "20 de julho de 2026",
+          "id": "qcmz3o",
+          "util_sim": 40,
+          "util_nao": 3
+        }
+      ]
+    }
   },
   {
     "id": "20",
@@ -483,7 +647,48 @@
         ]
       }
     ],
-    "destaque_home": false
+    "destaque_home": false,
+    "avaliacoes": {
+      "resumo": {
+        "nota_geral": 4.9,
+        "total_avaliacoes": 120,
+        "metricas": {
+          "conforto": 60,
+          "qualidade": 77,
+          "tamanho": 37,
+          "largura": 41
+        }
+      },
+      "comentarios": [
+        {
+          "nota": 4,
+          "titulo": "Boas, mas podiam ser mais finas",
+          "texto": "Aquece um pouco o pé em dias muito quentes, mas para treinar no frio é excelente.",
+          "data": "12 de junho de 2026",
+          "id": "4p7put",
+          "util_sim": 0,
+          "util_nao": 0
+        },
+        {
+          "nota": 3,
+          "titulo": "Tamanho único não é para todos",
+          "texto": "Meu pé é muito grande (44) e ficou um pouco apertada no início. Depois laceou um pouco.",
+          "data": "05 de maio de 2026",
+          "id": "hxtlu8",
+          "util_sim": 5,
+          "util_nao": 4
+        },
+        {
+          "nota": 5,
+          "titulo": "Durabilidade excelente",
+          "texto": "Já lavei várias vezes e não dão bolinhas. Ajuste perfeito e muito confortáveis.",
+          "data": "20 de julho de 2026",
+          "id": "avpkxg",
+          "util_sim": 27,
+          "util_nao": 2
+        }
+      ]
+    }
   },
   {
     "id": "21",
@@ -591,6 +796,47 @@
         ]
       }
     ],
-    "destaque_home": false
+    "destaque_home": false,
+    "avaliacoes": {
+      "resumo": {
+        "nota_geral": 4.2,
+        "total_avaliacoes": 552,
+        "metricas": {
+          "conforto": 76,
+          "qualidade": 93,
+          "tamanho": 33,
+          "largura": 41
+        }
+      },
+      "comentarios": [
+        {
+          "nota": 2,
+          "titulo": "Fica caindo",
+          "texto": "Infelizmente o elástico não prende bem e fica descendo pro calcanhar o tempo todo.",
+          "data": "10 de março de 2026",
+          "id": "frj1ym",
+          "util_sim": 12,
+          "util_nao": 3
+        },
+        {
+          "nota": 3,
+          "titulo": "Tamanho único não é para todos",
+          "texto": "Meu pé é muito grande (44) e ficou um pouco apertada no início. Depois laceou um pouco.",
+          "data": "05 de maio de 2026",
+          "id": "i58cpr",
+          "util_sim": 4,
+          "util_nao": 4
+        },
+        {
+          "nota": 5,
+          "titulo": "Durabilidade excelente",
+          "texto": "Já lavei várias vezes e não dão bolinhas. Ajuste perfeito e muito confortáveis.",
+          "data": "20 de julho de 2026",
+          "id": "kqqpjw",
+          "util_sim": 6,
+          "util_nao": 2
+        }
+      ]
+    }
   }
 ]

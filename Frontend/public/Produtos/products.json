@@ -122,7 +122,48 @@
         ]
       }
     ],
-    "destaque_home": false
+    "destaque_home": false,
+    "avaliacoes": {
+      "resumo": {
+        "nota_geral": 4.7,
+        "total_avaliacoes": 149,
+        "metricas": {
+          "conforto": 93,
+          "qualidade": 76,
+          "tamanho": 45,
+          "largura": 41
+        }
+      },
+      "comentarios": [
+        {
+          "nota": 4,
+          "titulo": "Muito bom, mas suja rápido",
+          "texto": "O tênis é excelente, qualidade do material é top, porém as partes mais claras encardem com muita facilidade na rua.",
+          "data": "10 de agosto de 2026",
+          "id": "7j8tb",
+          "util_sim": 2,
+          "util_nao": 3
+        },
+        {
+          "nota": 5,
+          "titulo": "Conforto absurdo",
+          "texto": "Uso para correr todos os dias e parece que estou pisando nas nuvens. O amortecimento é surreal de bom.",
+          "data": "15 de julho de 2026",
+          "id": "uvpmgp",
+          "util_sim": 25,
+          "util_nao": 5
+        },
+        {
+          "nota": 5,
+          "titulo": "Melhor aquisição sério, o tênis é IMPECÁVEL DE PFT",
+          "texto": "Super bem acabado, mt confortável, embalagem bonita, veio com cadarço extra e sério, estou completamente apaixonada pelo modelo e cor desse tênis.",
+          "data": "28 de agosto de 2026",
+          "id": "6aan5p",
+          "util_sim": 30,
+          "util_nao": 3
+        }
+      ]
+    }
   },
   {
     "id": "2",
@@ -254,7 +295,48 @@
         ]
       }
     ],
-    "destaque_home": false
+    "destaque_home": false,
+    "avaliacoes": {
+      "resumo": {
+        "nota_geral": 4,
+        "total_avaliacoes": 291,
+        "metricas": {
+          "conforto": 98,
+          "qualidade": 76,
+          "tamanho": 34,
+          "largura": 53
+        }
+      },
+      "comentarios": [
+        {
+          "nota": 5,
+          "titulo": "Melhor aquisição sério, o tênis é IMPECÁVEL DE PFT",
+          "texto": "Super bem acabado, mt confortável, embalagem bonita, veio com cadarço extra e sério, estou completamente apaixonada pelo modelo e cor desse tênis.",
+          "data": "28 de agosto de 2026",
+          "id": "rg1eo",
+          "util_sim": 18,
+          "util_nao": 4
+        },
+        {
+          "nota": 1,
+          "titulo": "Decepcionante",
+          "texto": "Veio com um defeito na costura, e além disso machucou muito meu pé na primeira corrida. Dinheiro jogado fora.",
+          "data": "14 de fevereiro de 2026",
+          "id": "i81sq9",
+          "util_sim": 14,
+          "util_nao": 3
+        },
+        {
+          "nota": 5,
+          "titulo": "Lindo e versátil",
+          "texto": "Combina com qualquer roupa. Além de estiloso, não aperta o pé. Recomendo pegar um número maior se o seu pé for largo.",
+          "data": "02 de junho de 2026",
+          "id": "qxfkme",
+          "util_sim": 38,
+          "util_nao": 1
+        }
+      ]
+    }
   },
   {
     "id": "3",
@@ -802,7 +884,48 @@
         ]
       }
     ],
-    "destaque_home": true
+    "destaque_home": true,
+    "avaliacoes": {
+      "resumo": {
+        "nota_geral": 4.2,
+        "total_avaliacoes": 665,
+        "metricas": {
+          "conforto": 73,
+          "qualidade": 82,
+          "tamanho": 61,
+          "largura": 42
+        }
+      },
+      "comentarios": [
+        {
+          "nota": 1,
+          "titulo": "Decepcionante",
+          "texto": "Veio com um defeito na costura, e além disso machucou muito meu pé na primeira corrida. Dinheiro jogado fora.",
+          "data": "14 de fevereiro de 2026",
+          "id": "9mvkxk",
+          "util_sim": 2,
+          "util_nao": 1
+        },
+        {
+          "nota": 5,
+          "titulo": "Melhor aquisição sério, o tênis é IMPECÁVEL DE PFT",
+          "texto": "Super bem acabado, mt confortável, embalagem bonita, veio com cadarço extra e sério, estou completamente apaixonada pelo modelo e cor desse tênis.",
+          "data": "28 de agosto de 2026",
+          "id": "9jhzv",
+          "util_sim": 6,
+          "util_nao": 3
+        },
+        {
+          "nota": 3,
+          "titulo": "Razoável pelo preço",
+          "texto": "Achei o acabamento um pouco duro nos primeiros dias, me deu calo no calcanhar. Depois que cedeu ficou bom.",
+          "data": "18 de janeiro de 2026",
+          "id": "hwblzn",
+          "util_sim": 26,
+          "util_nao": 0
+        }
+      ]
+    }
   },
   {
     "id": "4",
@@ -1319,7 +1442,48 @@
         ]
       }
     ],
-    "destaque_home": true
+    "destaque_home": true,
+    "avaliacoes": {
+      "resumo": {
+        "nota_geral": 4.3,
+        "total_avaliacoes": 618,
+        "metricas": {
+          "conforto": 91,
+          "qualidade": 97,
+          "tamanho": 61,
+          "largura": 47
+        }
+      },
+      "comentarios": [
+        {
+          "nota": 4,
+          "titulo": "Muito bom, mas suja rápido",
+          "texto": "O tênis é excelente, qualidade do material é top, porém as partes mais claras encardem com muita facilidade na rua.",
+          "data": "10 de agosto de 2026",
+          "id": "rzjv2h",
+          "util_sim": 2,
+          "util_nao": 2
+        },
+        {
+          "nota": 1,
+          "titulo": "Decepcionante",
+          "texto": "Veio com um defeito na costura, e além disso machucou muito meu pé na primeira corrida. Dinheiro jogado fora.",
+          "data": "14 de fevereiro de 2026",
+          "id": "sgdxu",
+          "util_sim": 38,
+          "util_nao": 3
+        },
+        {
+          "nota": 3,
+          "titulo": "Forma estreita",
+          "texto": "Meu pé é largo, então ele aperta um pouco nas laterais. Talvez ceda com o tempo, mas não é super confortável no início.",
+          "data": "11 de março de 2026",
+          "id": "u3of3",
+          "util_sim": 23,
+          "util_nao": 3
+        }
+      ]
+    }
   },
   {
     "id": "5",
@@ -1749,7 +1913,48 @@
         ]
       }
     ],
-    "destaque_home": true
+    "destaque_home": true,
+    "avaliacoes": {
+      "resumo": {
+        "nota_geral": 3.9,
+        "total_avaliacoes": 582,
+        "metricas": {
+          "conforto": 87,
+          "qualidade": 83,
+          "tamanho": 68,
+          "largura": 59
+        }
+      },
+      "comentarios": [
+        {
+          "nota": 4,
+          "titulo": "Quase perfeito",
+          "texto": "O cabedal é muito respirável, não esquenta o pé. Só o cadarço que achei um pouco curto, mas nada demais.",
+          "data": "22 de maio de 2026",
+          "id": "xdv1re",
+          "util_sim": 16,
+          "util_nao": 3
+        },
+        {
+          "nota": 3,
+          "titulo": "Forma estreita",
+          "texto": "Meu pé é largo, então ele aperta um pouco nas laterais. Talvez ceda com o tempo, mas não é super confortável no início.",
+          "data": "11 de março de 2026",
+          "id": "zj44bj",
+          "util_sim": 16,
+          "util_nao": 4
+        },
+        {
+          "nota": 5,
+          "titulo": "Conforto absurdo",
+          "texto": "Uso para correr todos os dias e parece que estou pisando nas nuvens. O amortecimento é surreal de bom.",
+          "data": "15 de julho de 2026",
+          "id": "xeo9a9",
+          "util_sim": 1,
+          "util_nao": 0
+        }
+      ]
+    }
   },
   {
     "id": "6",
@@ -1888,7 +2093,48 @@
         ]
       }
     ],
-    "destaque_home": true
+    "destaque_home": true,
+    "avaliacoes": {
+      "resumo": {
+        "nota_geral": 4.4,
+        "total_avaliacoes": 467,
+        "metricas": {
+          "conforto": 96,
+          "qualidade": 91,
+          "tamanho": 35,
+          "largura": 59
+        }
+      },
+      "comentarios": [
+        {
+          "nota": 3,
+          "titulo": "Razoável pelo preço",
+          "texto": "Achei o acabamento um pouco duro nos primeiros dias, me deu calo no calcanhar. Depois que cedeu ficou bom.",
+          "data": "18 de janeiro de 2026",
+          "id": "d8i26r",
+          "util_sim": 21,
+          "util_nao": 2
+        },
+        {
+          "nota": 3,
+          "titulo": "Forma estreita",
+          "texto": "Meu pé é largo, então ele aperta um pouco nas laterais. Talvez ceda com o tempo, mas não é super confortável no início.",
+          "data": "11 de março de 2026",
+          "id": "1ku7t",
+          "util_sim": 4,
+          "util_nao": 1
+        },
+        {
+          "nota": 2,
+          "titulo": "Solado desgastou rápido",
+          "texto": "Comprei há dois meses e a sola já está lisa em algumas partes. Esperava mais durabilidade da marca.",
+          "data": "30 de abril de 2026",
+          "id": "3qjaho",
+          "util_sim": 39,
+          "util_nao": 0
+        }
+      ]
+    }
   },
   {
     "id": "7",
@@ -2421,7 +2667,48 @@
         ]
       }
     ],
-    "destaque_home": true
+    "destaque_home": true,
+    "avaliacoes": {
+      "resumo": {
+        "nota_geral": 3.9,
+        "total_avaliacoes": 802,
+        "metricas": {
+          "conforto": 97,
+          "qualidade": 85,
+          "tamanho": 50,
+          "largura": 45
+        }
+      },
+      "comentarios": [
+        {
+          "nota": 3,
+          "titulo": "Forma estreita",
+          "texto": "Meu pé é largo, então ele aperta um pouco nas laterais. Talvez ceda com o tempo, mas não é super confortável no início.",
+          "data": "11 de março de 2026",
+          "id": "daad82",
+          "util_sim": 22,
+          "util_nao": 5
+        },
+        {
+          "nota": 4,
+          "titulo": "Quase perfeito",
+          "texto": "O cabedal é muito respirável, não esquenta o pé. Só o cadarço que achei um pouco curto, mas nada demais.",
+          "data": "22 de maio de 2026",
+          "id": "8md2ti",
+          "util_sim": 45,
+          "util_nao": 5
+        },
+        {
+          "nota": 1,
+          "titulo": "Decepcionante",
+          "texto": "Veio com um defeito na costura, e além disso machucou muito meu pé na primeira corrida. Dinheiro jogado fora.",
+          "data": "14 de fevereiro de 2026",
+          "id": "pnkoc",
+          "util_sim": 8,
+          "util_nao": 1
+        }
+      ]
+    }
   },
   {
     "id": "8",
@@ -2750,7 +3037,48 @@
         ]
       }
     ],
-    "destaque_home": true
+    "destaque_home": true,
+    "avaliacoes": {
+      "resumo": {
+        "nota_geral": 4.1,
+        "total_avaliacoes": 808,
+        "metricas": {
+          "conforto": 95,
+          "qualidade": 74,
+          "tamanho": 33,
+          "largura": 52
+        }
+      },
+      "comentarios": [
+        {
+          "nota": 4,
+          "titulo": "Gostei bastante",
+          "texto": "Ótimo custo-benefício. Uso para ir pra academia e treinar perna, dá uma estabilidade muito boa.",
+          "data": "05 de abril de 2026",
+          "id": "gf3prh",
+          "util_sim": 11,
+          "util_nao": 4
+        },
+        {
+          "nota": 5,
+          "titulo": "Melhor aquisição sério, o tênis é IMPECÁVEL DE PFT",
+          "texto": "Super bem acabado, mt confortável, embalagem bonita, veio com cadarço extra e sério, estou completamente apaixonada pelo modelo e cor desse tênis.",
+          "data": "28 de agosto de 2026",
+          "id": "c68di",
+          "util_sim": 14,
+          "util_nao": 3
+        },
+        {
+          "nota": 5,
+          "titulo": "Conforto absurdo",
+          "texto": "Uso para correr todos os dias e parece que estou pisando nas nuvens. O amortecimento é surreal de bom.",
+          "data": "15 de julho de 2026",
+          "id": "e2me5v",
+          "util_sim": 4,
+          "util_nao": 0
+        }
+      ]
+    }
   },
   {
     "id": "9",
@@ -2910,7 +3238,48 @@
         ]
       }
     ],
-    "destaque_home": false
+    "destaque_home": false,
+    "avaliacoes": {
+      "resumo": {
+        "nota_geral": 4.6,
+        "total_avaliacoes": 289,
+        "metricas": {
+          "conforto": 86,
+          "qualidade": 86,
+          "tamanho": 44,
+          "largura": 41
+        }
+      },
+      "comentarios": [
+        {
+          "nota": 2,
+          "titulo": "Solado desgastou rápido",
+          "texto": "Comprei há dois meses e a sola já está lisa em algumas partes. Esperava mais durabilidade da marca.",
+          "data": "30 de abril de 2026",
+          "id": "ndrb65",
+          "util_sim": 0,
+          "util_nao": 1
+        },
+        {
+          "nota": 5,
+          "titulo": "Melhor aquisição sério, o tênis é IMPECÁVEL DE PFT",
+          "texto": "Super bem acabado, mt confortável, embalagem bonita, veio com cadarço extra e sério, estou completamente apaixonada pelo modelo e cor desse tênis.",
+          "data": "28 de agosto de 2026",
+          "id": "w1wpo4",
+          "util_sim": 29,
+          "util_nao": 2
+        },
+        {
+          "nota": 3,
+          "titulo": "Forma estreita",
+          "texto": "Meu pé é largo, então ele aperta um pouco nas laterais. Talvez ceda com o tempo, mas não é super confortável no início.",
+          "data": "11 de março de 2026",
+          "id": "0hbtyq",
+          "util_sim": 29,
+          "util_nao": 0
+        }
+      ]
+    }
   },
   {
     "id": "10",
@@ -3078,7 +3447,48 @@
         ]
       }
     ],
-    "destaque_home": false
+    "destaque_home": false,
+    "avaliacoes": {
+      "resumo": {
+        "nota_geral": 4,
+        "total_avaliacoes": 642,
+        "metricas": {
+          "conforto": 70,
+          "qualidade": 89,
+          "tamanho": 37,
+          "largura": 42
+        }
+      },
+      "comentarios": [
+        {
+          "nota": 4,
+          "titulo": "Gostei bastante",
+          "texto": "Ótimo custo-benefício. Uso para ir pra academia e treinar perna, dá uma estabilidade muito boa.",
+          "data": "05 de abril de 2026",
+          "id": "gnv7c",
+          "util_sim": 22,
+          "util_nao": 5
+        },
+        {
+          "nota": 2,
+          "titulo": "Solado desgastou rápido",
+          "texto": "Comprei há dois meses e a sola já está lisa em algumas partes. Esperava mais durabilidade da marca.",
+          "data": "30 de abril de 2026",
+          "id": "k6kujf",
+          "util_sim": 9,
+          "util_nao": 3
+        },
+        {
+          "nota": 5,
+          "titulo": "Lindo e versátil",
+          "texto": "Combina com qualquer roupa. Além de estiloso, não aperta o pé. Recomendo pegar um número maior se o seu pé for largo.",
+          "data": "02 de junho de 2026",
+          "id": "8aqi2s",
+          "util_sim": 10,
+          "util_nao": 5
+        }
+      ]
+    }
   },
   {
     "id": "11",
@@ -3182,7 +3592,48 @@
         ]
       }
     ],
-    "destaque_home": true
+    "destaque_home": true,
+    "avaliacoes": {
+      "resumo": {
+        "nota_geral": 4.1,
+        "total_avaliacoes": 728,
+        "metricas": {
+          "conforto": 78,
+          "qualidade": 73,
+          "tamanho": 65,
+          "largura": 58
+        }
+      },
+      "comentarios": [
+        {
+          "nota": 4,
+          "titulo": "Muito bom, mas suja rápido",
+          "texto": "O tênis é excelente, qualidade do material é top, porém as partes mais claras encardem com muita facilidade na rua.",
+          "data": "10 de agosto de 2026",
+          "id": "0xioyi",
+          "util_sim": 29,
+          "util_nao": 0
+        },
+        {
+          "nota": 3,
+          "titulo": "Forma estreita",
+          "texto": "Meu pé é largo, então ele aperta um pouco nas laterais. Talvez ceda com o tempo, mas não é super confortável no início.",
+          "data": "11 de março de 2026",
+          "id": "g9ohid",
+          "util_sim": 27,
+          "util_nao": 2
+        },
+        {
+          "nota": 1,
+          "titulo": "Decepcionante",
+          "texto": "Veio com um defeito na costura, e além disso machucou muito meu pé na primeira corrida. Dinheiro jogado fora.",
+          "data": "14 de fevereiro de 2026",
+          "id": "ag3l3",
+          "util_sim": 4,
+          "util_nao": 5
+        }
+      ]
+    }
   },
   {
     "id": "12",
@@ -3355,7 +3806,48 @@
         ]
       }
     ],
-    "destaque_home": true
+    "destaque_home": true,
+    "avaliacoes": {
+      "resumo": {
+        "nota_geral": 4,
+        "total_avaliacoes": 409,
+        "metricas": {
+          "conforto": 84,
+          "qualidade": 100,
+          "tamanho": 66,
+          "largura": 58
+        }
+      },
+      "comentarios": [
+        {
+          "nota": 3,
+          "titulo": "Forma estreita",
+          "texto": "Meu pé é largo, então ele aperta um pouco nas laterais. Talvez ceda com o tempo, mas não é super confortável no início.",
+          "data": "11 de março de 2026",
+          "id": "f9m0d7",
+          "util_sim": 11,
+          "util_nao": 4
+        },
+        {
+          "nota": 4,
+          "titulo": "Muito bom, mas suja rápido",
+          "texto": "O tênis é excelente, qualidade do material é top, porém as partes mais claras encardem com muita facilidade na rua.",
+          "data": "10 de agosto de 2026",
+          "id": "dzh6yf",
+          "util_sim": 6,
+          "util_nao": 1
+        },
+        {
+          "nota": 2,
+          "titulo": "Solado desgastou rápido",
+          "texto": "Comprei há dois meses e a sola já está lisa em algumas partes. Esperava mais durabilidade da marca.",
+          "data": "30 de abril de 2026",
+          "id": "bwdph",
+          "util_sim": 40,
+          "util_nao": 0
+        }
+      ]
+    }
   },
   {
     "id": "13",
@@ -3537,7 +4029,48 @@
         ]
       }
     ],
-    "destaque_home": false
+    "destaque_home": false,
+    "avaliacoes": {
+      "resumo": {
+        "nota_geral": 4.8,
+        "total_avaliacoes": 547,
+        "metricas": {
+          "conforto": 84,
+          "qualidade": 89,
+          "tamanho": 38,
+          "largura": 56
+        }
+      },
+      "comentarios": [
+        {
+          "nota": 5,
+          "titulo": "Conforto absurdo",
+          "texto": "Uso para correr todos os dias e parece que estou pisando nas nuvens. O amortecimento é surreal de bom.",
+          "data": "15 de julho de 2026",
+          "id": "a9hco5",
+          "util_sim": 4,
+          "util_nao": 5
+        },
+        {
+          "nota": 5,
+          "titulo": "Melhor aquisição sério, o tênis é IMPECÁVEL DE PFT",
+          "texto": "Super bem acabado, mt confortável, embalagem bonita, veio com cadarço extra e sério, estou completamente apaixonada pelo modelo e cor desse tênis.",
+          "data": "28 de agosto de 2026",
+          "id": "lzxdca",
+          "util_sim": 39,
+          "util_nao": 0
+        },
+        {
+          "nota": 2,
+          "titulo": "Solado desgastou rápido",
+          "texto": "Comprei há dois meses e a sola já está lisa em algumas partes. Esperava mais durabilidade da marca.",
+          "data": "30 de abril de 2026",
+          "id": "cub54h",
+          "util_sim": 3,
+          "util_nao": 1
+        }
+      ]
+    }
   },
   {
     "id": "14",
@@ -3701,7 +4234,48 @@
         ]
       }
     ],
-    "destaque_home": false
+    "destaque_home": false,
+    "avaliacoes": {
+      "resumo": {
+        "nota_geral": 4.1,
+        "total_avaliacoes": 123,
+        "metricas": {
+          "conforto": 98,
+          "qualidade": 99,
+          "tamanho": 61,
+          "largura": 41
+        }
+      },
+      "comentarios": [
+        {
+          "nota": 5,
+          "titulo": "Melhor aquisição sério, o tênis é IMPECÁVEL DE PFT",
+          "texto": "Super bem acabado, mt confortável, embalagem bonita, veio com cadarço extra e sério, estou completamente apaixonada pelo modelo e cor desse tênis.",
+          "data": "28 de agosto de 2026",
+          "id": "4yr32q",
+          "util_sim": 19,
+          "util_nao": 4
+        },
+        {
+          "nota": 5,
+          "titulo": "Conforto absurdo",
+          "texto": "Uso para correr todos os dias e parece que estou pisando nas nuvens. O amortecimento é surreal de bom.",
+          "data": "15 de julho de 2026",
+          "id": "mwva9",
+          "util_sim": 44,
+          "util_nao": 1
+        },
+        {
+          "nota": 4,
+          "titulo": "Gostei bastante",
+          "texto": "Ótimo custo-benefício. Uso para ir pra academia e treinar perna, dá uma estabilidade muito boa.",
+          "data": "05 de abril de 2026",
+          "id": "flzp2",
+          "util_sim": 23,
+          "util_nao": 3
+        }
+      ]
+    }
   },
   {
     "id": "15",
@@ -3881,6 +4455,47 @@
         ]
       }
     ],
-    "destaque_home": true
+    "destaque_home": true,
+    "avaliacoes": {
+      "resumo": {
+        "nota_geral": 4.1,
+        "total_avaliacoes": 535,
+        "metricas": {
+          "conforto": 86,
+          "qualidade": 80,
+          "tamanho": 57,
+          "largura": 55
+        }
+      },
+      "comentarios": [
+        {
+          "nota": 3,
+          "titulo": "Razoável pelo preço",
+          "texto": "Achei o acabamento um pouco duro nos primeiros dias, me deu calo no calcanhar. Depois que cedeu ficou bom.",
+          "data": "18 de janeiro de 2026",
+          "id": "40k31",
+          "util_sim": 18,
+          "util_nao": 0
+        },
+        {
+          "nota": 2,
+          "titulo": "Solado desgastou rápido",
+          "texto": "Comprei há dois meses e a sola já está lisa em algumas partes. Esperava mais durabilidade da marca.",
+          "data": "30 de abril de 2026",
+          "id": "1khou",
+          "util_sim": 44,
+          "util_nao": 5
+        },
+        {
+          "nota": 3,
+          "titulo": "Forma estreita",
+          "texto": "Meu pé é largo, então ele aperta um pouco nas laterais. Talvez ceda com o tempo, mas não é super confortável no início.",
+          "data": "11 de março de 2026",
+          "id": "slrpbf",
+          "util_sim": 27,
+          "util_nao": 1
+        }
+      ]
+    }
   }
 ]
