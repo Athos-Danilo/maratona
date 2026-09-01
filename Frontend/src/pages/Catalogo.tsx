@@ -19,6 +19,7 @@ const Catalogo: React.FC = () => {
   const marcaSelecionada = searchParams.get('marca') || 'Todas';
   const categoriaSelecionada = searchParams.get('categoria') || 'Todas';
   const tamanhoSelecionado = searchParams.get('tamanho') || 'Todos';
+  const tipoCorridaSelecionado = searchParams.get('tipo_corrida') || 'Todos';
   const ordenacao = searchParams.get('ordenacao') || 'relevancia';
   const apenasOfertas = searchParams.get('ofertas') === 'true';
 
@@ -35,7 +36,7 @@ const Catalogo: React.FC = () => {
   };
 
   // Estado de dropdowns (Custom Selects)
-  const [aberto, setAberto] = useState<'genero' | 'marca' | 'ordem' | 'categoria' | 'tamanho' | 'ofertas' | null>(null);
+  const [aberto, setAberto] = useState<'genero' | 'marca' | 'ordem' | 'categoria' | 'tamanho' | 'ofertas' | 'tipo_corrida' | null>(null);
 
   // Paginação
   const [limite, setLimite] = useState(20);
@@ -62,6 +63,11 @@ const Catalogo: React.FC = () => {
 
   const generosDisponiveis = useMemo(() => {
     return ['Todos', ...Array.from(new Set(produtos.map(p => p.genero)))];
+  }, [produtos]);
+
+  const tiposCorridaDisponiveis = useMemo(() => {
+    const tipos = new Set(produtos.map(p => p.tipo_corrida).filter(Boolean));
+    return ['Todos', ...Array.from(tipos)];
   }, [produtos]);
 
   // Expandir os produtos pelas variações de cor (1 produto com 3 cores = 3 cards)
@@ -93,7 +99,7 @@ const Catalogo: React.FC = () => {
   }, [flatProdutos, categoriaSelecionada]);
 
   // Faceted Search: Calcular quais opções são válidas com base nos OUTROS filtros ativos
-  const getProdutosParaFiltro = (filtroIgnorado: 'categoria' | 'genero' | 'marca' | 'tamanho') => {
+  const getProdutosParaFiltro = (filtroIgnorado: 'categoria' | 'genero' | 'marca' | 'tamanho' | 'tipo_corrida') => {
     let filtrados = flatProdutos;
     const removeAcentos = (str: string) => str.normalize("NFD").replace(/[\u0300-\u036f]/g, "");
     
@@ -119,21 +125,25 @@ const Catalogo: React.FC = () => {
     if (filtroIgnorado !== 'tamanho' && tamanhoSelecionado !== 'Todos') {
       filtrados = filtrados.filter(p => p.variacaoAtual.grade_tamanhos.some(t => t.tamanho.toString() === tamanhoSelecionado && t.estoque > 0));
     }
+    if (filtroIgnorado !== 'tipo_corrida' && tipoCorridaSelecionado !== 'Todos') {
+      filtrados = filtrados.filter(p => p.tipo_corrida === tipoCorridaSelecionado);
+    }
     if (apenasOfertas) {
       filtrados = filtrados.filter(p => p.variacaoAtual.preco.promocional < p.variacaoAtual.preco.original);
     }
     return filtrados;
   };
 
-  const marcasValidas = useMemo(() => new Set(getProdutosParaFiltro('marca').map(p => p.marca)), [flatProdutos, q, categoriaSelecionada, generoSelecionado, tamanhoSelecionado, apenasOfertas]);
-  const categoriasValidas = useMemo(() => new Set(getProdutosParaFiltro('categoria').map(p => p.categoria_principal)), [flatProdutos, q, marcaSelecionada, generoSelecionado, tamanhoSelecionado, apenasOfertas]);
-  const generosValidos = useMemo(() => new Set(getProdutosParaFiltro('genero').map(p => p.genero)), [flatProdutos, q, marcaSelecionada, categoriaSelecionada, tamanhoSelecionado, apenasOfertas]);
+  const marcasValidas = useMemo(() => new Set(getProdutosParaFiltro('marca').map(p => p.marca)), [flatProdutos, q, categoriaSelecionada, generoSelecionado, tamanhoSelecionado, tipoCorridaSelecionado, apenasOfertas]);
+  const categoriasValidas = useMemo(() => new Set(getProdutosParaFiltro('categoria').map(p => p.categoria_principal)), [flatProdutos, q, marcaSelecionada, generoSelecionado, tamanhoSelecionado, tipoCorridaSelecionado, apenasOfertas]);
+  const generosValidos = useMemo(() => new Set(getProdutosParaFiltro('genero').map(p => p.genero)), [flatProdutos, q, marcaSelecionada, categoriaSelecionada, tamanhoSelecionado, tipoCorridaSelecionado, apenasOfertas]);
+  const tiposCorridaValidos = useMemo(() => new Set(getProdutosParaFiltro('tipo_corrida').map(p => p.tipo_corrida).filter(Boolean)), [flatProdutos, q, marcaSelecionada, categoriaSelecionada, generoSelecionado, tamanhoSelecionado, apenasOfertas]);
   const tamanhosValidos = useMemo(() => {
     const prods = getProdutosParaFiltro('tamanho');
     const t = new Set<string>();
     prods.forEach(p => p.variacaoAtual.grade_tamanhos.forEach(grade => { if (grade.estoque > 0) t.add(grade.tamanho.toString()); }));
     return t;
-  }, [flatProdutos, q, marcaSelecionada, categoriaSelecionada, generoSelecionado, apenasOfertas]);
+  }, [flatProdutos, q, marcaSelecionada, categoriaSelecionada, generoSelecionado, tipoCorridaSelecionado, apenasOfertas]);
 
   // Aplicar Filtros, Busca e Ordenação
   const produtosFiltrados = useMemo(() => {
@@ -167,6 +177,10 @@ const Catalogo: React.FC = () => {
       filtrados = filtrados.filter(p => p.variacaoAtual.grade_tamanhos.some(t => t.tamanho.toString() === tamanhoSelecionado && t.estoque > 0));
     }
 
+    if (tipoCorridaSelecionado !== 'Todos') {
+      filtrados = filtrados.filter(p => p.tipo_corrida === tipoCorridaSelecionado);
+    }
+
     if (apenasOfertas) {
       filtrados = filtrados.filter(p => p.variacaoAtual.preco.promocional < p.variacaoAtual.preco.original);
     }
@@ -183,7 +197,7 @@ const Catalogo: React.FC = () => {
     });
 
     return filtrados;
-  }, [flatProdutos, q, generoSelecionado, marcaSelecionada, categoriaSelecionada, tamanhoSelecionado, apenasOfertas, ordenacao]);
+  }, [flatProdutos, q, generoSelecionado, marcaSelecionada, categoriaSelecionada, tamanhoSelecionado, tipoCorridaSelecionado, apenasOfertas, ordenacao]);
 
   // Fechar dropdown ao clicar fora
   useEffect(() => {
@@ -206,13 +220,14 @@ const Catalogo: React.FC = () => {
       prev.delete('marca');
       prev.delete('categoria');
       prev.delete('tamanho');
+      prev.delete('tipo_corrida');
       prev.delete('ofertas');
       // Não apagamos o 'q' para permitir que o usuário limpe apenas os filtros da busca
       return prev;
     });
   };
 
-  const temFiltroAtivo = categoriaSelecionada !== 'Todas' || generoSelecionado !== 'Todos' || marcaSelecionada !== 'Todas' || tamanhoSelecionado !== 'Todos' || apenasOfertas || q !== '';
+  const temFiltroAtivo = categoriaSelecionada !== 'Todas' || generoSelecionado !== 'Todos' || marcaSelecionada !== 'Todas' || tamanhoSelecionado !== 'Todos' || tipoCorridaSelecionado !== 'Todos' || apenasOfertas || q !== '';
 
   if (loading) return <div className="loading">Carregando catálogo de alta performance...</div>;
   if (error) return <div className="error">Erro ao carregar produtos: {error}</div>;
@@ -304,6 +319,23 @@ const Catalogo: React.FC = () => {
                   const isAvailable = tamanhosValidos.has(t);
                   return (
                     <li key={t} onClick={() => { if (isAvailable) updateFiltro('tamanho', t) }} className={`${tamanhoSelecionado === t ? 'active' : ''} ${!isAvailable ? 'disabled-option' : ''}`}>{t}</li>
+                  );
+                })}
+              </ul>
+            )}
+          </div>
+
+          <div className="custom-select" onClick={(e) => { e.stopPropagation(); setAberto(aberto === 'tipo_corrida' ? null : 'tipo_corrida')}}>
+            <div className="select-trigger">
+              Corrida: <strong>{tipoCorridaSelecionado}</strong>
+              <ChevronDown size={16} />
+            </div>
+            {aberto === 'tipo_corrida' && (
+              <ul className="select-options">
+                {tiposCorridaDisponiveis.map(tc => {
+                  const isAvailable = tc === 'Todos' || tiposCorridaValidos.has(tc);
+                  return (
+                    <li key={tc} onClick={() => { if (isAvailable) updateFiltro('tipo_corrida', tc) }} className={`${tipoCorridaSelecionado === tc ? 'active' : ''} ${!isAvailable ? 'disabled-option' : ''}`}>{tc}</li>
                   );
                 })}
               </ul>
